@@ -214,9 +214,3 @@ img { max-width: 100%; display: block; }
 
 /* Light theme overrides for Math/Tasks text */
 .light .task-links a { color: #000000; }
-
-/* Red warning text */
-.warning-text {
-  color: #ff4444 !important;
-  font-weight: 600;
-}

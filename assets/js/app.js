@@ -26,8 +26,7 @@
         title: 'Haskell',
         className: 'tag-haskell',
         groups: [
-          { name: 'Сборка', items: ['Stack', 'Cabal'] },
-          { name: 'Web', items: ['ThreePenny-GUI'] }
+          { name: 'Сборка', items: ['Stack', 'Cabal'] }
         ]
       },
       {
@@ -98,7 +97,7 @@
         title: 'Научная область',
         className: 'tag-science',
         groups: [
-          { name: 'Опыт', items: ['Распознавание объектов на трамвайных путях'] }
+          { name: 'Опыт', items: ['Решение динамических задач VRP гибридными алгоритмами ML'] }
         ]
       }
     ],
@@ -127,7 +126,7 @@
           { label: 'ТГ-Бот отслеживания цен: PriceCheckerBot', href: 'https://github.com/MathematicLove/PriceCheckerBot' },
           { label: 'ТГ-Бот планирования путешествий: SpringTripPlannerBot', href: 'https://github.com/MathematicLove/SpringTripPlannerBot' },
           { label: 'REST сервер на Java', href: 'https://github.com/MathematicLove/JavaHTTPServer' },
-          { label: 'NextDayPlanner (выбрать одежду на день)', href: 'https://github.com/MathematicLove/NextDayPlanner' }
+          { label: 'Сервис банковских карт', href: 'https://github.com/MathematicLove/card-management-service' }
         ]
       },
       {
@@ -135,9 +134,11 @@
         title: "Ayzek's Web",
         className: 'tag-task-web',
         links: [
-          { label: 'Цитаты из фильмов и мультфильмов', href: 'https://github.com/MathematicLove/quotes_web_app' }
+          { label: 'Цитаты из фильмов и мультфильмов', href: 'https://github.com/MathematicLove/quotes_web_app' },
+          { label: 'Шифрование и дешифрование данных', href: 'https://github.com/MathematicLove/encrypt-it' },
+          { label: 'Прогнозирование и сравнение демографических показателей России и Японии', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' }
         ]
-      },
+      }
     ]
   };
 
