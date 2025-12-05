@@ -113,7 +113,8 @@
         className: 'tag-task-math',
         links: [
           { label: 'Презентации MathLang', href: 'https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations' },
-          { label: 'Учебные проекты', href: 'https://github.com/MathematicLove/MathAndComputerScienceSPBSTU' }
+          { label: 'Учебные проекты', href: 'https://github.com/MathematicLove/spbstu-iccs-mcs' },
+          { label: 'Прогнозирование и сравнение демографических показателей России и Японии', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' }
         ]
       },
       {
@@ -135,8 +136,7 @@
         className: 'tag-task-web',
         links: [
           { label: 'Цитаты из фильмов и мультфильмов', href: 'https://github.com/MathematicLove/quotes_web_app' },
-          { label: 'Шифрование и дешифрование данных', href: 'https://github.com/MathematicLove/encrypt-it' },
-          { label: 'Прогнозирование и сравнение демографических показателей России и Японии', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' }
+          { label: 'Шифрование и дешифрование данных', href: 'https://github.com/MathematicLove/encrypt-it' }
         ]
       }
     ]
