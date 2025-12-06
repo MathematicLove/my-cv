@@ -63,7 +63,8 @@
         groups: [
           { name: 'Контейнеризация', items: ['Docker', 'Docker Compose'] },
           { name: 'Оркестрация', items: ['Kubernetes (k8s)'] },
-          { name: 'Хостинг', items: ['Render', 'Firebase'] }
+          { name: 'Хостинг', items: ['Render', 'Firebase'] },
+          { name: 'CI/CD', items: ['GitHub Actions']}
         ]
       },
       {
@@ -97,7 +98,7 @@
         title: 'Научная область',
         className: 'tag-science',
         groups: [
-          { name: 'Опыт', items: ['Распознавание посторонних объектов на трамвайных рельсах в режиме реального времени'] }
+          { name: 'Опыт', items: ['Распознавание посторонних объектов на трамвайных путях в режиме реального времени'] }
         ]
       }
     ],
