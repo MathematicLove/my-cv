@@ -18,7 +18,7 @@
         title: 'Python',
         className: 'tag-python',
         groups: [
-          { name: 'ML & Data analysis', items: ['NumPy', 'Pandas', 'Scikit-Learn', 'OpenCV'] }
+          { name: 'ML & Data analysis', items: ['NumPy', 'Pandas', 'Scikit-Learn', 'OpenCV', 'PyTorch'] }
         ]
       },
       {
