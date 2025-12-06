@@ -1,7 +1,7 @@
 (function () {
   const profile = {
     github: 'https://github.com/MathematicLove',
-    headerCv: 'https://github.com/MathematicLove/Resume/blob/main/Resume_ENG.pdf',
+    headerCv: 'https://mathematicLove.github.io/my-cv/resume/resume.pdf',
     skills: [
       {
         key: 'java',
