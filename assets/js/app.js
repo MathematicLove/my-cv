@@ -64,7 +64,7 @@
           { name: 'Контейнеризация', items: ['Docker', 'Docker Compose'] },
           { name: 'Оркестрация', items: ['Kubernetes (k8s)'] },
           { name: 'Хостинг', items: ['Render', 'Firebase'] },
-          { name: 'CI/CD', items: ['GitHub Actions']}
+          { name: 'CI/CD', items: ['GitHub Actions', 'Jenkins']}
         ]
       },
       {
