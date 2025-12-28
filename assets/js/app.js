@@ -81,7 +81,7 @@
         title: 'Операционные системы',
         className: 'tag-os',
         groups: [
-          { name: 'Unix', items: ['macOS', 'Ubuntu', 'Arch Linux'] },
+          { name: 'GNU/Linux, Unix-like', items: ['macOS', 'Ubuntu', 'Arch Linux'] },
           { name: 'Windows', items: ['11', '10', '8'] }
         ]
       },
