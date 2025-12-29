@@ -58,7 +58,7 @@
       },
       {
         key: 'containerization',
-        title: 'DevOps — Контейнеризация и оркестрация',
+        title: 'DevOps - Контейнеризация и оркестрация',
         className: 'tag-devops',
         groups: [
           { name: 'Контейнеризация', items: ['Docker', 'Docker Compose'] },
