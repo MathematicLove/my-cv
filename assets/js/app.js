@@ -4,7 +4,7 @@
   const translations = {
     ru: {
       meta: {
-        title: 'Портфолио — MathematicLove',
+        title: 'Салимли Айзек',
         description: 'Портфолио разработчика: языки, фреймворки, DevOps, базы данных, математика и проекты.'
       },
       nav: {
@@ -15,7 +15,6 @@
         contact: 'Контакты'
       },
       resume: 'Резюме',
-      toggleTheme: 'Переключить тему',
       hero: {
         github: 'Профиль в GitHub'
       },
@@ -39,145 +38,145 @@
         gitea: 'Перейти в профиль Gitea'
       },
       profile: {
-        skills: [
-          {
-            key: 'java',
-            title: 'Java',
-            className: 'tag-java',
-            groups: [
-              { name: 'Фреймворки', items: ['Spring Core', 'Spring Boot', 'Spring Web', 'Spring WebFlux (Reactive Web)', 'Spring Data JPA', 'JDBC', 'Spring Security', 'Hibernate'] },
-              { name: 'Инструменты', items: ['RabbitMQ'] },
-              { name: 'Сборка', items: ['Gradle', 'Maven'] }
-            ]
-          },
-          {
-            key: 'python',
-            title: 'Python',
-            className: 'tag-python',
-            groups: [
-              { name: 'ML & Data analysis', items: ['NumPy', 'Pandas', 'Scikit-Learn', 'OpenCV', 'YOLO', 'PyTorch'] }
-            ]
-          },
-          {
-            key: 'haskell',
-            title: 'Haskell',
-            className: 'tag-haskell',
-            groups: [
-              { name: 'Сборка', items: ['Stack', 'Cabal'] }
-            ]
-          },
-          {
-            key: 'cpp',
-            title: 'C++',
-            className: 'tag-cpp',
-            groups: [
-              { name: 'Сборка', items: ['CMake'] }
-            ]
-          },
-          {
-            key: 'javascript',
-            title: 'JavaScript',
-            className: 'tag-js',
-            groups: [
-              { name: 'Web (JavaScript Web)', items: ['Express.js'] },
-              { name: 'Инструменты', items: ['NPM'] }
-            ]
-          },
-          {
-            key: 'databases',
-            title: 'СУБД',
-            className: 'tag-db',
-            groups: [
-              { name: 'SQL', items: ['PostgreSQL', 'MySQL'] },
-              { name: 'NoSQL', items: ['MongoDB'] },
-              { name: 'Cache', items: ['Redis'] }
-            ]
-          },
-          {
-            key: 'containerization',
-            title: 'DevOps - Контейнеризация и оркестрация',
-            className: 'tag-devops',
-            groups: [
-              { name: 'Контейнеризация', items: ['Docker', 'Docker Compose'] },
-              { name: 'Оркестрация', items: ['Kubernetes (k8s)'] },
-              { name: 'Хостинг', items: ['Render', 'Firebase'] },
-              { name: 'CI/CD', items: ['GitHub Actions', 'Jenkins']}
-            ]
-          },
-          {
-            key: 'networking',
-            title: 'Сети ЭВМ',
-            className: 'tag-net',
-            groups: [
-              { name: 'Модели', items: ['OSI', 'TCP/IP'] },
-              { name: 'Протоколы', items: ['HTTP', 'HTTPS', 'TLS', 'SSH', 'FTP', 'TCP', 'UDP'] }
-            ]
-          },
-          {
-            key: 'os',
-            title: 'Операционные системы',
-            className: 'tag-os',
-            groups: [
-              { name: 'GNU/Linux, Unix-like', items: ['macOS', 'Ubuntu', 'Arch Linux'] },
-              { name: 'Windows', items: ['11', '10', '8'] }
-            ]
-          },
-          {
-            key: 'docs',
-            title: 'Документация',
-            className: 'tag-docs',
-            groups: [
-              { name: 'Инструменты', items: ['LaTeX', 'LaTeX Beamer', 'Markdown', 'typst', 'Word', 'Pages'] }
-            ]
-          },
-          {
-            key: 'science',
-            title: 'Научная область',
-            className: 'tag-science',
-            groups: [
-              { name: 'Опыт', items: ['Распознавание посторонних объектов на трамвайных путях в режиме реального времени'] }
-            ]
-          }
-        ],
-        mathSections: [
-          { name: 'Теория', className: 'tag-math', items: ['Методы оптимизации', 'Теория вероятностей', 'Математическая статистика', 'Теория графов', 'Дискретная математика', 'Математическая логика', 'Математический анализ'] },
-          { name: 'Автоматы и языки', className: 'tag-math', items: ['Теория конечных автоматов', 'Теория формальных языков', 'Теория категорий'] },
-          { name: 'Алгебра и квантовые', className: 'tag-math', items: ['Линейная алгебра', 'Квантовые вычисления'] }
-        ],
-        tasks: [
-          {
-            key: 'math',
-            title: "Ayzek's Math",
-            className: 'tag-task-math',
-            links: [
-              { label: 'Презентации MathLang', href: 'https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations' },
-              { label: 'Учебные проекты', href: 'https://github.com/MathematicLove/spbstu-iccs-mcs' },
-              { label: 'Прогнозирование и сравнение демографических показателей России и Японии', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' }
-            ]
-          },
-          {
-            key: 'soft',
-            title: "Ayzek's Soft",
-            className: 'tag-task-soft',
-            links: [
-              { label: 'Бесплатный MP3 плеер iOS: AyzeksSound', href: 'https://github.com/MathematicLove/AyzeksSound' },
-              { label: 'Игра в жизнь на КА', href: 'https://github.com/MathematicLove/LiveTheGame' },
-              { label: 'ТГ-Бот отслеживания цен: PriceCheckerBot', href: 'https://github.com/MathematicLove/PriceCheckerBot' },
-              { label: 'ТГ-Бот планирования путешествий: SpringTripPlannerBot', href: 'https://github.com/MathematicLove/SpringTripPlannerBot' },
-              { label: 'REST сервер на Java', href: 'https://github.com/MathematicLove/JavaHTTPServer' },
-              { label: 'Сервис банковских карт', href: 'https://github.com/MathematicLove/card-management-service' }
-            ]
-          },
-          {
-            key: 'web',
-            title: "Ayzek's Web",
-            className: 'tag-task-web',
-            links: [
-              { label: 'Цитаты из фильмов и мультфильмов', href: 'https://github.com/MathematicLove/quotes_web_app' },
-              { label: 'Шифрование и дешифрование данных', href: 'https://github.com/MathematicLove/encrypt-it' }
-            ]
-          }
+    skills: [
+      {
+        key: 'java',
+        title: 'Java',
+        className: 'tag-java',
+        groups: [
+          { name: 'Фреймворки', items: ['Spring Core', 'Spring Boot', 'Spring Web', 'Spring WebFlux (Reactive Web)', 'Spring Data JPA', 'JDBC', 'Spring Security', 'Hibernate'] },
+          { name: 'Сборка', items: ['Gradle', 'Maven'] }
         ]
+      },
+      {
+        key: 'python',
+        title: 'Python',
+        className: 'tag-python',
+        groups: [
+              { name: 'ML & Data analysis', items: ['NumPy', 'Pandas', 'Scikit-Learn', 'OpenCV', 'YOLO', 'PyTorch'] }
+        ]
+      },
+      {
+        key: 'haskell',
+        title: 'Haskell',
+        className: 'tag-haskell',
+        groups: [
+          { name: 'Сборка', items: ['Stack', 'Cabal'] }
+        ]
+      },
+      {
+        key: 'cpp',
+        title: 'C++',
+        className: 'tag-cpp',
+        groups: [
+          { name: 'Сборка', items: ['CMake'] }
+        ]
+      },
+      {
+        key: 'javascript',
+        title: 'JavaScript',
+        className: 'tag-js',
+        groups: [
+          { name: 'Web (JavaScript Web)', items: ['Express.js'] },
+          { name: 'Инструменты', items: ['NPM'] }
+        ]
+      },
+      {
+        key: 'databases',
+        title: 'СУБД',
+        className: 'tag-db',
+        groups: [
+          { name: 'SQL', items: ['PostgreSQL', 'MySQL'] },
+          { name: 'NoSQL', items: ['MongoDB'] },
+          { name: 'Cache', items: ['Redis'] }
+        ]
+      },
+      {
+        key: 'containerization',
+        title: 'DevOps - Контейнеризация и оркестрация',
+        className: 'tag-devops',
+        groups: [
+          { name: 'Контейнеризация', items: ['Docker', 'Docker Compose'] },
+          { name: 'Оркестрация', items: ['Kubernetes (k8s)'] },
+          { name: 'Хостинг', items: ['Render', 'Firebase'] },
+          { name: 'CI/CD', items: ['GitHub Actions', 'Jenkins']}
+        ]
+      },
+      {
+        key: 'networking',
+        title: 'Сети ЭВМ',
+        className: 'tag-net',
+        groups: [
+          { name: 'Модели', items: ['OSI', 'TCP/IP'] },
+          { name: 'Протоколы', items: ['AMQP', 'HTTP', 'HTTPS', 'TLS', 'SSH', 'FTP', 'TCP', 'UDP'] },
+          { name: 'Инструменты', items: ['RabbitMQ'] }
+        ]
+      },
+      {
+        key: 'os',
+        title: 'Операционные системы',
+        className: 'tag-os',
+        groups: [
+          { name: 'GNU/Linux, Unix-like', items: ['macOS', 'Ubuntu', 'Arch Linux'] },
+          { name: 'Windows', items: ['11', '10', '8'] }
+        ]
+      },
+      {
+        key: 'docs',
+        title: 'Документация',
+        className: 'tag-docs',
+        groups: [
+              { name: 'Инструменты', items: ['LaTeX', 'LaTeX Beamer', 'Markdown', 'typst', 'Word', 'Pages'] }
+        ]
+      },
+      {
+        key: 'science',
+        title: 'Научная область',
+        className: 'tag-science',
+        groups: [
+          { name: 'Опыт', items: ['Распознавание посторонних объектов на трамвайных путях в режиме реального времени'] }
+        ]
+      }
+    ],
+    mathSections: [
+          { name: 'Теория', className: 'tag-math', items: ['Методы оптимизации', 'Теория вероятностей', 'Математическая статистика', 'Теория графов', 'Дискретная математика', 'Математическая логика', 'Математический анализ'] },
+      { name: 'Автоматы и языки', className: 'tag-math', items: ['Теория конечных автоматов', 'Теория формальных языков', 'Теория категорий'] },
+      { name: 'Алгебра и квантовые', className: 'tag-math', items: ['Линейная алгебра', 'Квантовые вычисления'] }
+    ],
+    tasks: [
+      {
+        key: 'math',
+        title: "Ayzek's Math",
+        className: 'tag-task-math',
+        links: [
+          { label: 'Презентации MathLang', href: 'https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations' },
+          { label: 'Учебные проекты', href: 'https://github.com/MathematicLove/spbstu-iccs-mcs' },
+          { label: 'Прогнозирование и сравнение демографических показателей России и Японии', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' }
+        ]
+      },
+      {
+        key: 'soft',
+        title: "Ayzek's Soft",
+        className: 'tag-task-soft',
+        links: [
+          { label: 'Бесплатный MP3 плеер iOS: AyzeksSound', href: 'https://github.com/MathematicLove/AyzeksSound' },
+          { label: 'Игра в жизнь на КА', href: 'https://github.com/MathematicLove/LiveTheGame' },
+          { label: 'ТГ-Бот отслеживания цен: PriceCheckerBot', href: 'https://github.com/MathematicLove/PriceCheckerBot' },
+          { label: 'ТГ-Бот планирования путешествий: SpringTripPlannerBot', href: 'https://github.com/MathematicLove/SpringTripPlannerBot' },
+          { label: 'REST сервер на Java', href: 'https://github.com/MathematicLove/JavaHTTPServer' },
+          { label: 'Сервис банковских карт', href: 'https://github.com/MathematicLove/card-management-service' }
+        ]
+      },
+      {
+        key: 'web',
+        title: "Ayzek's Web",
+        className: 'tag-task-web',
+        links: [
+          { label: 'Цитаты из фильмов и мультфильмов', href: 'https://github.com/MathematicLove/quotes_web_app' },
+          { label: 'Шифрование и дешифрование данных', href: 'https://github.com/MathematicLove/encrypt-it' }
+        ]
+      }
+    ]
       }
     },
     en: {
@@ -193,7 +192,6 @@
         contact: 'Contacts'
       },
       resume: 'Resume',
-      toggleTheme: 'Toggle theme',
       hero: {
         github: 'GitHub Profile'
       },
@@ -224,7 +222,6 @@
             className: 'tag-java',
             groups: [
               { name: 'Frameworks', items: ['Spring Core', 'Spring Boot', 'Spring Web', 'Spring WebFlux (Reactive Web)', 'Spring Data JPA', 'JDBC', 'Spring Security', 'Hibernate'] },
-              { name: 'Tools', items: ['RabbitMQ'] },
               { name: 'Build', items: ['Gradle', 'Maven'] }
             ]
           },
@@ -288,7 +285,8 @@
             className: 'tag-net',
             groups: [
               { name: 'Models', items: ['OSI', 'TCP/IP'] },
-              { name: 'Protocols', items: ['HTTP', 'HTTPS', 'TLS', 'SSH', 'FTP', 'TCP', 'UDP'] }
+              { name: 'Protocols', items: ['AMQP', 'HTTP', 'HTTPS', 'TLS', 'SSH', 'FTP', 'TCP', 'UDP'] },
+              { name: 'Tools', items: ['RabbitMQ'] }
             ]
           },
           {
@@ -390,24 +388,25 @@
       }
     });
     
-    // Update aria-label for theme toggle
-    const themeToggle = document.querySelector('.theme-toggle[data-i18n-aria="toggleTheme"]');
-    if (themeToggle) {
-      const ariaLabel = getTranslation('toggleTheme');
-      themeToggle.setAttribute('aria-label', ariaLabel);
-      themeToggle.setAttribute('title', ariaLabel);
+    // Update language toggle button
+    const langToggle = document.getElementById('lang-toggle');
+    if (langToggle) {
+      if (currentLang === 'ru') {
+        langToggle.textContent = 'Eng 🇬🇧';
+        langToggle.setAttribute('data-lang', 'ru');
+      } else {
+        langToggle.textContent = 'Rus 🇷🇺';
+        langToggle.setAttribute('data-lang', 'en');
+      }
     }
     
-    // Update language toggle buttons
-    const langEng = document.getElementById('lang-eng');
-    const langRu = document.getElementById('lang-ru');
-    if (langEng && langRu) {
-      if (currentLang === 'en') {
-        langEng.classList.add('active');
-        langRu.classList.remove('active');
+    // Update resume PDF link
+    const resumePdf = document.getElementById('resume-pdf');
+    if (resumePdf) {
+      if (currentLang === 'ru') {
+        resumePdf.href = './resume/resume-rus.pdf';
       } else {
-        langRu.classList.add('active');
-        langEng.classList.remove('active');
+        resumePdf.href = './resume/resume-eng.pdf';
       }
     }
     
@@ -422,6 +421,11 @@
     currentLang = lang;
     localStorage.setItem('lang', lang);
     translatePage();
+  }
+
+  function toggleLanguage() {
+    const newLang = currentLang === 'ru' ? 'en' : 'ru';
+    setLanguage(newLang);
   }
 
   function createEl(tag, options = {}) {
@@ -511,29 +515,12 @@
     if (y) y.textContent = String(new Date().getFullYear());
   }
 
-  function loadTheme() {
-    const stored = localStorage.getItem('theme');
-    if (stored === 'light') document.documentElement.classList.add('light');
-  }
-
-  function toggleTheme() {
-    document.documentElement.classList.toggle('light');
-    const isLight = document.documentElement.classList.contains('light');
-    localStorage.setItem('theme', isLight ? 'light' : 'dark');
-  }
-
   function bindUI() {
-    const btn = document.querySelector('.theme-toggle');
-    if (btn) btn.addEventListener('click', toggleTheme);
 
-    // Language toggle buttons
-    const langEng = document.getElementById('lang-eng');
-    const langRu = document.getElementById('lang-ru');
-    if (langEng) {
-      langEng.addEventListener('click', () => setLanguage('en'));
-    }
-    if (langRu) {
-      langRu.addEventListener('click', () => setLanguage('ru'));
+    // Language toggle button
+    const langToggle = document.getElementById('lang-toggle');
+    if (langToggle) {
+      langToggle.addEventListener('click', toggleLanguage);
     }
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -550,8 +537,92 @@
     });
   }
 
-  loadTheme();
-  translatePage();
-  setYear();
-  bindUI();
+  function createStars() {
+    const starsContainer = document.querySelector('.stars-background');
+    if (!starsContainer) {
+      console.error('Stars container not found!');
+      return;
+    }
+    
+    // Clear any existing stars
+    starsContainer.innerHTML = '';
+    
+    // Create many stars of different sizes
+    const starCount = 200;
+    for (let i = 0; i < starCount; i++) {
+      const star = document.createElement('div');
+      const size = Math.random();
+      if (size < 0.6) {
+        star.className = 'star small';
+      } else if (size < 0.9) {
+        star.className = 'star medium';
+      } else {
+        star.className = 'star large';
+      }
+      star.style.left = Math.random() * 100 + '%';
+      star.style.top = Math.random() * 100 + '%';
+      star.style.animationDelay = Math.random() * 3 + 's';
+      star.style.animationDuration = (Math.random() * 2 + 2) + 's';
+      starsContainer.appendChild(star);
+    }
+    
+    console.log(`Created ${starCount} stars`);
+  }
+
+  function createMeteor() {
+    const starsContainer = document.querySelector('.stars-background');
+    if (!starsContainer) return;
+    
+    const meteor = document.createElement('div');
+    meteor.className = 'meteor';
+    
+    // Random starting position from top (but not too close to edges)
+    const startX = Math.random() * 80 + 10; // 10% to 90%
+    meteor.style.left = startX + '%';
+    meteor.style.top = '-150px';
+    
+    // Random angle for meteor path (diagonal from top-left to bottom-right)
+    const angle = -45 + (Math.random() * 20 - 10); // -55 to -35 degrees
+    meteor.style.transform = `rotate(${angle}deg)`;
+    
+    // Random duration (faster meteors look better)
+    const duration = Math.random() * 0.8 + 0.4; // 0.4 to 1.2 seconds
+    meteor.style.animation = `meteorFall ${duration}s linear forwards`;
+    
+    starsContainer.appendChild(meteor);
+    
+    // Remove meteor after animation
+    setTimeout(() => {
+      if (meteor.parentNode) {
+        meteor.parentNode.removeChild(meteor);
+      }
+    }, duration * 1000 + 100);
+  }
+
+  function startMeteorShower() {
+    // Create a meteor approximately every 2 seconds
+    const createNextMeteor = () => {
+      createMeteor();
+      const nextDelay = Math.random() * 1000 + 1500; // 1.5-2.5 seconds (average ~2 seconds)
+      setTimeout(createNextMeteor, nextDelay);
+    };
+    
+    // Start first meteor after a short delay
+    setTimeout(createNextMeteor, 2000);
+  }
+
+  // Wait for DOM to be fully loaded
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  function init() {
+    translatePage();
+    setYear();
+    bindUI();
+    createStars();
+    startMeteorShower();
+  }
 })();
