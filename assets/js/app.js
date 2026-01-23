@@ -208,7 +208,7 @@
     },
     en: {
       meta: {
-        title: 'Portfolio — MathematicLove',
+        title: 'Salimli Ayzek',
         description: 'Developer portfolio: languages, frameworks, DevOps, databases, mathematics and projects.'
       },
       nav: {
