@@ -657,18 +657,25 @@
     meteor.style.left = startX + '%';
     meteor.style.top = '-100px';
     
-    // All meteors fall to the right with slight angle variation
-    // Angles: -60 to -30 degrees (diagonal down-right)
-    const angle = -45 + (Math.random() * 30 - 15); // -60 to -30 degrees
+    // More natural angle variation - meteors fall diagonally down-right
+    // Angles: -55 to -35 degrees for more natural look
+    const angle = -45 + (Math.random() * 20 - 10); // -55 to -35 degrees
     meteor.style.setProperty('--meteor-angle', angle + 'deg');
     
-    // All meteors move to the right
-    const horizontalDistance = Math.random() * 100 + 50; // 50-150vw to the right
-    meteor.style.setProperty('--meteor-x', horizontalDistance + 'vw');
+    // Calculate end position based on angle for more natural trajectory
+    const viewportHeight = window.innerHeight;
+    const viewportWidth = window.innerWidth;
+    const angleRad = angle * Math.PI / 180;
     
-    // Random duration
-    const duration = Math.random() * 0.8 + 0.4; // 0.4 to 1.2 seconds
-    meteor.style.animation = `meteorFall ${duration}s linear forwards`;
+    // Calculate how far right the meteor should travel based on its angle
+    const verticalDistance = viewportHeight + 200; // Total vertical travel
+    const horizontalDistance = verticalDistance * Math.tan(-angleRad); // Horizontal travel based on angle
+    
+    meteor.style.setProperty('--meteor-x', horizontalDistance + 'px');
+    
+    // Random duration for variety
+    const duration = Math.random() * 0.6 + 0.5; // 0.5 to 1.1 seconds
+    meteor.style.animation = `meteorFall ${duration}s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards`;
     
     starsContainer.appendChild(meteor);
     

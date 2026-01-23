@@ -106,23 +106,26 @@ body {
 .meteor {
   position: absolute;
   width: 1.5px;
-  height: 100px;
-  background: linear-gradient(to bottom, 
+  height: 80px;
+  background: linear-gradient(to top, 
     rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.8) 20%,
-    rgba(255, 255, 255, 0.4) 60%,
+    rgba(255, 255, 255, 0.9) 10%,
+    rgba(255, 255, 255, 0.6) 30%,
+    rgba(255, 255, 255, 0.3) 60%,
     rgba(255, 255, 255, 0) 100%);
   border-radius: 50%;
-  transform-origin: top center;
+  transform-origin: bottom center;
   opacity: 0;
-  box-shadow: 0 0 4px rgba(255, 255, 255, 0.7),
-              0 0 8px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.8),
+              0 0 8px rgba(255, 255, 255, 0.4),
+              0 0 12px rgba(255, 255, 255, 0.2);
+  filter: blur(0.5px);
 }
 
 .meteor::before {
   content: '';
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 3px;
@@ -136,17 +139,18 @@ body {
 @keyframes meteorFall {
   0% {
     opacity: 0;
-    transform: translateY(-100px) translateX(0) rotate(var(--meteor-angle, -45deg));
+    transform: translateY(-100px) translateX(0) rotate(var(--meteor-angle, -45deg)) scale(0.8);
   }
-  10% {
+  5% {
     opacity: 1;
+    transform: translateY(0) translateX(0) rotate(var(--meteor-angle, -45deg)) scale(1);
   }
-  90% {
+  95% {
     opacity: 1;
   }
   100% {
     opacity: 0;
-    transform: translateY(calc(100vh + 100px)) translateX(var(--meteor-x, 100vw)) rotate(var(--meteor-angle, -45deg));
+    transform: translateY(calc(100vh + 100px)) translateX(var(--meteor-x, 100vw)) rotate(var(--meteor-angle, -45deg)) scale(0.9);
   }
 }
 
