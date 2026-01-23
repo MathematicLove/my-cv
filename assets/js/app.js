@@ -12,6 +12,7 @@
         skills: 'Навыки',
         math: 'Математика',
         tasks: 'Пет-проекты',
+        education: 'Образование',
         contact: 'Контакты'
       },
       resume: 'Резюме',
@@ -30,6 +31,9 @@
       },
       tasks: {
         title: 'Пет-проекты'
+      },
+      education: {
+        title: 'Образование'
       },
       contact: {
         title: 'Контакты',
@@ -134,7 +138,7 @@
         title: 'Научная область',
         className: 'tag-science',
         groups: [
-          { name: 'Опыт', items: ['Распознавание посторонних объектов на трамвайных путях в режиме реального времени'] }
+          { name: 'Опыт', items: ['Распознавание посторонних объектов в режиме реального времени'] }
         ]
       }
     ],
@@ -142,6 +146,27 @@
           { name: 'Теория', className: 'tag-math', items: ['Методы оптимизации', 'Теория вероятностей', 'Математическая статистика', 'Теория графов', 'Дискретная математика', 'Математическая логика', 'Математический анализ'] },
       { name: 'Автоматы и языки', className: 'tag-math', items: ['Теория конечных автоматов', 'Теория формальных языков', 'Теория категорий'] },
       { name: 'Алгебра и квантовые', className: 'tag-math', items: ['Линейная алгебра', 'Квантовые вычисления'] }
+    ],
+    education: [
+      {
+        key: 'school',
+        title: 'Школа (Полное среднее образование)',
+        className: 'tag-education-school',
+        groups: [
+          { name: 'Школа', items: ['Баку, Школа №53 с уклоном математики'] }
+        ]
+      },
+      {
+        key: 'university',
+        title: 'Высшее образование',
+        className: 'tag-education-university',
+        groups: [
+          { name: 'Университет', items: ['Санкт-Петербург: Санкт-Петербургский политехнический университет Петра Великого'] },
+          { name: 'Институт', items: ['Институт компьютерных наук и кибербезопасности'] },
+          { name: 'Направление', items: ['Математика и компьютерные науки - Системы искусственного интеллекта и суперкомпьютерные технологии'] },
+          { name: 'Высшая школа', items: ['Высшая школа технологий искусственного интеллекта'] }
+        ]
+      }
     ],
     tasks: [
       {
@@ -190,6 +215,7 @@
         skills: 'Skills',
         math: 'Mathematics',
         tasks: 'Pet Projects',
+        education: 'Education',
         contact: 'Contacts'
       },
       resume: 'Resume',
@@ -208,6 +234,9 @@
       },
       tasks: {
         title: 'Pet Projects'
+      },
+      education: {
+        title: 'Education'
       },
       contact: {
         title: 'Contacts',
@@ -312,7 +341,7 @@
             title: 'Scientific Area',
             className: 'tag-science',
             groups: [
-              { name: 'Experience', items: ['Real-time recognition of foreign objects on tram tracks'] }
+              { name: 'Experience', items: ['Real-time recognition of foreign objects'] }
             ]
           }
         ],
@@ -320,6 +349,27 @@
           { name: 'Theory', className: 'tag-math', items: ['Optimization Methods', 'Probability Theory', 'Mathematical Statistics', 'Graph Theory', 'Discrete Mathematics', 'Mathematical Logic', 'Mathematical Analysis'] },
           { name: 'Automata and Languages', className: 'tag-math', items: ['Finite Automata Theory', 'Formal Language Theory', 'Category Theory'] },
           { name: 'Algebra and Quantum', className: 'tag-math', items: ['Linear Algebra', 'Quantum Computing'] }
+        ],
+        education: [
+          {
+            key: 'school',
+            title: 'School (Complete Secondary Education)',
+            className: 'tag-education-school',
+            groups: [
+              { name: 'School', items: ['Baku, School №53 with Mathematics Focus'] }
+            ]
+          },
+          {
+            key: 'university',
+            title: 'Higher Education',
+            className: 'tag-education-university',
+            groups: [
+              { name: 'University', items: ['Saint Petersburg: Peter the Great St. Petersburg Polytechnic University'] },
+              { name: 'Institute', items: ['Institute of Computer Science and Cybersecurity'] },
+              { name: 'Program', items: ['Mathematics and Computer Science - Artificial Intelligence Systems and Supercomputer Technologies'] },
+              { name: 'Graduate School', items: ['Graduate School of Artificial Intelligence Technologies'] }
+            ]
+          }
         ],
         tasks: [
           {
@@ -415,6 +465,7 @@
     // Re-render dynamic content
     renderSkills();
     renderMath();
+    renderEducation();
     renderTasks();
   }
 
@@ -477,6 +528,29 @@
       ms.items.forEach(m => list.appendChild(createEl('li', { className: 'pill', text: m })));
       card.appendChild(title);
       card.appendChild(list);
+      grid.appendChild(card);
+    });
+  }
+
+  function renderEducation() {
+    const grid = document.getElementById('education-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+
+    const education = translations[currentLang].profile.education;
+    education.forEach(section => {
+      const card = createEl('article', { className: `card ${section.className || ''}`.trim() });
+      const title = createEl('h3', { text: section.title });
+      card.appendChild(title);
+
+      section.groups.forEach(group => {
+        const gTitle = createEl('p', { className: 'desc', text: group.name });
+        const list = createEl('ul', { className: 'pill-list' });
+        group.items.forEach(item => list.appendChild(createEl('li', { className: 'pill', text: item })));
+        card.appendChild(gTitle);
+        card.appendChild(list);
+      });
+
       grid.appendChild(card);
     });
   }
@@ -578,16 +652,21 @@
     const meteor = document.createElement('div');
     meteor.className = 'meteor';
     
-    // Random starting position from top (but not too close to edges)
-    const startX = Math.random() * 80 + 10; // 10% to 90%
+    // Random starting position from top - anywhere across the screen
+    const startX = Math.random() * 100; // 0% to 100%
     meteor.style.left = startX + '%';
-    meteor.style.top = '-150px';
+    meteor.style.top = '-100px';
     
-    // Random angle for meteor path (diagonal from top-left to bottom-right)
-    const angle = -45 + (Math.random() * 20 - 10); // -55 to -35 degrees
-    meteor.style.transform = `rotate(${angle}deg)`;
+    // All meteors fall to the right with slight angle variation
+    // Angles: -60 to -30 degrees (diagonal down-right)
+    const angle = -45 + (Math.random() * 30 - 15); // -60 to -30 degrees
+    meteor.style.setProperty('--meteor-angle', angle + 'deg');
     
-    // Random duration (faster meteors look better)
+    // All meteors move to the right
+    const horizontalDistance = Math.random() * 100 + 50; // 50-150vw to the right
+    meteor.style.setProperty('--meteor-x', horizontalDistance + 'vw');
+    
+    // Random duration
     const duration = Math.random() * 0.8 + 0.4; // 0.4 to 1.2 seconds
     meteor.style.animation = `meteorFall ${duration}s linear forwards`;
     
@@ -602,15 +681,20 @@
   }
 
   function startMeteorShower() {
-    // Create a meteor approximately every 2 seconds
-    const createNextMeteor = () => {
-      createMeteor();
-      const nextDelay = Math.random() * 1000 + 1500; // 1.5-2.5 seconds (average ~2 seconds)
-      setTimeout(createNextMeteor, nextDelay);
+    // Create 3 random meteors per second
+    const createMeteorBatch = () => {
+      // Create 3 meteors with random delays within the second
+      for (let i = 0; i < 3; i++) {
+        const delay = Math.random() * 1000; // Random delay within 0-1 second
+        setTimeout(() => createMeteor(), delay);
+      }
     };
     
-    // Start first meteor after a short delay
-    setTimeout(createNextMeteor, 2000);
+    // Create batches every second
+    setInterval(createMeteorBatch, 1000);
+    
+    // Start first batch immediately
+    createMeteorBatch();
   }
 
   // Wait for DOM to be fully loaded
@@ -622,8 +706,8 @@
 
   function init() {
     translatePage();
-    setYear();
-    bindUI();
+  setYear();
+  bindUI();
     createStars();
     startMeteorShower();
   }
