@@ -13,7 +13,8 @@
         math: 'Математика',
         tasks: 'Пет-проекты',
         education: 'Образование',
-        contact: 'Контакты'
+        contact: 'Контакты',
+        brand: 'Салимли Айзек'
       },
       resume: 'Резюме',
       hero: {
@@ -153,7 +154,7 @@
         title: 'Школа (Полное среднее образование)',
         className: 'tag-education-school',
         groups: [
-          { name: 'Школа', items: ['Баку, Школа №53 с уклоном математики'] }
+          { name: 'Школа', items: ['Азербайджан. Баку. Школа №53 (с уклоном математики)'] }
         ]
       },
       {
@@ -161,7 +162,7 @@
         title: 'Высшее образование',
         className: 'tag-education-university',
         groups: [
-          { name: 'Университет', items: ['Санкт-Петербург: Санкт-Петербургский политехнический университет Петра Великого'] },
+          { name: 'Университет', items: ['РФ. Санкт-Петербург. Санкт-Петербургский политехнический университет Петра Великого'] },
           { name: 'Институт', items: ['Институт компьютерных наук и кибербезопасности'] },
           { name: 'Направление', items: ['Математика и компьютерные науки - Системы искусственного интеллекта и суперкомпьютерные технологии'] },
           { name: 'Высшая школа', items: ['Высшая школа технологий искусственного интеллекта'] }
@@ -216,7 +217,8 @@
         math: 'Mathematics',
         tasks: 'Pet Projects',
         education: 'Education',
-        contact: 'Contacts'
+        contact: 'Contacts',
+        brand: 'Salimli Ayzek'
       },
       resume: 'Resume',
       hero: {
@@ -356,7 +358,7 @@
             title: 'School (Complete Secondary Education)',
             className: 'tag-education-school',
             groups: [
-              { name: 'School', items: ['Baku, School №53 with Mathematics Focus'] }
+              { name: 'School', items: ['Azerbaijan. Baku. School №53 (with mathematics focus)'] }
             ]
           },
           {
@@ -364,7 +366,7 @@
             title: 'Higher Education',
             className: 'tag-education-university',
             groups: [
-              { name: 'University', items: ['Saint Petersburg: Peter the Great St. Petersburg Polytechnic University'] },
+              { name: 'University', items: ['Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University'] },
               { name: 'Institute', items: ['Institute of Computer Science and Cybersecurity'] },
               { name: 'Program', items: ['Mathematics and Computer Science - Artificial Intelligence Systems and Supercomputer Technologies'] },
               { name: 'Graduate School', items: ['Graduate School of Artificial Intelligence Technologies'] }
@@ -583,7 +585,13 @@
     const rect = target.getBoundingClientRect();
     const absoluteY = rect.top + window.scrollY;
     const y = Math.max(absoluteY - headerHeight - 8, 0);
+    
     window.scrollTo({ top: y, behavior: 'smooth' });
+    
+    // Update hero state after scroll starts
+    setTimeout(() => {
+      handleScroll();
+    }, 100);
   }
 
   function setYear() {
@@ -591,13 +599,56 @@
     if (y) y.textContent = String(new Date().getFullYear());
   }
 
-  function bindUI() {
+  let scrollTimeout;
+  let lastScrollY = 0;
 
+  function handleScroll() {
+    const header = document.querySelector('.site-header');
+    if (!header) return;
+    
+    // Clear existing timeout
+    if (scrollTimeout) {
+      clearTimeout(scrollTimeout);
+    }
+    
+    // Throttle scroll handling for better performance
+    scrollTimeout = requestAnimationFrame(() => {
+      const scrollY = window.scrollY || window.pageYOffset;
+      const scrollThreshold = 100;
+      
+      // Only update if scroll position changed significantly
+      if (Math.abs(scrollY - lastScrollY) > 5) {
+        if (scrollY > scrollThreshold) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+        lastScrollY = scrollY;
+      }
+    });
+  }
+
+  function bindUI() {
     // Language toggle button
     const langToggle = document.getElementById('lang-toggle');
     if (langToggle) {
       langToggle.addEventListener('click', toggleLanguage);
     }
+
+    // Scroll handler to hide hero section
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          handleScroll();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+
+    // Initial check
+    handleScroll();
 
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', e => {
@@ -657,25 +708,42 @@
     meteor.style.left = startX + '%';
     meteor.style.top = '-100px';
     
-    // More natural angle variation - meteors fall diagonally down-right
-    // Angles: -55 to -35 degrees for more natural look
-    const angle = -45 + (Math.random() * 20 - 10); // -55 to -35 degrees
+    // More realistic angle variation - meteors fall at different angles
+    // Most fall at -45 degrees, but with natural variation
+    const baseAngle = -45;
+    const angleVariation = (Math.random() - 0.5) * 25; // ±12.5 degrees
+    const angle = baseAngle + angleVariation; // -57.5 to -32.5 degrees
     meteor.style.setProperty('--meteor-angle', angle + 'deg');
     
-    // Calculate end position based on angle for more natural trajectory
-    const viewportHeight = window.innerHeight;
-    const viewportWidth = window.innerWidth;
-    const angleRad = angle * Math.PI / 180;
+    // Calculate realistic horizontal distance based on angle and viewport
+    const viewportHeight = window.innerHeight || 800;
+    const angleRad = Math.abs(angle) * Math.PI / 180;
+    // Horizontal distance = vertical distance * tan(angle)
+    const verticalDistance = viewportHeight + 200;
+    const horizontalDistance = verticalDistance * Math.tan(angleRad);
     
-    // Calculate how far right the meteor should travel based on its angle
-    const verticalDistance = viewportHeight + 200; // Total vertical travel
-    const horizontalDistance = verticalDistance * Math.tan(-angleRad); // Horizontal travel based on angle
+    // Add some randomness to horizontal distance for more natural look
+    const randomFactor = 0.8 + Math.random() * 0.4; // 0.8 to 1.2
+    const finalHorizontalDistance = horizontalDistance * randomFactor;
     
-    meteor.style.setProperty('--meteor-x', horizontalDistance + 'px');
+    meteor.style.setProperty('--meteor-x', finalHorizontalDistance + 'px');
     
-    // Random duration for variety
-    const duration = Math.random() * 0.6 + 0.5; // 0.5 to 1.1 seconds
-    meteor.style.animation = `meteorFall ${duration}s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards`;
+    // Random size for variety (small, medium, large meteors)
+    const sizeRandom = Math.random();
+    if (sizeRandom < 0.3) {
+      meteor.style.width = '1px';
+      meteor.style.height = '60px';
+    } else if (sizeRandom < 0.7) {
+      meteor.style.width = '1.5px';
+      meteor.style.height = '80px';
+    } else {
+      meteor.style.width = '2px';
+      meteor.style.height = '100px';
+    }
+    
+    // Random duration for different speeds (faster meteors look more realistic)
+    const duration = Math.random() * 0.7 + 0.3; // 0.3 to 1.0 seconds
+    meteor.style.animation = `meteorFall ${duration}s linear forwards`;
     
     starsContainer.appendChild(meteor);
     
