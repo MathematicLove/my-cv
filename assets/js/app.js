@@ -20,7 +20,7 @@
       },
       about: {
         title: 'Обо мне',
-        text: 'Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 2 месяц The Blooms Bridge, интеграция систем ИИ (RAG, Computer Vision и т.д) и back-end разработка.'
+        text: 'Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 5 месяцев The Blooms Bridge, интеграция систем ИИ (RAG, Computer Vision и т.д) и back-end разработка.'
       },
       skills: {
         title: 'Навыки'
@@ -151,7 +151,8 @@
         links: [
           { label: 'Презентации MathLang', href: 'https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations' },
           { label: 'Учебные проекты', href: 'https://github.com/MathematicLove/spbstu-iccs-mcs' },
-          { label: 'Прогнозирование и сравнение демографических показателей России и Японии', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' }
+          { label: 'Прогнозирование и сравнение демографических показателей России и Японии', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' },
+          { label: 'Прогнозирование цен на натуральный газ', href: 'https://github.com/MathematicLove/price-forecasting-analysis' }
         ]
       },
       {
@@ -197,7 +198,7 @@
       },
       about: {
         title: 'About',
-        text: 'Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science, AI Systems and Supercomputer Technologies. Work experience: 1 year 2 months at The Blooms Bridge, AI systems integration (RAG, Computer Vision, etc.) and back-end development.'
+        text: 'Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science, AI Systems and Supercomputer Technologies. Work experience: 1 year 5 months at The Blooms Bridge, AI systems integration (RAG, Computer Vision, etc.) and back-end development.'
       },
       skills: {
         title: 'Skills'
@@ -328,7 +329,8 @@
             links: [
               { label: 'MathLang Presentations', href: 'https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations' },
               { label: 'Educational Projects', href: 'https://github.com/MathematicLove/spbstu-iccs-mcs' },
-              { label: 'Forecasting and Comparison of Demographic Indicators of Russia and Japan', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' }
+              { label: 'Forecasting and Comparison of Demographic Indicators of Russia and Japan', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' },
+              { label: 'Natural Gas Price Forecasting', href: 'https://github.com/MathematicLove/price-forecasting-analysis' }
             ]
           },
           {
