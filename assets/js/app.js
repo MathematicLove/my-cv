@@ -664,19 +664,15 @@
     });
   }
 
-  let starsCreated = false;
-
   function createStars() {
-    // Only create stars once
-    if (starsCreated) {
-      return;
-    }
-    
     const starsContainer = document.querySelector('.stars-background');
     if (!starsContainer) {
       console.error('Stars container not found!');
       return;
     }
+    
+    // Clear any existing stars
+    starsContainer.innerHTML = '';
     
     // Create many stars of different sizes
     const starCount = 200;
@@ -697,19 +693,13 @@
       starsContainer.appendChild(star);
     }
     
-    starsCreated = true;
     console.log(`Created ${starCount} stars`);
   }
 
   function createMeteor() {
     const starsContainer = document.querySelector('.stars-background');
     if (!starsContainer) {
-      return;
-    }
-    
-    // Verify container is visible and in DOM
-    if (!document.body.contains(starsContainer)) {
-      console.warn('Stars container not in DOM');
+      console.warn('Stars container not found, retrying...');
       return;
     }
     
@@ -773,62 +763,27 @@
   }
 
   let meteorInterval = null;
-  let isMeteorShowerActive = false;
 
   function startMeteorShower() {
-    // Prevent multiple intervals
-    if (isMeteorShowerActive && meteorInterval) {
-      return;
-    }
-    
-    // Clear any existing interval
+    // Stop existing interval if any
     if (meteorInterval) {
       clearInterval(meteorInterval);
-      meteorInterval = null;
     }
-    
-    isMeteorShowerActive = true;
     
     // Create 3 random meteors per second
     const createMeteorBatch = () => {
-      // Always verify container exists
-      const starsContainer = document.querySelector('.stars-background');
-      if (!starsContainer) {
-        console.warn('Stars container not found in batch');
-        return;
-      }
-      
       // Create 3 meteors with random delays within the second
       for (let i = 0; i < 3; i++) {
         const delay = Math.random() * 1000; // Random delay within 0-1 second
-        setTimeout(() => {
-          const container = document.querySelector('.stars-background');
-          if (container && isMeteorShowerActive) {
-            createMeteor();
-          }
-        }, delay);
+        setTimeout(() => createMeteor(), delay);
       }
     };
     
     // Create batches every second - store interval ID
-    // Use setInterval with proper error handling
-    try {
-      meteorInterval = setInterval(() => {
-        try {
-          createMeteorBatch();
-        } catch (e) {
-          console.error('Error in meteor batch:', e);
-        }
-      }, 1000);
-      
-      // Start first batch immediately
-      createMeteorBatch();
-      
-      console.log('Meteor shower started, interval ID:', meteorInterval);
-    } catch (e) {
-      console.error('Failed to start meteor shower:', e);
-      isMeteorShowerActive = false;
-    }
+    meteorInterval = setInterval(createMeteorBatch, 1000);
+    
+    // Start first batch immediately
+    createMeteorBatch();
   }
 
   // Wait for DOM to be fully loaded
@@ -840,38 +795,9 @@
 
   function init() {
     translatePage();
-    setYear();
-    bindUI();
+  setYear();
+  bindUI();
     createStars();
-    
-    // Start meteor shower after a small delay to ensure DOM is ready
-    setTimeout(() => {
-      startMeteorShower();
-    }, 100);
-    
-    // Ensure meteor shower continues even if something tries to stop it
-    // Check every 3 seconds if interval is still running
-    setInterval(() => {
-      const container = document.querySelector('.stars-background');
-      if (container && (!meteorInterval || !isMeteorShowerActive)) {
-        console.warn('Meteor interval was lost, restarting...');
-        isMeteorShowerActive = false;
-        startMeteorShower();
-      }
-    }, 3000);
-    
-    // Also check on scroll events to ensure meteors continue
-    let scrollCheckTimeout;
-    window.addEventListener('scroll', () => {
-      clearTimeout(scrollCheckTimeout);
-      scrollCheckTimeout = setTimeout(() => {
-        const container = document.querySelector('.stars-background');
-        if (container && (!meteorInterval || !isMeteorShowerActive)) {
-          console.warn('Meteor interval stopped during scroll, restarting...');
-          isMeteorShowerActive = false;
-          startMeteorShower();
-        }
-      }, 500);
-    }, { passive: true });
+    startMeteorShower();
   }
 })();
