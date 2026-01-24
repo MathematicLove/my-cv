@@ -178,7 +178,7 @@
           { label: 'Презентации MathLang', href: 'https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations' },
           { label: 'Учебные проекты', href: 'https://github.com/MathematicLove/spbstu-iccs-mcs' },
           { label: 'Прогнозирование и сравнение демографических показателей России и Японии', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' },
-          { label: 'Прогнозирование цен на натуральный газ', href: 'https://github.com/MathematicLove/price-forecasting-analysis' }
+          { label: 'Регрессионный анализ последствий сокращения экспорта газа', href: 'https://github.com/MathematicLove/regression-gas-export-impact' }
         ]
       },
       {
@@ -382,7 +382,7 @@
               { label: 'MathLang Presentations', href: 'https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations' },
               { label: 'Educational Projects', href: 'https://github.com/MathematicLove/spbstu-iccs-mcs' },
               { label: 'Forecasting and Comparison of Demographic Indicators of Russia and Japan', href: 'https://github.com/MathematicLove/demographic-regression-ru-jp' },
-              { label: 'Natural Gas Price Forecasting', href: 'https://github.com/MathematicLove/price-forecasting-analysis' }
+              { label: 'Regression analysis of the consequences of the reduction in gas', href: 'https://github.com/MathematicLove/regression-gas-export-impact' }
             ]
           },
           {
@@ -698,7 +698,10 @@
 
   function createMeteor() {
     const starsContainer = document.querySelector('.stars-background');
-    if (!starsContainer) return;
+    if (!starsContainer) {
+      console.warn('Stars container not found, retrying...');
+      return;
+    }
     
     const meteor = document.createElement('div');
     meteor.className = 'meteor';
@@ -745,17 +748,28 @@
     const duration = Math.random() * 0.7 + 0.3; // 0.3 to 1.0 seconds
     meteor.style.animation = `meteorFall ${duration}s linear forwards`;
     
-    starsContainer.appendChild(meteor);
-    
-    // Remove meteor after animation
-    setTimeout(() => {
-      if (meteor.parentNode) {
-        meteor.parentNode.removeChild(meteor);
-      }
-    }, duration * 1000 + 100);
+    try {
+      starsContainer.appendChild(meteor);
+      
+      // Remove meteor after animation
+      setTimeout(() => {
+        if (meteor.parentNode) {
+          meteor.parentNode.removeChild(meteor);
+        }
+      }, duration * 1000 + 100);
+    } catch (e) {
+      console.warn('Failed to append meteor:', e);
+    }
   }
 
+  let meteorInterval = null;
+
   function startMeteorShower() {
+    // Stop existing interval if any
+    if (meteorInterval) {
+      clearInterval(meteorInterval);
+    }
+    
     // Create 3 random meteors per second
     const createMeteorBatch = () => {
       // Create 3 meteors with random delays within the second
@@ -765,8 +779,8 @@
       }
     };
     
-    // Create batches every second
-    setInterval(createMeteorBatch, 1000);
+    // Create batches every second - store interval ID
+    meteorInterval = setInterval(createMeteorBatch, 1000);
     
     // Start first batch immediately
     createMeteorBatch();
