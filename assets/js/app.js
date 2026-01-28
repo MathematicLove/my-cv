@@ -547,6 +547,7 @@
 
     const skills = translations[currentLang].profile.skills;
     const mainStackKeys = new Set(['java', 'python', 'databases', 'containerization', 'vcs']);
+    const languageKeys = new Set(['haskell', 'cpp', 'javascript']);
     const mainStack = [];
     const additional = [];
 
@@ -585,7 +586,13 @@
     };
 
     renderGroup(translations[currentLang].skills.mainStack, mainStack, 'main-stack');
-    renderGroup(translations[currentLang].skills.additional, additional, 'additional-stack');
+    const additionalNonLang = additional.filter(section => !languageKeys.has(section.key));
+    const additionalLang = additional.filter(section => languageKeys.has(section.key));
+    renderGroup(
+      translations[currentLang].skills.additional,
+      [...additionalNonLang, ...additionalLang],
+      'additional-stack'
+    );
   }
 
   function renderMath() {
