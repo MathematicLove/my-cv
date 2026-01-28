@@ -25,7 +25,9 @@
         text: 'Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 5 месяцев The Blooms Bridge, интеграция систем ИИ (RAG, Computer Vision и т.д) и back-end разработка.'
       },
       skills: {
-        title: 'Навыки'
+        title: 'Навыки',
+        mainStack: 'Основной стек',
+        additional: 'Дополнительно'
       },
       math: {
         title: 'Математика'
@@ -49,7 +51,9 @@
         title: 'Java',
         className: 'tag-java',
         groups: [
-          { name: 'Фреймворки', items: ['Spring Core', 'Spring Boot', 'Spring Web', 'Spring WebFlux (Reactive Web)', 'Spring Data JPA', 'JDBC', 'Spring Security', 'Hibernate'] },
+          { name: 'ЯП', items: ['Core', 'Collections', 'Streams', 'Concurrency', 'и т.д.'] },
+          { name: 'Spring ecosystem (Фреймворк)', items: ['Spring Core', 'Spring Boot', 'Spring Web', 'Spring WebFlux (Reactive Web)', 'Spring Data JPA', 'Spring Security'] },
+          { name: 'ORM / БД', items: ['Hibernate', 'JDBC'] },
           { name: 'Сборка', items: ['Gradle', 'Maven'] }
         ]
       },
@@ -58,7 +62,10 @@
         title: 'Python',
         className: 'tag-python',
         groups: [
-              { name: 'ML & Data analysis', items: ['NumPy', 'Pandas', 'Scikit-Learn', 'OpenCV', 'YOLO', 'PyTorch'] }
+              { name: 'ЯП', items: ['Core', 'OOP'] },
+              { name: 'ML & Data', items: ['NumPy', 'Pandas', 'Scikit-Learn'] },
+              { name: 'CV', items: ['OpenCV', 'YOLO'] },
+              { name: 'DL', items: ['PyTorch'] }
         ]
       },
       {
@@ -97,8 +104,16 @@
         ]
       },
       {
+        key: 'analytics',
+        title: 'Аналитика',
+        className: 'tag-analytics',
+        groups: [
+          { name: 'Методологии и нотации', items: ['BPMN', 'ER', 'Проектирование схем БД', 'Use cases', 'Граф переходов'] }
+        ]
+      },
+      {
         key: 'containerization',
-        title: 'DevOps - Контейнеризация и оркестрация',
+        title: 'DevOps',
         className: 'tag-devops',
         groups: [
           { name: 'Контейнеризация', items: ['Docker', 'Docker Compose'] },
@@ -132,6 +147,14 @@
         className: 'tag-docs',
         groups: [
               { name: 'Инструменты', items: ['LaTeX', 'LaTeX Beamer', 'Markdown', 'typst', 'Word', 'Pages'] }
+        ]
+      },
+      {
+        key: 'vcs',
+        title: 'Системы контроля версий',
+        className: 'tag-vcs',
+        groups: [
+          { name: 'Инструменты', items: ['Git'] }
         ]
       },
       {
@@ -229,7 +252,9 @@
         text: 'Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science, AI Systems and Supercomputer Technologies. Work experience: 1 year 5 months at The Blooms Bridge, AI systems integration (RAG, Computer Vision, etc.) and back-end development.'
       },
       skills: {
-        title: 'Skills'
+        title: 'Skills',
+        mainStack: 'Main stack',
+        additional: 'Additional'
       },
       math: {
         title: 'Mathematics'
@@ -253,7 +278,9 @@
             title: 'Java',
             className: 'tag-java',
             groups: [
-              { name: 'Frameworks', items: ['Spring Core', 'Spring Boot', 'Spring Web', 'Spring WebFlux (Reactive Web)', 'Spring Data JPA', 'JDBC', 'Spring Security', 'Hibernate'] },
+              { name: 'Language', items: ['Core', 'Collections', 'Streams', 'Concurrency', 'etc.'] },
+              { name: 'Spring ecosystem (Framework)', items: ['Spring Core', 'Spring Boot', 'Spring Web', 'Spring WebFlux (Reactive Web)', 'Spring Data JPA', 'Spring Security'] },
+              { name: 'ORM / DB', items: ['Hibernate', 'JDBC'] },
               { name: 'Build', items: ['Gradle', 'Maven'] }
             ]
           },
@@ -262,7 +289,10 @@
             title: 'Python',
             className: 'tag-python',
             groups: [
-              { name: 'ML & Data analysis', items: ['NumPy', 'Pandas', 'Scikit-Learn', 'OpenCV', 'YOLO', 'PyTorch'] }
+              { name: 'Language', items: ['Core', 'OOP'] },
+              { name: 'ML & Data', items: ['NumPy', 'Pandas', 'Scikit-Learn'] },
+              { name: 'CV', items: ['OpenCV', 'YOLO'] },
+              { name: 'DL', items: ['PyTorch'] }
             ]
           },
           {
@@ -301,8 +331,16 @@
             ]
           },
           {
+            key: 'analytics',
+            title: 'Analytics',
+            className: 'tag-analytics',
+            groups: [
+              { name: 'Methods and notations', items: ['BPMN', 'ER', 'Database schema design', 'Use cases', 'State transition graph'] }
+            ]
+          },
+          {
             key: 'containerization',
-            title: 'DevOps - Containerization and Orchestration',
+            title: 'DevOps',
             className: 'tag-devops',
             groups: [
               { name: 'Containerization', items: ['Docker', 'Docker Compose'] },
@@ -336,6 +374,14 @@
             className: 'tag-docs',
             groups: [
               { name: 'Tools', items: ['LaTeX', 'LaTeX Beamer', 'Markdown', 'typst', 'Word', 'Pages'] }
+            ]
+          },
+          {
+            key: 'vcs',
+            title: 'VCS',
+            className: 'tag-vcs',
+            groups: [
+              { name: 'Tools', items: ['Git'] }
             ]
           },
           {
@@ -500,21 +546,46 @@
     grid.innerHTML = '';
 
     const skills = translations[currentLang].profile.skills;
-    skills.forEach(section => {
-      const card = createEl('article', { className: `card ${section.className || ''}`.trim() });
-      const title = createEl('h3', { text: section.title });
-      card.appendChild(title);
+    const mainStackKeys = new Set(['java', 'python', 'databases', 'containerization', 'vcs']);
+    const mainStack = [];
+    const additional = [];
 
-      section.groups.forEach(group => {
-        const gTitle = createEl('p', { className: 'desc', text: group.name });
-        const list = createEl('ul', { className: 'pill-list' });
-        group.items.forEach(item => list.appendChild(createEl('li', { className: 'pill', text: item })));
-        card.appendChild(gTitle);
-        card.appendChild(list);
+    skills.forEach(section => {
+      if (mainStackKeys.has(section.key)) {
+        mainStack.push(section);
+      } else {
+        additional.push(section);
+      }
+    });
+
+    const renderGroup = (titleText, list, groupClass) => {
+      if (!list.length) return;
+      const group = createEl('div', { className: `skills-group ${groupClass || ''}`.trim() });
+      const heading = createEl('h3', { className: 'skills-group-title', text: titleText });
+      group.appendChild(heading);
+
+      list.forEach(section => {
+        const card = createEl('article', { className: `card ${section.className || ''}`.trim() });
+        const title = createEl('h3', { text: section.title });
+
+        card.appendChild(title);
+
+        section.groups.forEach(groupItem => {
+          const gTitle = createEl('p', { className: 'desc', text: groupItem.name });
+          const listEl = createEl('ul', { className: 'pill-list' });
+          groupItem.items.forEach(item => listEl.appendChild(createEl('li', { className: 'pill', text: item })));
+          card.appendChild(gTitle);
+          card.appendChild(listEl);
+        });
+
+        group.appendChild(card);
       });
 
-      grid.appendChild(card);
-    });
+      grid.appendChild(group);
+    };
+
+    renderGroup(translations[currentLang].skills.mainStack, mainStack, 'main-stack');
+    renderGroup(translations[currentLang].skills.additional, additional, 'additional-stack');
   }
 
   function renderMath() {
@@ -523,13 +594,15 @@
     grid.innerHTML = '';
 
     const mathSections = translations[currentLang].profile.mathSections;
-    mathSections.forEach(ms => {
+    mathSections.forEach((ms, index) => {
       const card = createEl('article', { className: `card ${ms.className || ''}`.trim() });
       const title = createEl('h3', { text: ms.name });
       const list = createEl('ul', { className: 'pill-list' });
       ms.items.forEach(m => list.appendChild(createEl('li', { className: 'pill', text: m })));
+      
       card.appendChild(title);
       card.appendChild(list);
+      
       grid.appendChild(card);
     });
   }
@@ -540,11 +613,12 @@
     grid.innerHTML = '';
 
     const education = translations[currentLang].profile.education;
-    education.forEach(section => {
+    education.forEach((section, index) => {
       const card = createEl('article', { className: `card ${section.className || ''}`.trim() });
       const title = createEl('h3', { text: section.title });
+      
       card.appendChild(title);
-
+      
       section.groups.forEach(group => {
         const gTitle = createEl('p', { className: 'desc', text: group.name });
         const list = createEl('ul', { className: 'pill-list' });

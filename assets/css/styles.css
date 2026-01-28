@@ -495,38 +495,101 @@ img { max-width: 100%; display: block; }
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0;
+}
+
+/* Skills groups */
+.skills-group {
+  margin: 16px 0 24px;
+  padding: 12px 12px 4px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.015);
+}
+
+.skills-group-title {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.skills-group.main-stack .skills-group-title {
+  color: var(--primary);
+}
+
+.skills-group.additional-stack .skills-group-title {
+  color: var(--muted);
+}
+
+/* For accordion sections - use single column */
+.skills .skills-grid,
+.math .skills-grid,
+.education .skills-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+/* For tasks - keep multi-column */
+.tasks .skills-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
 }
 
 .card {
-  background: linear-gradient(135deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 20px;
-  padding: 20px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   animation: fadeInUp 0.6s ease-out backwards;
   position: relative;
-  overflow: hidden;
 }
 
-.card::before {
+/* Open sections design for skills, math, education */
+.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web) {
+  background: rgba(255,255,255,0.03);
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-left: 4px solid var(--primary);
+  border-radius: 0;
+  padding: 16px 0 16px 16px;
+  cursor: default;
+  margin-bottom: 8px;
+  transition: border-left-color 0.3s ease, background-color 0.3s ease;
+}
+
+.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web):last-child {
+  border-bottom: none;
+}
+
+.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web):hover {
+  background-color: rgba(255,255,255,0.04);
+}
+
+/* Card style for pet-projects only */
+.card.tag-task-math,
+.card.tag-task-soft,
+.card.tag-task-web {
+  background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.card.tag-task-math::before,
+.card.tag-task-soft::before,
+.card.tag-task-web::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 3px;
   background: linear-gradient(90deg, transparent, var(--primary), transparent);
   opacity: 0;
   transition: opacity 0.3s ease;
-}
-
-.card:hover::before {
-  opacity: 1;
-}
-
-.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web) {
-  cursor: default;
 }
 
 /* Hover effects only for pet-project cards (task cards) */
@@ -552,7 +615,29 @@ img { max-width: 100%; display: block; }
   100% { transform: translateX(100%); }
 }
 
-.card h3 { 
+/* Section headers - always visible */
+.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web) h3 { 
+  margin: 0 0 16px; 
+  font-size: 18px; 
+  font-weight: 700;
+  color: var(--text);
+  transition: color 0.3s ease;
+}
+
+.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web) .desc { 
+  margin: 0 0 10px; 
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+/* Task card headers */
+.card.tag-task-math h3,
+.card.tag-task-soft h3,
+.card.tag-task-web h3 { 
   margin: 0 0 12px; 
   font-size: 20px; 
   font-weight: 700;
@@ -562,7 +647,9 @@ img { max-width: 100%; display: block; }
   background-clip: text;
 }
 
-.card .desc { 
+.card.tag-task-math .desc,
+.card.tag-task-soft .desc,
+.card.tag-task-web .desc { 
   margin: 0 0 12px; 
   color: var(--muted); 
   font-size: 14px;
@@ -576,15 +663,39 @@ img { max-width: 100%; display: block; }
   gap: 10px;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 16px 0;
+}
+
+.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web) .pill-list {
+  margin: 0 0 12px 0;
+}
+
+.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web) .pill-list:last-child {
+  margin-bottom: 0;
 }
 
 .pill {
-  padding: 8px 12px;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.12);
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.05);
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Pills in accordion cards */
+.card:not(.tag-task-math):not(.tag-task-soft):not(.tag-task-web) .pill {
   background: rgba(255,255,255,0.04);
+  border-color: rgba(255,255,255,0.15);
+}
+
+/* Pills in task cards - keep rounded */
+.task-links .pill {
+  border-radius: 999px;
+  padding: 8px 14px;
   font-size: 14px;
+  background: rgba(255,255,255,0.06);
 }
 
 .site-footer {
@@ -598,30 +709,54 @@ img { max-width: 100%; display: block; }
   .hero { padding: 56px 0 28px; }
 }
 
-/* Category color accents (transparent) */
-.card.tag-java { background: linear-gradient(180deg, rgba(255,140,0,0.10), rgba(255,140,0,0.06)); }
-.card.tag-python { background: linear-gradient(180deg, rgba(100,181,246,0.12), rgba(100,181,246,0.06)); }
-.card.tag-haskell { background: linear-gradient(180deg, rgba(162,123,255,0.12), rgba(162,123,255,0.06)); }
-.card.tag-cpp { background: linear-gradient(180deg, rgba(76,175,80,0.12), rgba(76,175,80,0.06)); }
-.card.tag-js { background: linear-gradient(180deg, rgba(255,235,59,0.16), rgba(255,235,59,0.08)); }
-.card.tag-db { background: linear-gradient(180deg, rgba(33,150,243,0.12), rgba(33,150,243,0.06)); }
-.card.tag-devops { background: linear-gradient(180deg, rgba(25,118,210,0.12), rgba(25,118,210,0.06)); }
-.card.tag-net { background: linear-gradient(180deg, rgba(244,67,54,0.14), rgba(244,67,54,0.07)); }
-.card.tag-os { background: linear-gradient(180deg, rgba(139,195,74,0.16), rgba(139,195,74,0.08)); }
-.card.tag-docs { background: linear-gradient(180deg, rgba(158,158,158,0.14), rgba(158,158,158,0.07)); }
-.card.tag-science { background: linear-gradient(180deg, rgba(129,199,132,0.16), rgba(129,199,132,0.08)); }
+/* Category color accents - border colors */
+.card.tag-java { border-left-color: rgba(255,140,0,1) !important; }
 
-/* Mathematics cards (transparent orange) */
-.card.tag-math { background: linear-gradient(180deg, rgba(255,140,0,0.12), rgba(255,140,0,0.06)); }
+.card.tag-python { border-left-color: rgba(100,181,246,1) !important; }
+
+.card.tag-haskell { border-left-color: rgba(162,123,255,1) !important; }
+
+.card.tag-cpp { border-left-color: rgba(76,175,80,1) !important; }
+
+.card.tag-js { border-left-color: rgba(255,235,59,1) !important; }
+
+.card.tag-db { border-left-color: rgba(33,150,243,1) !important; }
+
+.card.tag-analytics { border-left-color: rgba(255,110,0,1) !important; }
+
+.card.tag-devops { border-left-color: rgba(25,118,210,1) !important; }
+
+.card.tag-vcs { border-left-color: rgba(0,230,118,1) !important; }
+
+.card.tag-net { border-left-color: rgba(244,67,54,1) !important; }
+
+.card.tag-os { border-left-color: rgba(139,195,74,1) !important; }
+
+.card.tag-docs { border-left-color: rgba(158,158,158,1) !important; }
+
+.card.tag-science { border-left-color: rgba(129,199,132,1) !important; }
+
+/* Mathematics cards */
+.card.tag-math { border-left-color: rgba(255,140,0,1) !important; }
 
 /* Education cards */
-.card.tag-education-school { background: linear-gradient(135deg, rgba(255,140,0,0.15), rgba(255,140,0,0.08)); }
-.card.tag-education-university { background: linear-gradient(135deg, rgba(76,175,80,0.15), rgba(76,175,80,0.08)); }
+.card.tag-education-school { border-left-color: rgba(255,140,0,1) !important; }
 
-/* Tasks cards */
-.card.tag-task-math { background: linear-gradient(180deg, rgba(244,67,54,0.14), rgba(244,67,54,0.07)); }
-.card.tag-task-soft { background: linear-gradient(180deg, rgba(33,150,243,0.12), rgba(33,150,243,0.06)); }
-.card.tag-task-web { background: linear-gradient(180deg, rgba(27,94,32,0.16), rgba(27,94,32,0.08)); }
+.card.tag-education-university { border-left-color: rgba(76,175,80,1) !important; }
+
+/* Tasks cards - keep card style with backgrounds */
+.card.tag-task-math { 
+  background: linear-gradient(135deg, rgba(244,67,54,0.12), rgba(244,67,54,0.05)); 
+  border-left: none;
+}
+.card.tag-task-soft { 
+  background: linear-gradient(135deg, rgba(33,150,243,0.12), rgba(33,150,243,0.05)); 
+  border-left: none;
+}
+.card.tag-task-web { 
+  background: linear-gradient(135deg, rgba(27,94,32,0.16), rgba(27,94,32,0.06)); 
+  border-left: none;
+}
 
 /* Task links color */
 .task-links a { color: #ffffff; text-decoration: none; }
@@ -682,14 +817,18 @@ img { max-width: 100%; display: block; }
 .skills-grid .card:nth-child(6) { animation-delay: 0.6s; }
 .skills-grid .card:nth-child(n+7) { animation-delay: 0.7s; }
 
-/* Enhanced pill hover effects */
+/* Enhanced pill effects */
 .pill {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s ease;
   position: relative;
+}
+
+/* Subtle hover only for task pills */
+.task-links .pill {
   overflow: hidden;
 }
 
-.pill::before {
+.task-links .pill::before {
   content: '';
   position: absolute;
   top: 0;
@@ -700,14 +839,14 @@ img { max-width: 100%; display: block; }
   transition: left 0.5s ease;
 }
 
-.pill:hover::before {
+.task-links .pill:hover::before {
   left: 100%;
 }
 
-.pill:hover {
-  transform: translateY(-3px) scale(1.05);
+.task-links .pill:hover {
+  transform: translateY(-2px);
   border-color: var(--primary);
-  background: rgba(100, 181, 246, 0.15);
+  background: rgba(100, 181, 246, 0.12);
   box-shadow: 0 4px 12px rgba(100, 181, 246, 0.2);
 }
 
