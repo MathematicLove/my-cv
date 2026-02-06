@@ -209,11 +209,11 @@
         title: "Ayzek's Soft",
         className: 'tag-task-soft',
         links: [
-          { label: 'Бесплатный MP3 плеер iOS: AyzeksSound', href: 'https://github.com/MathematicLove/AyzeksSound' },
-          { label: 'Игра в жизнь на КА', href: 'https://github.com/MathematicLove/LiveTheGame' },
-          { label: 'ТГ-Бот отслеживания цен: PriceCheckerBot', href: 'https://github.com/MathematicLove/PriceCheckerBot' },
-          { label: 'ТГ-Бот планирования путешествий: SpringTripPlannerBot', href: 'https://github.com/MathematicLove/SpringTripPlannerBot' },
-          { label: 'REST сервер на Java', href: 'https://github.com/MathematicLove/JavaHTTPServer' },
+          { label: 'Бесплатный MP3 плеер iOS: AyzeksSound', href: 'https://github.com/MathematicLove/ayzeks-sound' },
+          { label: 'Игра в жизнь на КА', href: 'https://github.com/MathematicLove/live-the-game' },
+          { label: 'ТГ-Бот отслеживания цен: PriceCheckerBot', href: 'https://github.com/MathematicLove/price-checker-bot' },
+          { label: 'ТГ-Бот планирования путешествий: SpringTripPlannerBot', href: 'https://github.com/MathematicLove/trip-planner-bot-spring' },
+          { label: 'HTTP сервер на Java', href: 'https://github.com/MathematicLove/http-server' },
           { label: 'Сервис банковских карт', href: 'https://github.com/MathematicLove/card-management-service' }
         ]
       },
@@ -222,7 +222,7 @@
         title: "Ayzek's Web",
         className: 'tag-task-web',
         links: [
-          { label: 'Цитаты из фильмов и мультфильмов', href: 'https://github.com/MathematicLove/quotes_web_app' },
+          { label: 'Цитаты из фильмов и мультфильмов', href: 'https://github.com/MathematicLove/quotes-web-app' },
           { label: 'Шифрование и дешифрование данных', href: 'https://github.com/MathematicLove/encrypt-it' }
         ]
       }
@@ -436,11 +436,11 @@
             title: "Ayzek's Soft",
             className: 'tag-task-soft',
             links: [
-              { label: 'Free MP3 Player iOS: AyzeksSound', href: 'https://github.com/MathematicLove/AyzeksSound' },
-              { label: 'Game of Life on CA', href: 'https://github.com/MathematicLove/LiveTheGame' },
-              { label: 'TG-Bot Price Tracker: PriceCheckerBot', href: 'https://github.com/MathematicLove/PriceCheckerBot' },
-              { label: 'TG-Bot Trip Planner: SpringTripPlannerBot', href: 'https://github.com/MathematicLove/SpringTripPlannerBot' },
-              { label: 'REST Server on Java', href: 'https://github.com/MathematicLove/JavaHTTPServer' },
+              { label: 'Free MP3 Player iOS: AyzeksSound', href: 'https://github.com/MathematicLove/ayzeks-sound' },
+              { label: 'Game of Life on CA', href: 'https://github.com/MathematicLove/live-the-game' },
+              { label: 'TG-Bot Price Tracker: PriceCheckerBot', href: 'https://github.com/MathematicLove/price-checker-bot' },
+              { label: 'TG-Bot Trip Planner: SpringTripPlannerBot', href: 'https://github.com/MathematicLove/trip-planner-bot-spring' },
+              { label: 'HTTP Server on Java', href: 'https://github.com/MathematicLove/http-server' },
               { label: 'Card Management Service', href: 'https://github.com/MathematicLove/card-management-service' }
             ]
           },
@@ -449,7 +449,7 @@
             title: "Ayzek's Web",
             className: 'tag-task-web',
             links: [
-              { label: 'Quotes from Movies and Cartoons', href: 'https://github.com/MathematicLove/quotes_web_app' },
+              { label: 'Quotes from Movies and Cartoons', href: 'https://github.com/MathematicLove/quotes-web-app' },
               { label: 'Data Encryption and Decryption', href: 'https://github.com/MathematicLove/encrypt-it' }
             ]
           }
