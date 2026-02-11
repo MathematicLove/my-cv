@@ -1,98 +1,110 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title data-i18n="meta.title">Салимли Айзек</title>
-    <meta name="description" content="Портфолио разработчика: языки, фреймворки, DevOps, базы данных, математика и проекты." data-i18n="meta.description">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
-    <link rel="stylesheet" href="assets/css/styles.css?v=3">
-  </head>
-  <body>
-    <div class="stars-background"></div>
-    <header class="site-header" id="top">
-      <nav class="nav">
-        <a class="brand" href="#top" data-i18n="nav.brand">Salimli Ayzek</a>
-        <ul class="nav-links">
-          <li><a href="#about" data-i18n="nav.about">Обо мне</a></li>
-          <li><a href="#tasks" data-i18n="nav.tasks">Пет-проекты</a></li>
-          <li><a href="#skills" data-i18n="nav.skills">Навыки</a></li>
-          <li><a href="#math" data-i18n="nav.math">Математика</a></li>
-          <li><a href="#education" data-i18n="nav.education">Образование</a></li>
-          <li><a href="#contact" data-i18n="nav.contact">Контакты</a></li>
-        </ul>
-        <div class="nav-actions">
-          <a class="btn ghost" id="resume-pdf" href="./resume/resume-rus.pdf" target="_blank" rel="noreferrer noopener" data-i18n="resume">Резюме</a>
-          <button class="btn ghost lang-toggle" id="lang-toggle" data-lang="ru">Eng 🇬🇧</button>
-        </div>
-      </nav>
-      <section class="hero">
-        <h1>Ayzek's Base</h1>
-        <p>Cogito Ergo Sum</p>
-        <div class="hero-actions">
-          <a class="btn ghost" href="https://github.com/MathematicLove" target="_blank" rel="noreferrer noopener" data-i18n="hero.github">Профиль в GitHub</a>
-        </div>
-      </section>
-    </header>
 
-    <main>
-      <section id="about" class="section about">
-        <div class="container">
-          <h2 data-i18n="about.title">Обо мне</h2>
-          <p data-i18n="about.text">Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 2 месяц The Blooms Bridge, интеграция систем ИИ (RAG, Computer Vision и т.д) и back-end разработка.</p>
-        </div>
-      </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title">Салимли Айзек</title>
+  <meta name="description"
+    content="Портфолио разработчика: языки, фреймворки, DevOps, базы данных, математика и проекты."
+    data-i18n="meta.description">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+</head>
 
-      <section id="tasks" class="section tasks">
-        <div class="container">
-          <h2 data-i18n="tasks.title">Пет-проекты</h2>
-          <div id="tasks-grid" class="skills-grid"><!-- Rendered by JS --></div>
-        </div>
-      </section>
-
-      <section id="skills" class="section skills">
-        <div class="container">
-          <h2 data-i18n="skills.title">Навыки</h2>
-          <div id="skills-grid" class="skills-grid"><!-- Rendered by JS --></div>
-        </div>
-      </section>
-
-      <section id="math" class="section math">
-        <div class="container">
-          <h2 data-i18n="math.title">Математика</h2>
-          <div id="math-grid" class="skills-grid"><!-- Rendered by JS --></div>
-        </div>
-      </section>
-
-      <section id="education" class="section education">
-        <div class="container">
-          <h2 data-i18n="education.title">Образование</h2>
-          <div id="education-grid" class="skills-grid"><!-- Rendered by JS --></div>
-        </div>
-      </section>
-
-      <section id="contact" class="section contact">
-        <div class="container">
-          <h2 data-i18n="contact.title">Контакты</h2>
-          <p data-i18n="contact.text">Связаться проще всего через Telegram.</p>
-          <p class="pill-list">
-            <a class="btn primary" href="https://t.me/undefined_1010" target="_blank" rel="noreferrer noopener">Telegram: @undefined_1010</a>
-            <a class="btn ghost" href="https://github.com/MathematicLove" target="_blank" rel="noreferrer noopener" data-i18n="contact.github">Перейти в профиль GitHub</a>
-            <a class="btn ghost" href="https://gitea.com/MathematicLove" target="_blank" rel="noreferrer noopener" data-i18n="contact.gitea">Перейти в профиль Gitea</a>
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container">
-        <p><span id="year"></span> Salimli Ayzek.</p>
+<body>
+  <div class="stars-background"></div>
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top" data-i18n="nav.brand">Salimli Ayzek</a>
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">Обо мне</a></li>
+        <li><a href="#tasks" data-i18n="nav.tasks">Пет-проекты</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Навыки</a></li>
+        <li><a href="#math" data-i18n="nav.math">Математика</a></li>
+        <li><a href="#education" data-i18n="nav.education">Образование</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Контакты</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="btn ghost" id="resume-pdf" href="./resume/resume-rus.pdf" target="_blank" rel="noreferrer noopener"
+          data-i18n="resume">Скачать резюме</a>
+        <button class="btn ghost lang-toggle" id="lang-toggle" data-lang="ru">Eng 🇬🇧</button>
       </div>
-    </footer>
+    </nav>
+    <section class="hero">
+      <h1>Ayzek's Base</h1>
+      <p>Cogito Ergo Sum</p>
+      <div class="hero-actions">
+        <a class="btn ghost" href="https://github.com/MathematicLove" target="_blank" rel="noreferrer noopener"
+          data-i18n="hero.github">Профиль в GitHub</a>
+      </div>
+    </section>
+  </header>
 
-    <script src="assets/js/app.js?v=3" defer></script>
-  </body>
+  <main>
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 data-i18n="about.title">Обо мне</h2>
+        <p data-i18n="about.text">Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки,
+          системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 2 месяц The Blooms Bridge, интеграция систем ИИ
+          (RAG, Computer Vision и т.д) и back-end разработка.</p>
+      </div>
+    </section>
+
+    <section id="tasks" class="section tasks">
+      <div class="container">
+        <h2 data-i18n="tasks.title">Пет-проекты</h2>
+        <div id="tasks-grid" class="skills-grid"><!-- Rendered by JS --></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 data-i18n="skills.title">Навыки</h2>
+        <div id="skills-grid" class="skills-grid"><!-- Rendered by JS --></div>
+      </div>
+    </section>
+
+    <section id="math" class="section math">
+      <div class="container">
+        <h2 data-i18n="math.title">Математика</h2>
+        <div id="math-grid" class="skills-grid"><!-- Rendered by JS --></div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="container">
+        <h2 data-i18n="education.title">Образование</h2>
+        <div id="education-grid" class="skills-grid"><!-- Rendered by JS --></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 data-i18n="contact.title">Контакты</h2>
+        <p data-i18n="contact.text">Связаться проще всего через Telegram.</p>
+        <p class="pill-list">
+          <a class="btn primary" href="https://t.me/undefined_1010" target="_blank" rel="noreferrer noopener">Telegram:
+            @undefined_1010</a>
+          <a class="btn ghost" href="https://github.com/MathematicLove" target="_blank" rel="noreferrer noopener"
+            data-i18n="contact.github">Перейти в профиль GitHub</a>
+          <a class="btn ghost" href="https://gitea.com/MathematicLove" target="_blank" rel="noreferrer noopener"
+            data-i18n="contact.gitea">Перейти в профиль Gitea</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><span id="year"></span> Salimli Ayzek.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js?v=3" defer></script>
+</body>
+
 </html>
