@@ -37,7 +37,7 @@
 
 <div class="knowledge-table-wrap" id="skills">
 
-<h3 class="knowledge-title">Knowledge</h3>
+<h3 class="knowledge-title">Знания</h3>
 
 | Category | Subcategory / Name | Technologies / Libraries |
 | :--- | :--- | :--- |
@@ -59,6 +59,19 @@
 | **CI/CD** | — | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-plain.svg" height="20"/> Jenkins |
 | **Documentation** | Documentation & Reports | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/latex/latex-original.svg" height="20"/> LaTeX <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" height="20"/> Markdown <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/typst.svg" height="20"/> Typst |
 | | Presentations | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/latex/latex-original.svg" height="20"/> LaTeX (Beamer) |
+
+</div>
+
+<div id="learning-hub">
+
+## Learning Hub (в процессе)
+
+- [Python](learning-hub/?page=python)
+- [Java](learning-hub/?page=java)
+- [SQL (Postgres)](learning-hub/?page=sql)
+- [Теория вероятности](learning-hub/?page=probability)
+- [Математическая статистика](learning-hub/?page=statistics)
+- [Дискретная математика](learning-hub/?page=discrete)
 
 </div>
 

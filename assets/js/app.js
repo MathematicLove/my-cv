@@ -1,6 +1,6 @@
 (function () {
-  const SECTION_IDS = ['about', 'tasks', 'education', 'experience', 'articles', 'contact'];
-  let currentLang = localStorage.getItem('lang') || 'ru';
+  const SECTION_IDS = ['about', 'tasks', 'education', 'experience', 'articles', null, 'contact'];
+  let currentLang = localStorage.getItem('lang') || 'en';
 
   const meta = {
     ru: {
@@ -13,7 +13,7 @@
       resumeHref: './resume/resume-rus.pdf',
       langToggle: 'Switch to English 🇬🇧',
       footerName: 'Салимли Айзек',
-      sectionNav: { about: 'Обо мне', tasks: 'Проекты', education: 'Образование', articles: 'Статьи', skills: 'Knowledge', contact: 'Контакты' }
+      sectionNav: { about: 'Обо мне', tasks: 'Проекты', education: 'Образование', articles: 'Статьи', skills: 'Знания', 'learning-hub': 'Learning Hub', contact: 'Контакты' }
     },
     en: {
       title: 'Salimli Ayzek',
@@ -25,7 +25,7 @@
       resumeHref: './resume/resume-eng.pdf',
       langToggle: 'На Русском 🇷🇺',
       footerName: 'Salimli Ayzek',
-      sectionNav: { about: 'About', tasks: 'Projects', education: 'Education', articles: 'Articles', skills: 'Knowledge', contact: 'Contacts' }
+      sectionNav: { about: 'About', tasks: 'Projects', education: 'Education', articles: 'Articles', skills: 'Knowledge', 'learning-hub': 'Learning Hub', contact: 'Contacts' }
     }
   };
 
@@ -58,7 +58,8 @@
     const footerName = document.getElementById('footer-name');
     if (footerName) footerName.textContent = m.footerName;
     if (m.sectionNav) {
-      ['about', 'tasks', 'education', 'articles', 'skills', 'contact'].forEach(function (id) {
+      var navIds = ['about', 'tasks', 'education', 'articles', 'learning-hub', 'contact'];
+      navIds.forEach(function (id) {
         var el = document.getElementById('nav-link-' + id);
         if (el && m.sectionNav[id]) el.textContent = m.sectionNav[id];
       });

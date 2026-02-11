@@ -1,10 +1,12 @@
 /* Academic Pages style + system theme (light/dark) */
 
-/* Light theme (default) — белый фон, чёрный текст */
+/* Light theme — заголовки чёрные, текст под ними тёмно-серый */
 :root {
   --body-color: #fff;
   --background-color: #fff;
   --text-color: #1f2328;
+  --heading-color: #000000;
+  --body-text-color: #424a53;
   --gray: #7a8288;
   --dark-gray: #494c50;
   --light-gray: #bdc1c4;
@@ -19,12 +21,14 @@
   --font-serif: Georgia, Times, serif;
 }
 
-/* Dark theme — тёмный фон, белый текст */
+/* Dark theme — заголовки белые, текст под ними светло-серый */
 @media (prefers-color-scheme: dark) {
   :root {
     --body-color: #0d1117;
     --background-color: #0d1117;
     --text-color: #e6edf3;
+    --heading-color: #ffffff;
+    --body-text-color: #c9d1d9;
     --gray: #8b949e;
     --dark-gray: #b1bac4;
     --light-gray: #484f58;
@@ -123,6 +127,11 @@ a:hover {
 .section-nav__link:hover {
   color: var(--masthead-link-color-hover);
   text-decoration: underline;
+}
+
+html[lang="en"] .nav-skills-ru,
+html[lang="ru"] .nav-skills-en {
+  display: none;
 }
 
 /* ========== Main layout ========== */
@@ -351,6 +360,19 @@ a:hover {
   width: 100%;
 }
 
+.btn--home {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn--home:hover {
+  text-decoration: none;
+}
+
+.btn--home .btn-icon--home {
+  flex-shrink: 0;
+}
+
 /* List items with logo (Education, Experience) */
 .page__content .list-item-with-logo {
   display: inline-flex;
@@ -379,6 +401,7 @@ a:hover {
 .page__content .item-text {
   flex: 1;
   min-width: 0;
+  color: var(--body-text-color) !important;
 }
 
 /* ========== Page content ========== */
@@ -389,19 +412,27 @@ a:hover {
 
 .page__content {
   max-width: 100%;
+  color: var(--body-text-color);
 }
 
+#markdown-root {
+  color: var(--body-text-color);
+}
+
+/* Контент из markdown — заголовки ярче, текст приглушён */
+#markdown-root h2,
 .page__content h2 {
   font-size: 1.35rem;
   font-weight: 600;
   margin: 1.35rem 0 0.6rem;
   padding-bottom: 0.4em;
   border-bottom: 1px solid var(--border-color);
-  color: var(--text-color);
+  color: var(--heading-color) !important;
   scroll-margin-top: 4.5rem;
 }
 
-.page__content #skills {
+.page__content #skills,
+.page__content #learning-hub {
   scroll-margin-top: 4.5rem;
 }
 
@@ -409,25 +440,32 @@ a:hover {
   margin-top: 0;
 }
 
+#markdown-root h3,
 .page__content h3 {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 1.1rem 0 0.45rem;
-  color: var(--text-color);
+  color: var(--heading-color) !important;
 }
 
+#markdown-root p,
 .page__content p {
   margin: 0 0 0.85em;
   font-size: 1em;
+  color: var(--body-text-color) !important;
 }
 
+#markdown-root ul,
 .page__content ul {
   margin: 0 0 1em;
   padding-left: 1.5em;
+  color: var(--body-text-color) !important;
 }
 
+#markdown-root li,
 .page__content li {
   margin: 0.25em 0;
+  color: inherit;
 }
 
 .page__content a {
@@ -455,6 +493,7 @@ a:hover {
   border-bottom: none;
   padding-bottom: 0;
   font-size: 1.1rem;
+  color: var(--heading-color) !important;
 }
 
 .page__content .knowledge-table-wrap table {
@@ -470,12 +509,13 @@ a:hover {
   text-align: left;
   vertical-align: top;
   background: var(--body-color);
-  color: var(--text-color);
+  color: var(--body-text-color) !important;
 }
 
 .page__content .knowledge-table-wrap th {
   font-weight: 600;
   background: var(--lighter-gray);
+  color: var(--heading-color) !important;
 }
 
 .page__content .knowledge-table-wrap td img {

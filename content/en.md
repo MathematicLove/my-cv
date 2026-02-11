@@ -62,6 +62,19 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 
 </div>
 
+<div id="learning-hub">
+
+## Learning Hub (on progress)
+
+- [Python](learning-hub/?page=python)
+- [Java](learning-hub/?page=java)
+- [SQL (Postgres)](learning-hub/?page=sql)
+- [Probability theory](learning-hub/?page=probability)
+- [Mathematical statistics](learning-hub/?page=statistics)
+- [Discrete mathematics](learning-hub/?page=discrete)
+
+</div>
+
 ## Contacts
 
 - [Telegram](https://t.me/undefined_1010)
