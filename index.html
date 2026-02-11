@@ -1,110 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title data-i18n="meta.title">Салимли Айзек</title>
-  <meta name="description"
-    content="Портфолио разработчика: языки, фреймворки, DevOps, базы данных, математика и проекты."
-    data-i18n="meta.description">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <title>Салимли Айзек</title>
+  <meta name="description" content="Портфолио разработчика: языки, фреймворки, DevOps, базы данных, математика и проекты.">
   <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
-  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
-
 <body>
-  <div class="stars-background"></div>
-  <header class="site-header" id="top">
-    <nav class="nav">
-      <a class="brand" href="#top" data-i18n="nav.brand">Salimli Ayzek</a>
-      <ul class="nav-links">
-        <li><a href="#about" data-i18n="nav.about">Обо мне</a></li>
-        <li><a href="#tasks" data-i18n="nav.tasks">Пет-проекты</a></li>
-        <li><a href="#skills" data-i18n="nav.skills">Навыки</a></li>
-        <li><a href="#math" data-i18n="nav.math">Математика</a></li>
-        <li><a href="#education" data-i18n="nav.education">Образование</a></li>
-        <li><a href="#contact" data-i18n="nav.contact">Контакты</a></li>
-      </ul>
-      <div class="nav-actions">
-        <a class="btn ghost" id="resume-pdf" href="./resume/resume-rus.pdf" target="_blank" rel="noreferrer noopener"
-          data-i18n="resume">Скачать резюме</a>
-        <button class="btn ghost lang-toggle" id="lang-toggle" data-lang="ru">Eng 🇬🇧</button>
+  <div class="masthead-wrapper">
+    <header class="masthead">
+      <div class="masthead-inner">
+        <a class="site-title" href="./" id="site-title">Салимли Айзек</a>
+        <nav class="section-nav" aria-label="Секции">
+          <a href="#about" class="section-nav__link" id="nav-link-about">Обо мне</a>
+          <a href="#tasks" class="section-nav__link" id="nav-link-tasks">Проекты</a>
+          <a href="#education" class="section-nav__link" id="nav-link-education">Образование</a>
+          <a href="#articles" class="section-nav__link" id="nav-link-articles">Статьи</a>
+          <a href="#skills" class="section-nav__link" id="nav-link-skills">Knowledge</a>
+          <a href="#contact" class="section-nav__link" id="nav-link-contact">Контакты</a>
+        </nav>
+        <span class="masthead-spacer" aria-hidden="true"></span>
       </div>
-    </nav>
-    <section class="hero">
-      <h1>Ayzek's Base</h1>
-      <p>Cogito Ergo Sum</p>
-      <div class="hero-actions">
-        <a class="btn ghost" href="https://github.com/MathematicLove" target="_blank" rel="noreferrer noopener"
-          data-i18n="hero.github">Профиль в GitHub</a>
-      </div>
-    </section>
-  </header>
+    </header>
+  </div>
 
-  <main>
-    <section id="about" class="section about">
-      <div class="container">
-        <h2 data-i18n="about.title">Обо мне</h2>
-        <p data-i18n="about.text">Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки,
-          системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 2 месяц The Blooms Bridge, интеграция систем ИИ
-          (RAG, Computer Vision и т.д) и back-end разработка.</p>
+  <div id="main" class="main">
+    <aside class="sidebar">
+      <div class="author__avatar">
+        <img src="./tex-files/img/ME.jpeg" alt="Салимли Айзек" width="175" height="175">
       </div>
-    </section>
-
-    <section id="tasks" class="section tasks">
-      <div class="container">
-        <h2 data-i18n="tasks.title">Пет-проекты</h2>
-        <div id="tasks-grid" class="skills-grid"><!-- Rendered by JS --></div>
+      <div class="author__content">
+        <h2 class="author__name" id="author-name">Салимли Айзек</h2>
+        <p class="author__bio" id="author-bio">Студент СПбПУ, ИКНК. Математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии.</p>
+        <div class="author__urls-wrapper">
+          <button type="button" class="author__urls-btn" aria-label="Toggle profile links">Follow</button>
+          <ul class="author__urls">
+            <li><a href="https://thebloomsbridge.io" target="_blank" rel="noreferrer noopener" class="author__urls-item"><svg class="author__icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M1.75 2.5a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25H1.75ZM0 2.75C0 1.784.784 1 1.75 1h12.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15H1.75A1.75 1.75 0 0 1 0 13.25V2.75Zm4.5 3.5a.25.25 0 0 1 .25-.25h6.5a.25.25 0 0 1 0 .5h-6.5a.25.25 0 0 1-.25-.25Zm0 2a.25.25 0 0 1 .25-.25h6.5a.25.25 0 0 1 0 .5h-6.5a.25.25 0 0 1-.25-.25Z"/></svg>thebloomsbridge · Work</a></li>
+            <li><a href="https://orcid.org/0009-0005-9984-0740" target="_blank" rel="noreferrer noopener" class="author__urls-item"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID" class="author__icon author__icon--orcid" width="16" height="16" />ORCID</a></li>
+            <li><span class="author__urls-text author__urls-item"><svg class="author__icon author__icon--pin" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>Saint-Petersburg</span></li>
+          </ul>
+        </div>
+        <div class="author__actions">
+          <button type="button" class="btn btn--lang" id="lang-toggle" aria-label="Switch language">Switch to English 🇬🇧</button>
+          <a class="btn btn--resume" id="resume-pdf" href="./resume/resume-rus.pdf" target="_blank" rel="noreferrer noopener" download><svg class="btn-icon btn-icon--download" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg><span id="resume-label">Скачать резюме</span></a>
+        </div>
       </div>
-    </section>
-
-    <section id="skills" class="section skills">
-      <div class="container">
-        <h2 data-i18n="skills.title">Навыки</h2>
-        <div id="skills-grid" class="skills-grid"><!-- Rendered by JS --></div>
+    </aside>
+    <main class="page">
+      <div class="page__inner-wrap">
+        <div class="page__content">
+          <div id="markdown-root"></div>
+        </div>
       </div>
-    </section>
+    </main>
+  </div>
 
-    <section id="math" class="section math">
-      <div class="container">
-        <h2 data-i18n="math.title">Математика</h2>
-        <div id="math-grid" class="skills-grid"><!-- Rendered by JS --></div>
-      </div>
-    </section>
-
-    <section id="education" class="section education">
-      <div class="container">
-        <h2 data-i18n="education.title">Образование</h2>
-        <div id="education-grid" class="skills-grid"><!-- Rendered by JS --></div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="container">
-        <h2 data-i18n="contact.title">Контакты</h2>
-        <p data-i18n="contact.text">Связаться проще всего через Telegram.</p>
-        <p class="pill-list">
-          <a class="btn primary" href="https://t.me/undefined_1010" target="_blank" rel="noreferrer noopener">Telegram:
-            @undefined_1010</a>
-          <a class="btn ghost" href="https://github.com/MathematicLove" target="_blank" rel="noreferrer noopener"
-            data-i18n="contact.github">Перейти в профиль GitHub</a>
-          <a class="btn ghost" href="https://gitea.com/MathematicLove" target="_blank" rel="noreferrer noopener"
-            data-i18n="contact.gitea">Перейти в профиль Gitea</a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p><span id="year"></span> Salimli Ayzek.</p>
+  <footer class="footer">
+    <div class="footer-inner">
+      <p><span id="year"></span> <span id="footer-name">Салимли Айзек</span></p>
     </div>
   </footer>
 
-  <script src="assets/js/app.js?v=3" defer></script>
+  <script src="assets/js/app.js" defer></script>
 </body>
-
 </html>
