@@ -41,24 +41,24 @@
 
 | Category | Subcategory / Name | Technologies / Libraries |
 | :--- | :--- | :--- |
-| **Programming Languages** | Multi-paradigm | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="20"/> C++ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="20"/> Python |
-| | Object-Oriented (primarily)| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="20"/> Java |
-| | Functional | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original.svg" height="20"/> Haskell |
-| **Data Science & ML (Python)** | Data Manipulation | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) |
-| | Data Visualization | ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Seaborn](https://img.shields.io/badge/Seaborn-%23007396.svg?style=for-the-badge&logo=seaborn&logoColor=white) |
-| | Deep Learning | ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-%2300FF00.svg?style=for-the-badge&logo=yolo&logoColor=white) |
-| | Machine Learning | ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) |
-| | Scientific Computing | ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) |
-| **Quantum Computing** | — | ![Cirq](https://img.shields.io/badge/cirq-%23150458.svg?style=for-the-badge&logo=cirq&logoColor=white) |
-| **Frameworks** | — | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" height="20"/> Django <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="20"/> Spring (Core, Boot, Web, Data JPA, Security) |
-| **Databases** | NoSQL | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="20"/> MongoDB |
-| | SQL | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="20"/> MySQL <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="20"/> PostgreSQL |
+| **Programming Languages** | Multi-paradigm | <img src="content/logo/cplusplus.svg" height="20" alt="C++"/> C++ <img src="content/logo/python.svg" height="20" alt="Python"/> Python |
+| | Object-Oriented (primarily)| <img src="content/logo/java.svg" height="20" alt="Java"/> Java |
+| | Functional | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
+| **Data Science & ML (Python)** | Data Manipulation | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
+| | Data Visualization | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
+| | Deep Learning | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> |
+| | Machine Learning | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
+| | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> |
+| **Quantum Computing** | — | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
+| **Frameworks** | — | <img src="content/logo/django.svg" height="20" alt="Django"/> Django <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring (Core, Boot, Web, Data JPA, Security) |
+| **Databases** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
+| | SQL | <img src="content/logo/mysql.svg" height="20" alt="MySQL"/> MySQL <img src="content/logo/postgresql.svg" height="20" alt="PostgreSQL"/> PostgreSQL |
 | **Mathematics** | — | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Mathematical Analysis</li><li>Statistics & Probability</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
-| **Message Brokers** | — | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" height="20"/> RabbitMQ |
-| **Containerization & Hosting** | — | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="20"/> Docker <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="20"/> Kubernetes <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="20"/> Firebase <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/render.svg" height="20"/> Render |
-| **CI/CD** | — | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-plain.svg" height="20"/> Jenkins |
-| **Documentation** | Documentation & Reports | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/latex/latex-original.svg" height="20"/> LaTeX <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" height="20"/> Markdown <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/typst.svg" height="20"/> Typst |
-| | Presentations | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/latex/latex-original.svg" height="20"/> LaTeX (Beamer) |
+| **Message Brokers** | — | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
+| **Containerization & Hosting** | — | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
+| **CI/CD** | — | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins |
+| **Documentation** | Documentation & Reports | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX <img src="content/logo/markdown.svg" height="20" alt="Markdown"/> Markdown <img src="content/logo/typst.svg" height="20" alt="Typst"/> Typst |
+| | Presentations | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX (Beamer) |
 
 </div>
 
