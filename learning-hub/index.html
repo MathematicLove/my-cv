@@ -6,20 +6,132 @@
   <title>Learning Hub</title>
   <link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/styles/github-dark.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/highlight.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/languages/python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/languages/sql.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/languages/dockerfile.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/languages/bash.min.js"></script>
   <style>
     .learning-hub-page { max-width: 720px; margin: 0 auto; padding: 1.5rem 1rem; }
-    .learning-hub-home { margin-bottom: 1.5rem; }
-    #markdown-root { margin-top: 0; }
+    .learning-hub-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; flex-wrap: wrap; gap: 0.5rem; }
+    .learning-hub-nav .btn { display: inline-flex; align-items: center; gap: 0.35rem; }
+    .btn--back { background: transparent; border: 1px solid currentColor; cursor: pointer; font: inherit; color: inherit; padding: 0.35em 0.6em; border-radius: 4px; }
+    .btn--back:hover { opacity: 0.85; }
+
+    /* ========== Learning Hub content theme ========== */
+    #markdown-root {
+      margin-top: 0;
+      color: var(--body-text-color);
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+    #markdown-root p, #markdown-root li, #markdown-root td, #markdown-root th { white-space: pre-wrap; }
+
+    /* Headings */
+    #markdown-root h1 { font-size: 1.75rem; font-weight: 700; margin: 0 0 0.75rem; padding-bottom: 0.4rem; color: var(--heading-color); border-bottom: 2px solid var(--border-color); letter-spacing: -0.02em; }
+    #markdown-root h2 { font-size: 1.4rem; font-weight: 600; margin: 1.75rem 0 0.6rem; color: var(--heading-color); border-bottom: 1px solid var(--border-color); padding-bottom: 0.35rem; }
+    #markdown-root h3 { font-size: 1.15rem; font-weight: 600; margin: 1.35rem 0 0.45rem; color: var(--heading-color); }
+    #markdown-root h4, #markdown-root h5, #markdown-root h6 { font-size: 1.05rem; font-weight: 600; margin: 1rem 0 0.4rem; color: var(--heading-color); }
+    #markdown-root h1:first-child { margin-top: 0; }
+    #markdown-root p { margin: 0 0 0.9em; }
+
+    /* Blockquotes — цитаты */
+    #markdown-root blockquote {
+      margin: 1.25em 0;
+      padding: 0.75em 1em 0.75em 1.15em;
+      border-left: 4px solid var(--link-color);
+      background: var(--lighter-gray);
+      border-radius: 0 8px 8px 0;
+      color: var(--body-text-color);
+      font-style: italic;
+      box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    }
+    #markdown-root blockquote p:last-child { margin-bottom: 0; }
+    #markdown-root ul + blockquote, #markdown-root ol + blockquote { margin-top: 0.4em; }
+    #markdown-root p + blockquote { margin-top: 0.6em; }
+
+    /* Lists */
+    #markdown-root ul { margin: 0.2em 0; padding-left: 1.5em; list-style-type: disc; }
+    #markdown-root ul ul { list-style-type: circle; margin: 0 0 0.05em 0; padding-left: 1.3em; }
+    #markdown-root ul ul ul { list-style-type: square; margin: 0 0 0.05em 0; }
+    #markdown-root ol { margin: 0.2em 0; padding-left: 1.5em; }
+    #markdown-root ol ol { margin: 0 0 0.05em 0; }
+    #markdown-root li { margin: 0.04em 0; }
+    #markdown-root li > p { margin: 0.08em 0; }
+    #markdown-root li > p + ul, #markdown-root li > p + ol { margin-top: 0.05em; }
+
+    /* Inline emphasis */
+    #markdown-root strong { font-weight: 700; color: var(--heading-color); }
+    #markdown-root em { font-style: italic; }
+
+    /* Inline code */
+    #markdown-root code {
+      background: var(--lighter-gray);
+      color: var(--text-color);
+      padding: 0.2em 0.45em;
+      border-radius: 6px;
+      font-size: 0.9em;
+      font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Code blocks */
+    #markdown-root pre {
+      padding: 1.1rem 1.25rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1.25em 0;
+      font-size: 0.88em;
+      line-height: 1.45;
+      border: 2px solid var(--border-color);
+      box-shadow: 0 2px 8px rgba(0,0,0,.1);
+      user-select: all;
+      -webkit-user-select: all;
+    }
+    #markdown-root pre code { padding: 0; background: none; border: none; font-size: inherit; }
+
+    /* Tables */
+    #markdown-root .table-wrap {
+      overflow-x: auto;
+      margin: 1.35em 0;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    }
+    #markdown-root table { width: 100%; border-collapse: collapse; font-size: 0.95em; min-width: 280px; }
+    #markdown-root th, #markdown-root td { border: 1px solid var(--border-color); padding: 0.65em 0.9em; text-align: left; }
+    #markdown-root th { background: transparent; font-weight: 600; color: inherit; }
+    #markdown-root tbody tr:nth-child(even) { background: var(--lighter-gray); }
+    #markdown-root tbody tr:hover { background: var(--light-gray); }
+    #markdown-root tbody td { vertical-align: top; }
+
+    /* Links */
+    #markdown-root a { color: var(--link-color); text-decoration: none; border-bottom: 1px solid transparent; transition: color .15s, border-color .15s; }
+    #markdown-root a:hover { color: var(--link-color-hover); border-bottom-color: var(--link-color-hover); }
+
+    /* Horizontal rule */
+    #markdown-root hr { margin: 1.75em 0; border: none; border-top: 2px solid var(--border-color); }
+
+    /* LaTeX (KaTeX) */
+    #markdown-root .katex { font-size: 1.1em; }
+    #markdown-root .katex-display { margin: 0.9em 0; overflow-x: auto; overflow-y: hidden; padding: 0.5em 0; }
   </style>
 </head>
 <body>
   <div class="learning-hub-page">
-    <div class="learning-hub-home">
+    <div class="learning-hub-nav">
       <a href="../index.html" class="btn btn--home" id="to-home-btn" aria-label="Home">
         <svg class="btn-icon btn-icon--home" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
         <span id="to-home-label">Home</span>
       </a>
+      <button type="button" class="btn btn--back" id="back-btn" aria-label="Back">
+        <svg class="btn-icon btn-icon--back" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+        <span id="back-label">Back</span>
+      </button>
     </div>
     <div id="markdown-root"></div>
   </div>
@@ -30,26 +142,82 @@
   document.documentElement.lang = lang;
   var homeLabel = document.getElementById('to-home-label');
   if (homeLabel) homeLabel.textContent = lang === 'ru' ? 'Домой' : 'Home';
+  var backLabel = document.getElementById('back-label');
+  if (backLabel) backLabel.textContent = lang === 'ru' ? 'Назад' : 'Back';
+
+  document.getElementById('back-btn').addEventListener('click', function () { window.history.back(); });
 
   const root = document.getElementById('markdown-root');
 
-  // Preprocess: [[slug]] or [[slug|text]] -> markdown link to ?page=slug
-  function wikiLinks(md) {
+  var defaultPage = '';
+
+  // [[slug]] or [[slug|text]] or [[slug#anchor|text]] -> markdown link. Supports hash for section links (e.g. _remarks#3).
+  function wikiLinks(md, basePath) {
     return md.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, function (_, slug, text) {
+      var s = slug.trim();
+      var hashIdx = s.indexOf('#');
+      var pageSlug = (hashIdx >= 0 ? s.slice(0, hashIdx) : s).replace(/\.md$/i, '').replace(/\\$/, '');
+      var hashPart = (hashIdx >= 0 ? s.slice(hashIdx) : '').replace(/\\$/g, '');
       var label = (text || slug).trim();
-      var target = '?page=' + encodeURIComponent(slug.trim());
+      var pageParam = pageSlug.indexOf('/') !== -1 ? pageSlug : (basePath ? basePath + '/' + pageSlug : pageSlug);
+      var target = '?page=' + encodeURIComponent(pageParam) + hashPart;
       return '[' + label + '](' + target + ')';
     });
   }
 
   function getPageFromUrl() {
     var params = new URLSearchParams(window.location.search);
-    var page = params.get('page') || 'python';
-    return page.replace(/[^a-z0-9_-]/gi, '') || 'python';
+    var page = params.get('page');
+    if (page == null || page === '') return defaultPage;
+    return page.replace(/[^a-z0-9_/-]/gi, '') || defaultPage;
+  }
+
+  // slug: "" -> _hub.md; "computer-science" -> category index; "computer-science/java" -> _java.md; "computer-science/java/01_intro" -> 01_intro.md
+  function resolvePath(slug) {
+    var parts = slug.split('/').filter(Boolean);
+    if (parts.length === 0) return { path: '_hub.md', basePath: '' };
+    if (parts.length === 1) return { path: parts[0] + '/_index.md', basePath: parts[0] };
+    if (parts.length === 2) {
+      return { path: parts[0] + '/' + parts[1] + '/_' + parts[1] + '.md', basePath: parts[0] + '/' + parts[1] };
+    }
+    if (parts.length === 3) {
+      return { path: parts[0] + '/' + parts[1] + '/' + parts[2] + '.md', basePath: parts[0] + '/' + parts[1] };
+    }
+    return { path: slug + '.md', basePath: '' };
+  }
+
+  function renderMath(html) {
+    if (typeof katex === 'undefined') return html;
+    try {
+      html = html.replace(/\$\$([\s\S]*?)\$\$/g, function (_, latex) {
+        try { return katex.renderToString(latex.trim(), { displayMode: true, throwOnError: false }); } catch (e) { return '$$' + latex + '$$'; }
+      });
+      html = html.replace(/\$([^$\n]+)\$/g, function (_, latex) {
+        try { return katex.renderToString(latex.trim(), { displayMode: false, throwOnError: false }); } catch (e) { return '$' + latex + '$'; }
+      });
+    } catch (e) {}
+    return html;
+  }
+
+  function wrapTables(html) {
+    return html.replace(/<table>/g, '<div class="table-wrap"><table>').replace(/<\/table>/g, '</table></div>');
+  }
+
+  function slugifyId(text) {
+    return text.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9_-]/g, '') || 'section';
+  }
+
+  function addHeadingIds(container) {
+    if (!container) return;
+    container.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(function (h) {
+      if (!h.id) h.id = slugifyId(h.textContent);
+    });
   }
 
   function render(html) {
+    html = wrapTables(renderMath(html));
     root.innerHTML = html;
+    addHeadingIds(root);
     root.querySelectorAll('a[href^="?page="]').forEach(function (a) {
       a.addEventListener('click', function (e) {
         e.preventDefault();
@@ -61,27 +229,38 @@
         }
       });
     });
+    if (window.hljs) {
+      root.querySelectorAll('pre code').forEach(function (el) {
+        hljs.highlightElement(el);
+      });
+    }
   }
 
   function loadPage() {
     var slug = getPageFromUrl();
-    var mdPath = slug + '.md';
-    fetch(mdPath)
+    var res = resolvePath(slug);
+    fetch(res.path, { cache: 'no-store' })
       .then(function (r) {
         if (!r.ok) throw new Error('Not found');
         return r.text();
       })
       .then(function (md) {
-        var withWiki = wikiLinks(md);
+        var withWiki = wikiLinks(md, res.basePath);
         if (typeof marked !== 'undefined') {
           marked.setOptions({ gfm: true });
           render(marked.parse(withWiki));
         } else {
           render('<pre>' + withWiki.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</pre>');
         }
+        if (window.location.hash) {
+          var el = document.getElementById(window.location.hash.slice(1));
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+          window.scrollTo(0, 0);
+        }
       })
       .catch(function () {
-        root.innerHTML = '<p>Page not found. <a href="?page=python">Python</a></p>';
+        root.innerHTML = '<p>Page not found. <a href="?' + (defaultPage ? 'page=' + encodeURIComponent(defaultPage) : '') + '">Learning Hub</a></p>';
       });
   }
 

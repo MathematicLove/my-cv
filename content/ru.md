@@ -66,12 +66,8 @@
 
 ## Learning Hub (в процессе)
 
-- [Python](learning-hub/?page=python)
-- [Java](learning-hub/?page=java)
-- [SQL (Postgres)](learning-hub/?page=sql)
-- [Теория вероятности](learning-hub/?page=probability)
-- [Математическая статистика](learning-hub/?page=statistics)
-- [Дискретная математика](learning-hub/?page=discrete)
+- [*Computer Science*](learning-hub/?page=computer-science)
+- [*Mathematics*](learning-hub/?page=mathematics)
 
 </div>
 
