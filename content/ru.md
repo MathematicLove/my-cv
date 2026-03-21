@@ -5,10 +5,12 @@
 ## Проекты
 
 ### Web
+
 - [Цитаты из фильмов и мультфильмов](https://github.com/MathematicLove/quotes-web-app)
 - [Шифрование и дешифрование данных](https://github.com/MathematicLove/encrypt-it)
 
 ### Soft
+
 - [Бесплатный MP3 плеер iOS: AyzeksSound](https://github.com/MathematicLove/ayzeks-sound)
 - [Игра в жизнь на КА](https://github.com/MathematicLove/live-the-game)
 - [ТГ-Бот отслеживания цен: PriceCheckerBot](https://github.com/MathematicLove/price-checker-bot)
@@ -17,6 +19,7 @@
 - [Сервис банковских карт](https://github.com/MathematicLove/card-management-service)
 
 ### Math
+
 - [Презентации MathLang](https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations)
 - [Учебные проекты](https://github.com/MathematicLove/spbstu-iccs-mcs)
 - [Прогнозирование и сравнение демографических показателей России и Японии](https://github.com/MathematicLove/demographic-regression-ru-jp)
@@ -24,20 +27,21 @@
 
 ## Образование
 
-- <span class="list-item-with-logo"><img src="tex-files/img/SCHOOL_LOGO.jpeg" alt="Школа" class="item-logo" /><span class="item-text"><strong>Школа (полное среднее):</strong> Азербайджан. Баку. Школа №53 (с уклоном математики).</span></span>
-- <span class="list-item-with-logo"><img src="tex-files/img/POLY_LOGO.png" alt="СПбПУ" class="item-logo item-logo--poly" /><span class="item-text"><strong>Высшее:</strong> РФ. Санкт-Петербург. СПбПУ Петра Великого. Институт компьютерных наук и кибербезопасности. Направление: математика и компьютерные науки — системы искусственного интеллекта и суперкомпьютерные технологии. Высшая школа технологий искусственного интеллекта.</span></span>
+- **Школа (полное среднее):** Азербайджан. Баку. Школа №53 (с уклоном математики).
+- **Высшее:** РФ. Санкт-Петербург. СПбПУ Петра Великого. Институт компьютерных наук и кибербезопасности. Направление: математика и компьютерные науки — системы искусственного интеллекта и суперкомпьютерные технологии. Высшая школа технологий искусственного интеллекта.
 
 ## Опыт работы
 
-- <span class="list-item-with-logo"><img src="tex-files/img/TBB_LOGO.png" alt="The Blooms Bridge" class="item-logo" /><span class="item-text"><strong>The Blooms Bridge</strong> — Backend developer (20.07.2024 — now)</span></span>
+- **The Blooms Bridge** — Backend developer (20.07.2024 — now)
 
 ## Статьи
 
 - [Computer Vision for Offside Detection in Football](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
 
-<div class="knowledge-table-wrap" id="skills">
 
-<h3 class="knowledge-title">Знания</h3>
+
+### Знания
+
 
 | Category | Subcategory / Name | Technologies / Libraries |
 | :--- | :--- | :--- |
@@ -56,23 +60,27 @@
 | **Mathematics** | — | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Mathematical Analysis</li><li>Statistics & Probability</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
 | **Message Brokers** | — | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
 | **Containerization & Hosting** | — | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
-| **CI/CD** | — | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins |
+| **CI/CD** | — | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/openstack.svg" height="20" alt="OpenStack"/> OpenStack <img src="content/logo/heat.svg" height="22" alt="Heat"/> Heat |
 | **Documentation** | Documentation & Reports | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX <img src="content/logo/markdown.svg" height="20" alt="Markdown"/> Markdown <img src="content/logo/typst.svg" height="20" alt="Typst"/> Typst |
 | | Presentations | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX (Beamer) |
 
 </div>
 
-<div id="learning-hub">
+
+
+
+
 
 ## Learning Hub (в процессе)
 
-- [*Computer Science*](learning-hub/?page=computer-science)
-- [*Mathematics*](learning-hub/?page=mathematics)
+- *[Computer Science](learning-hub/?page=computer-science)*
+- *[Mathematics](learning-hub/?page=mathematics)*
 
-</div>
+
 
 ## Контакты
 
 - [Telegram](https://t.me/undefined_1010)
 - [Профиль GitHub](https://github.com/MathematicLove)
 - [Профиль Gitea](https://gitea.com/MathematicLove)
+
