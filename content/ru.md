@@ -28,11 +28,11 @@
 ## Образование
 
 - **Школа (полное среднее):** Азербайджан. Баку. Школа №53 (с уклоном математики).
-- **Высшее:** РФ. Санкт-Петербург. СПбПУ Петра Великого. Институт компьютерных наук и кибербезопасности. Направление: математика и компьютерные науки — системы искусственного интеллекта и суперкомпьютерные технологии. Высшая школа технологий искусственного интеллекта.
+- **Высшее:** РФ. Санкт-Петербург. СПбПУ Петра Великого. Институт компьютерных наук и кибербезопасности. Направление: математика и компьютерные науки - системы искусственного интеллекта и суперкомпьютерные технологии. Высшая школа технологий искусственного интеллекта.
 
 ## Опыт работы
 
-- **The Blooms Bridge** — Backend developer (20.07.2024 — now)
+- **The Blooms Bridge** - Backend developer (20.07.2024 - now)
 
 ## Статьи
 
@@ -54,14 +54,14 @@
 | | Глубокое обучение | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> |
 | | Машинное обучение | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
 | | Вычисления | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> |
-| **Квантовые вычисления** | — | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
-| **Фреймворки** | — | <img src="content/logo/django.svg" height="20" alt="Django"/> Django <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring (Core, Boot, Web, Data JPA, Security) |
+| **Квантовые вычисления** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
+| **Фреймворки** | - | <img src="content/logo/django.svg" height="20" alt="Django"/> Django <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring (Core, Boot, Web, Data JPA, Security) |
 | **Базы данных (СУБД)** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
 | | SQL | <img src="content/logo/mysql.svg" height="20" alt="MySQL"/> MySQL <img src="content/logo/postgresql.svg" height="20" alt="PostgreSQL"/> PostgreSQL |
-| **Математика** | — | <ul class="knowledge-math-list"><li>Дискретная математика</li><li>Теория Графов</li><li>Линейная алгебра</li><li>Математический анализ</li><li>Математическая статистика и теория вероятностей</li><li>Методы оптимизации</li><li>Квантовые вычисления</li></ul> |
-| **Брокеры сообщений** | — | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
-| **Контейнеризация и хостинг** | — | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
-| **CI/CD** | — | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat |
+| **Математика** | - | <ul class="knowledge-math-list"><li>Дискретная математика</li><li>Теория Графов</li><li>Линейная алгебра</li><li>Математический анализ</li><li>Математическая статистика и теория вероятностей</li><li>Методы оптимизации</li><li>Квантовые вычисления</li></ul> |
+| **Брокеры сообщений** | - | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
+| **Контейнеризация и хостинг** | - | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
+| **CI/CD** | - | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat |
 | **Документация** | Документация и отчёты | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX <img src="content/logo/markdown.svg" height="20" alt="Markdown"/> Markdown <img src="content/logo/typst.svg" height="20" alt="Typst"/> Typst |
 | | Презентации | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX (Beamer) |
 

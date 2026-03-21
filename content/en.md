@@ -28,11 +28,11 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 ## Education
 
 - **School (complete secondary):** Azerbaijan. Baku. School №53 (with mathematics focus).
-- **Higher education:** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science — Artificial Intelligence Systems and Supercomputer Technologies. Graduate School of Artificial Intelligence Technologies.
+- **Higher education:** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science - Artificial Intelligence Systems and Supercomputer Technologies. Graduate School of Artificial Intelligence Technologies.
 
 ## Experience
 
-- **The Blooms Bridge** — Backend developer (20.07.2024 — now)
+- **The Blooms Bridge** - Backend developer (20.07.2024 - now)
 
 ## Articles
 
@@ -54,14 +54,14 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 | | Deep Learning | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> |
 | | Machine Learning | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
 | | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> |
-| **Quantum Computing** | — | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
-| **Frameworks** | — | <img src="content/logo/django.svg" height="20" alt="Django"/> Django <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring (Core, Boot, Web, Data JPA, Security) |
+| **Quantum Computing** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
+| **Frameworks** | - | <img src="content/logo/django.svg" height="20" alt="Django"/> Django <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring (Core, Boot, Web, Data JPA, Security) |
 | **Databases (DBMS)** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
 | | SQL | <img src="content/logo/mysql.svg" height="20" alt="MySQL"/> MySQL <img src="content/logo/postgresql.svg" height="20" alt="PostgreSQL"/> PostgreSQL |
-| **Mathematics** | — | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Calculus</li><li>Mathematical Statistics &amp; Probability Theory</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
-| **Message Brokers** | — | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
-| **Containerization & Hosting** | — | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
-| **CI/CD** | — | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat |
+| **Mathematics** | - | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Calculus</li><li>Mathematical Statistics &amp; Probability Theory</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
+| **Message Brokers** | - | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
+| **Containerization & Hosting** | - | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
+| **CI/CD** | - | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat |
 | **Documentation** | Documentation & Reports | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX <img src="content/logo/markdown.svg" height="20" alt="Markdown"/> Markdown <img src="content/logo/typst.svg" height="20" alt="Typst"/> Typst |
 | | Presentations | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX (Beamer) |
 
