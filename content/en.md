@@ -44,7 +44,7 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 
 <h3 class="knowledge-title">Knowledge</h3>
 
-| Category | Subcategory / Name | Technologies / Libraries |
+| Category | Type | Technologies / Libraries |
 | :--- | :--- | :--- |
 | **Programming Languages** | Multi-paradigm | <img src="content/logo/cplusplus.svg" height="20" alt="C++"/> C++ <img src="content/logo/python.svg" height="20" alt="Python"/> Python |
 | | Object-Oriented (primarily)| <img src="content/logo/java.svg" height="20" alt="Java"/> Java |
@@ -56,9 +56,9 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 | | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> |
 | **Quantum Computing** | — | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
 | **Frameworks** | — | <img src="content/logo/django.svg" height="20" alt="Django"/> Django <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring (Core, Boot, Web, Data JPA, Security) |
-| **Databases** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
+| **Databases (DBMS)** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
 | | SQL | <img src="content/logo/mysql.svg" height="20" alt="MySQL"/> MySQL <img src="content/logo/postgresql.svg" height="20" alt="PostgreSQL"/> PostgreSQL |
-| **Mathematics** | — | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Mathematical Analysis</li><li>Statistics & Probability</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
+| **Mathematics** | — | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Calculus</li><li>Mathematical Statistics &amp; Probability Theory</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
 | **Message Brokers** | — | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
 | **Containerization & Hosting** | — | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
 | **CI/CD** | — | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat |
