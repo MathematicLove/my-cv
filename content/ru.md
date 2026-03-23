@@ -36,7 +36,8 @@
 
 ## Статьи
 
-- [Computer Vision for Offside Detection in Football](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
+- [Применение методов компьютерного зрения для определения положения вне игры в футболе](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
+- [Выделение зоны интересов трамвайных рельс на основе их сегментации](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
 
 
 

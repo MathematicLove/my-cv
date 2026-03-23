@@ -37,6 +37,7 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 ## Articles
 
 - [Computer Vision for Offside Detection in Football](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
+- [Identification of the RoI of tram-tracks based on their segmentation](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
 
 
 
