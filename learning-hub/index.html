@@ -21,8 +21,6 @@
     .learning-hub-nav .btn { display: inline-flex; align-items: center; gap: 0.35rem; }
     .btn--back { background: transparent; border: 1px solid currentColor; cursor: pointer; font: inherit; color: inherit; padding: 0.35em 0.6em; border-radius: 4px; }
     .btn--back:hover { opacity: 0.85; }
-
-    /* ========== Learning Hub content theme ========== */
     #markdown-root {
       margin-top: 0;
       color: var(--body-text-color);
@@ -31,7 +29,6 @@
     }
     #markdown-root p, #markdown-root li, #markdown-root td, #markdown-root th { white-space: pre-wrap; }
 
-    /* Headings */
     #markdown-root h1 { font-size: 1.75rem; font-weight: 700; margin: 0 0 0.75rem; padding-bottom: 0.4rem; color: var(--heading-color); border-bottom: 2px solid var(--border-color); letter-spacing: -0.02em; }
     #markdown-root h2 { font-size: 1.4rem; font-weight: 600; margin: 1.75rem 0 0.6rem; color: var(--heading-color); border-bottom: 1px solid var(--border-color); padding-bottom: 0.35rem; }
     #markdown-root h3 { font-size: 1.15rem; font-weight: 600; margin: 1.35rem 0 0.45rem; color: var(--heading-color); }
@@ -39,7 +36,6 @@
     #markdown-root h1:first-child { margin-top: 0; }
     #markdown-root p { margin: 0 0 0.9em; }
 
-    /* Blockquotes — цитаты */
     #markdown-root blockquote {
       margin: 1.25em 0;
       padding: 0.75em 1em 0.75em 1.15em;
@@ -54,7 +50,6 @@
     #markdown-root ul + blockquote, #markdown-root ol + blockquote { margin-top: 0.4em; }
     #markdown-root p + blockquote { margin-top: 0.6em; }
 
-    /* Lists */
     #markdown-root ul { margin: 0.2em 0; padding-left: 1.5em; list-style-type: disc; }
     #markdown-root ul ul { list-style-type: circle; margin: 0 0 0.05em 0; padding-left: 1.3em; }
     #markdown-root ul ul ul { list-style-type: square; margin: 0 0 0.05em 0; }
@@ -64,11 +59,9 @@
     #markdown-root li > p { margin: 0.08em 0; }
     #markdown-root li > p + ul, #markdown-root li > p + ol { margin-top: 0.05em; }
 
-    /* Inline emphasis */
     #markdown-root strong { font-weight: 700; color: var(--heading-color); }
     #markdown-root em { font-style: italic; }
 
-    /* Inline code */
     #markdown-root code {
       background: var(--lighter-gray);
       color: var(--text-color);
@@ -79,7 +72,6 @@
       border: 1px solid var(--border-color);
     }
 
-    /* Code blocks */
     #markdown-root pre {
       padding: 1.1rem 1.25rem;
       border-radius: 8px;
@@ -94,7 +86,6 @@
     }
     #markdown-root pre code { padding: 0; background: none; border: none; font-size: inherit; }
 
-    /* Tables */
     #markdown-root .table-wrap {
       overflow-x: auto;
       margin: 1.35em 0;
@@ -109,14 +100,11 @@
     #markdown-root tbody tr:hover { background: var(--light-gray); }
     #markdown-root tbody td { vertical-align: top; }
 
-    /* Links */
     #markdown-root a { color: var(--link-color); text-decoration: none; border-bottom: 1px solid transparent; transition: color .15s, border-color .15s; }
     #markdown-root a:hover { color: var(--link-color-hover); border-bottom-color: var(--link-color-hover); }
 
-    /* Horizontal rule */
     #markdown-root hr { margin: 1.75em 0; border: none; border-top: 2px solid var(--border-color); }
 
-    /* LaTeX (KaTeX) */
     #markdown-root .katex { font-size: 1.1em; }
     #markdown-root .katex-display { margin: 0.9em 0; overflow-x: auto; overflow-y: hidden; padding: 0.5em 0; }
   </style>
@@ -151,7 +139,6 @@
 
   var defaultPage = '';
 
-  // [[slug]] or [[slug|text]] or [[slug#anchor|text]] -> markdown link. Supports hash for section links (e.g. _remarks#3).
   function wikiLinks(md, basePath) {
     return md.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, function (_, slug, text) {
       var s = slug.trim();
@@ -172,7 +159,6 @@
     return page.replace(/[^a-z0-9_/-]/gi, '') || defaultPage;
   }
 
-  // slug: "" -> _hub.md; "computer-science" -> category index; "computer-science/java" -> _java.md; "computer-science/java/01_intro" -> 01_intro.md
   function resolvePath(slug) {
     var parts = slug.split('/').filter(Boolean);
     if (parts.length === 0) return { path: '_hub.md', basePath: '' };

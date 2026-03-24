@@ -1,6 +1,10 @@
 ## Обо мне
 
-Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 5 месяцев The Blooms Bridge, интеграция систем ИИ (RAG, Computer Vision и т.д) и back-end разработка.
+- Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 5 месяцев The Blooms Bridge, интеграция систем ИИ (RAG, Computer Vision и т.д.) и back-end разработка. Сейчас в основном позиционируюсь как Junior разработчик программного обеспечения. При этом могу выполнять часть задач в области - подбора гиперпараметров, обучение моделей, интерпретация результатов, разметка данных, компьютерное зрение.
+
+- Мои проф. интересы - компьютерное зрение, алгоритмы статистического/машинного обучения, нейронные сети, функциональное программирование, методы оптимизации, статистика, дискретная математика.
+
+- Из моих увлечений можно отметить путешествие, философию (особенно отображение когнетивного мышления, природы в область компьютерных наук), футбол, neue deutsche harte.  
 
 ## Проекты
 
@@ -37,8 +41,7 @@
 ## Статьи
 
 - [Применение методов компьютерного зрения для определения положения вне игры в футболе](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
-- [Выделение зоны интересов трамвайных рельс на основе их сегментации](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
-
+- [Построение зоны интересов трамвайных рельс на основе их сегментации](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
 
 
 <div class="knowledge-table-wrap" id="skills">
@@ -52,7 +55,7 @@
 | | Функциональный | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
 | **Data Science & ML (Python)** | Работа с данными | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
 | | Визуализация данных | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
-| | Глубокое обучение | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> |
+| | Глубокое обучение | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> (Ultralytics) |
 | | Машинное обучение | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
 | | Вычисления | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> |
 | **Квантовые вычисления** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
@@ -72,6 +75,8 @@
 
 
 
+
+<div id="learning-hub" class="section-anchor" aria-hidden="true"></div>
 
 ## Learning Hub (в процессе)
 

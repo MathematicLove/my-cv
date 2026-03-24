@@ -1,12 +1,4 @@
 #!/usr/bin/env node
-/**
- * Scans topic directories (computer-science/*, mathematics/*), reads each
- * lecture .md file's first heading (# or ##), and rewrites _topic.md with
- * automatic links. Run after adding new lecture files.
- *
- * Usage: node scripts/build-lecture-index.js
- * (from learning-hub directory: node scripts/build-lecture-index.js)
- */
 
 const fs = require('fs');
 const path = require('path');

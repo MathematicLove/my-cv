@@ -1,6 +1,10 @@
 ## About
 
-Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science, AI Systems and Supercomputer Technologies. Work experience: 1 year 5 months at The Blooms Bridge, AI systems integration (RAG, Computer Vision, etc.) and back-end development.
+- Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science, AI Systems and Supercomputer Technologies. Work experience: 1 year 5 months at The Blooms Bridge, AI systems integration (RAG, Computer Vision, etc.) and back-end development. I mainly position myself as a Junior Software Engineer. I can also take work such as - hyperparameter tuning, training models, interpreting results, data labeling, and computer vision.
+
+- My professional interests include computer vision, statistical and machine learning algorithms, neural networks, functional programming, optimization methods, statistics, and discrete mathematics.
+
+- Outside work: travel, philosophy (especially how cognitive thinking and foundational ideas connect with computer science), football, and neue deutsche harte.
 
 ## Projects
 
@@ -37,7 +41,7 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 ## Articles
 
 - [Computer Vision for Offside Detection in Football](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
-- [Identification of the RoI of tram-tracks based on their segmentation](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
+- [Construction of a zone of interest for tram rails based on their segmentation](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
 
 
 
@@ -52,7 +56,7 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 | | Functional | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
 | **Data Science & ML (Python)** | Data Manipulation | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
 | | Data Visualization | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
-| | Deep Learning | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> |
+| | Deep Learning | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> (Ultralytics) |
 | | Machine Learning | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
 | | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> |
 | **Quantum Computing** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
@@ -72,6 +76,8 @@ Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science
 
 
 
+
+<div id="learning-hub" class="section-anchor" aria-hidden="true"></div>
 
 ## Learning Hub (on progress)
 

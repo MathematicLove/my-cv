@@ -1,6 +1,3 @@
-/* Academic Pages style + system theme (light/dark) */
-
-/* Light theme — заголовки чёрные, текст под ними тёмно-серый */
 :root {
   --body-color: #fff;
   --background-color: #fff;
@@ -21,7 +18,6 @@
   --font-serif: Georgia, Times, serif;
 }
 
-/* Dark theme — заголовки белые, текст под ними светло-серый */
 @media (prefers-color-scheme: dark) {
   :root {
     --body-color: #0d1117;
@@ -71,7 +67,6 @@ a:hover {
   color: var(--link-color-hover);
 }
 
-/* ========== Masthead (sticky) ========== */
 .masthead-wrapper {
   position: sticky;
   top: 0;
@@ -134,7 +129,6 @@ html[lang="ru"] .nav-skills-en {
   display: none;
 }
 
-/* ========== Main layout ========== */
 #main {
   max-width: 1280px;
   margin: 0 auto;
@@ -150,7 +144,6 @@ html[lang="ru"] .nav-skills-en {
   }
 }
 
-/* ========== Sidebar (author profile) ========== */
 .sidebar {
   flex-shrink: 0;
   width: 100%;
@@ -358,6 +351,8 @@ html[lang="ru"] .nav-skills-en {
 
 .btn--lang {
   width: 100%;
+  font-size: 0.8125rem;
+  line-height: 1.35;
 }
 
 .btn--home {
@@ -373,7 +368,6 @@ html[lang="ru"] .nav-skills-en {
   flex-shrink: 0;
 }
 
-/* List items with logo (Education, Experience) */
 .page__content .list-item-with-logo {
   display: inline-flex;
   align-items: flex-start;
@@ -404,7 +398,6 @@ html[lang="ru"] .nav-skills-en {
   color: var(--body-text-color) !important;
 }
 
-/* ========== Page content ========== */
 .page {
   flex: 1;
   min-width: 0;
@@ -419,7 +412,6 @@ html[lang="ru"] .nav-skills-en {
   color: var(--body-text-color);
 }
 
-/* Контент из markdown — заголовки ярче, текст приглушён */
 #markdown-root h2,
 .page__content h2 {
   font-size: 1.35rem;
@@ -432,8 +424,15 @@ html[lang="ru"] .nav-skills-en {
 }
 
 .page__content #skills,
-.page__content #learning-hub {
+.page__content #learning-hub,
+.page__content .section-anchor#learning-hub {
   scroll-margin-top: 4.5rem;
+}
+
+.page__content .section-anchor {
+  min-height: 1px;
+  overflow: hidden;
+  pointer-events: none;
 }
 
 .page__content h2:first-child {
@@ -481,7 +480,6 @@ html[lang="ru"] .nav-skills-en {
   font-weight: 700;
 }
 
-/* Knowledge table */
 .page__content .knowledge-table-wrap {
   margin: 1em 0;
   overflow-x: auto;
@@ -543,7 +541,6 @@ html[lang="ru"] .nav-skills-en {
   margin: 0.2em 0;
 }
 
-/* ========== Footer ========== */
 .footer {
   margin-top: auto;
   padding: 1.5em 1em;

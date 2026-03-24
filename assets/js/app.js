@@ -1,6 +1,25 @@
 (function () {
-  const SECTION_IDS = ['about', 'tasks', 'education', 'experience', 'articles', null, 'contact'];
-  let currentLang = localStorage.getItem('lang') || 'en';
+  function normalizeLang(lang) {
+    if (!lang || typeof lang !== 'string') return 'en';
+    return lang.toLowerCase() === 'ru' ? 'ru' : 'en';
+  }
+
+  let currentLang = normalizeLang(localStorage.getItem('lang') || 'en');
+
+  const SECTION_H2_RULES = [
+    { re: /^About$/i, id: 'about' },
+    { re: /^Обо мне$/i, id: 'about' },
+    { re: /^Projects$/i, id: 'tasks' },
+    { re: /^Проекты$/i, id: 'tasks' },
+    { re: /^Education$/i, id: 'education' },
+    { re: /^Образование$/i, id: 'education' },
+    { re: /^Experience$/i, id: 'experience' },
+    { re: /^Опыт работы$/i, id: 'experience' },
+    { re: /^Articles$/i, id: 'articles' },
+    { re: /^Статьи$/i, id: 'articles' },
+    { re: /^Contacts$/i, id: 'contact' },
+    { re: /^Контакты$/i, id: 'contact' }
+  ];
 
   const meta = {
     ru: {
@@ -9,9 +28,9 @@
       siteTitle: 'Салимли Айзек',
       authorName: 'Салимли Айзек',
       authorBio: 'Студент СПбПУ, ИКНК. Математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии.',
-      resumeLabel: 'Скачать резюме',
+      resumeLabel: 'Скачать резюме (RU)',
       resumeHref: './resume/resume-rus.pdf',
-      langToggle: 'Switch to English 🇬🇧',
+      langToggle: 'English version 🇬🇧',
       footerName: 'Салимли Айзек',
       sectionNav: { about: 'Обо мне', tasks: 'Проекты', education: 'Образование', articles: 'Статьи', skills: 'Знания', 'learning-hub': 'Learning Hub', contact: 'Контакты' }
     },
@@ -21,9 +40,9 @@
       siteTitle: 'Salimli Ayzek',
       authorName: 'Salimli Ayzek',
       authorBio: 'Student at SPbPU, ICCS. Mathematics and Computer Science, AI Systems and Supercomputer Technologies.',
-      resumeLabel: 'Download resume',
+      resumeLabel: 'Download resume (ENG)',
       resumeHref: './resume/resume-eng.pdf',
-      langToggle: 'На Русском 🇷🇺',
+      langToggle: 'Версия на русском 🇷🇺',
       footerName: 'Salimli Ayzek',
       sectionNav: { about: 'About', tasks: 'Projects', education: 'Education', articles: 'Articles', skills: 'Knowledge', 'learning-hub': 'Learning Hub', contact: 'Contacts' }
     }
@@ -50,7 +69,10 @@
     const authorBioEl = document.getElementById('author-bio');
     if (authorBioEl) authorBioEl.textContent = m.authorBio;
     const resumeEl = document.getElementById('resume-pdf');
-    if (resumeEl) resumeEl.href = m.resumeHref;
+    if (resumeEl) {
+      resumeEl.href = m.resumeHref;
+      resumeEl.setAttribute('aria-label', m.resumeLabel);
+    }
     const resumeLabel = document.getElementById('resume-label');
     if (resumeLabel) resumeLabel.textContent = m.resumeLabel;
     const langBtn = document.getElementById('lang-toggle');
@@ -67,10 +89,30 @@
   }
 
   function assignSectionIds(root) {
-    const h2s = root.querySelectorAll('h2');
-    h2s.forEach((h2, i) => {
-      if (SECTION_IDS[i]) h2.id = SECTION_IDS[i];
+    root.querySelectorAll('h2').forEach(function (h2) {
+      var text = h2.textContent.trim();
+      for (var i = 0; i < SECTION_H2_RULES.length; i++) {
+        if (SECTION_H2_RULES[i].re.test(text)) {
+          h2.id = SECTION_H2_RULES[i].id;
+          return;
+        }
+      }
     });
+  }
+
+  function ensureLearningHubAnchor(root) {
+    if (document.getElementById('learning-hub')) return;
+    var h2s = root.querySelectorAll('h2');
+    for (var i = 0; i < h2s.length; i++) {
+      if (/^Learning Hub/i.test(h2s[i].textContent.trim())) {
+        var a = document.createElement('div');
+        a.id = 'learning-hub';
+        a.className = 'section-anchor';
+        a.setAttribute('aria-hidden', 'true');
+        h2s[i].parentNode.insertBefore(a, h2s[i]);
+        return;
+      }
+    }
   }
 
   function renderMarkdown(html) {
@@ -78,6 +120,7 @@
     if (!root) return;
     root.innerHTML = html;
     assignSectionIds(root);
+    ensureLearningHubAnchor(root);
   }
 
   function loadContent() {
@@ -97,15 +140,16 @@
       })
       .catch(err => {
         const root = document.getElementById('markdown-root');
-        if (root) root.innerHTML = '<p>Не удалось загрузить контент.</p>';
+        if (root) root.innerHTML = '<p>Не удалось загрузить :(</p>';
         console.error(err);
       });
   }
 
   function setLanguage(lang) {
-    if (lang === currentLang) return;
-    currentLang = lang;
-    localStorage.setItem('lang', lang);
+    var next = normalizeLang(lang);
+    if (next === currentLang) return;
+    currentLang = next;
+    localStorage.setItem('lang', currentLang);
     applyMeta();
     updateUI();
     loadContent();
@@ -144,10 +188,27 @@
       });
     }
 
+    var aboutNav = document.getElementById('nav-link-about');
+    if (aboutNav) {
+      aboutNav.addEventListener(
+        'click',
+        function (e) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          if (window.history && window.history.replaceState) {
+            window.history.replaceState(null, '', window.location.pathname + (window.location.search || ''));
+          }
+        },
+        true
+      );
+    }
+
     document.querySelectorAll('.section-nav__link').forEach(function (link) {
+      if (link.id === 'nav-link-about') return;
       link.addEventListener('click', function (e) {
         var href = link.getAttribute('href');
-        if (href && href.indexOf('#') === 0) {
+        if (href && href.indexOf('#') === 0 && href.length > 1) {
           var id = href.slice(1);
           var target = document.getElementById(id);
           if (target) {
