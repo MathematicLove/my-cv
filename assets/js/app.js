@@ -30,6 +30,8 @@
       authorBio: 'Студент СПбПУ, ИКНК. Математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии.',
       resumeLabel: 'Скачать резюме (RU)',
       resumeHref: './resume/resume-rus.pdf',
+      portfolioLabel: 'Скачать это портфолио',
+      portfolioHref: './cv/ru.pdf',
       langToggle: 'English version 🇬🇧',
       footerName: 'Салимли Айзек',
       sectionNav: { about: 'Обо мне', tasks: 'Проекты', education: 'Образование', articles: 'Статьи', skills: 'Знания', 'learning-hub': 'Learning Hub', contact: 'Контакты' }
@@ -42,6 +44,8 @@
       authorBio: 'Student at SPbPU, ICCS. Mathematics and Computer Science, AI Systems and Supercomputer Technologies.',
       resumeLabel: 'Download resume (ENG)',
       resumeHref: './resume/resume-eng.pdf',
+      portfolioLabel: 'Download this portfolio',
+      portfolioHref: './cv/en.pdf',
       langToggle: 'Версия на русском 🇷🇺',
       footerName: 'Salimli Ayzek',
       sectionNav: { about: 'About', tasks: 'Projects', education: 'Education', articles: 'Articles', skills: 'Knowledge', 'learning-hub': 'Learning Hub', contact: 'Contacts' }
@@ -75,6 +79,13 @@
     }
     const resumeLabel = document.getElementById('resume-label');
     if (resumeLabel) resumeLabel.textContent = m.resumeLabel;
+    const portfolioEl = document.getElementById('portfolio-pdf');
+    if (portfolioEl) {
+      portfolioEl.href = m.portfolioHref;
+      portfolioEl.setAttribute('aria-label', m.portfolioLabel);
+    }
+    const portfolioLabel = document.getElementById('portfolio-label');
+    if (portfolioLabel) portfolioLabel.textContent = m.portfolioLabel;
     const langBtn = document.getElementById('lang-toggle');
     if (langBtn) langBtn.textContent = m.langToggle;
     const footerName = document.getElementById('footer-name');
