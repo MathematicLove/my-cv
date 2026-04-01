@@ -1,6 +1,6 @@
 ## About
 
-- Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science, AI Systems and Supercomputer Technologies. Work experience: 1 year 5 months at The Blooms Bridge, AI systems integration (RAG, Computer Vision, etc.) and back-end development. I mainly position myself as a Junior Software Engineer. I can also take work such as - hyperparameter tuning, training models, interpreting results, data labeling, and computer vision.
+- Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science, AI Systems and Supercomputer Technologies. Work experience: 1 year 5 months at The Blooms Bridge, AI systems integration (RAG, Computer Vision, etc.) and back-end development. I mainly position myself as a Junior Software Engineer. I can also take ML work such as - hyperparameter tuning, training models, interpreting results, data labeling, and computer vision.
 
 - My professional interests include computer vision, statistical and machine learning algorithms, neural networks, functional programming, optimization methods, statistics, and discrete mathematics.
 
@@ -32,18 +32,16 @@
 ## Education
 
 - **School (complete secondary):** Azerbaijan. Baku. School №53 (with mathematics focus).
-- **Higher education:** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science - Artificial Intelligence Systems and Supercomputer Technologies. Graduate School of Artificial Intelligence Technologies.
+- **Higher education:** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science - AI Systems and Supercomputer Technologies. Graduate School of Artificial Intelligence Technologies.
 
 ## Experience
 
-- **The Blooms Bridge** - Backend developer (20.07.2024 - now)
+- **The Blooms Bridge** - Backend developer (20.07.2024 - present).
 
 ## Articles
 
-- [Computer Vision for Offside Detection in Football](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
 - [Construction of a zone of interest for tram rails based on their segmentation](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
-
-
+- [Computer vision for offside detection in football](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
 
 <div class="knowledge-table-wrap" id="skills">
 
@@ -72,11 +70,6 @@
 
 </div>
 
-
-
-
-
-
 <div id="learning-hub" class="section-anchor" aria-hidden="true"></div>
 
 ## Learning Hub (on progress)
@@ -84,11 +77,8 @@
 - *[Computer Science](learning-hub/?page=computer-science)*
 - *[Mathematics](learning-hub/?page=mathematics)*
 
-
-
 ## Contacts
 
 - [Telegram](https://t.me/undefined_1010)
 - [GitHub profile](https://github.com/MathematicLove)
 - [Gitea profile](https://gitea.com/MathematicLove)
-

@@ -34,7 +34,7 @@
       portfolioHref: './cv/ru.pdf',
       langToggle: 'English version 🇬🇧',
       footerName: 'Салимли Айзек',
-      sectionNav: { about: 'Обо мне', tasks: 'Проекты', education: 'Образование', articles: 'Статьи', skills: 'Знания', 'learning-hub': 'Learning Hub', contact: 'Контакты' }
+      sectionNav: { about: 'Обо мне', tasks: 'Проекты', education: 'Образование', articles: 'Статьи', experience: 'Опыт', skills: 'Знания', 'learning-hub': 'Learning Hub', contact: 'Контакты' }
     },
     en: {
       title: 'Salimli Ayzek',
@@ -48,7 +48,7 @@
       portfolioHref: './cv/en.pdf',
       langToggle: 'Версия на русском 🇷🇺',
       footerName: 'Salimli Ayzek',
-      sectionNav: { about: 'About', tasks: 'Projects', education: 'Education', articles: 'Articles', skills: 'Knowledge', 'learning-hub': 'Learning Hub', contact: 'Contacts' }
+      sectionNav: { about: 'About', tasks: 'Projects', education: 'Education', articles: 'Articles', experience: 'Experience', skills: 'Knowledge', 'learning-hub': 'Learning Hub', contact: 'Contacts' }
     }
   };
 
@@ -91,7 +91,7 @@
     const footerName = document.getElementById('footer-name');
     if (footerName) footerName.textContent = m.footerName;
     if (m.sectionNav) {
-      var navIds = ['about', 'tasks', 'education', 'articles', 'learning-hub', 'contact'];
+      var navIds = ['about', 'tasks', 'education', 'articles', 'experience', 'learning-hub', 'contact'];
       navIds.forEach(function (id) {
         var el = document.getElementById('nav-link-' + id);
         if (el && m.sectionNav[id]) el.textContent = m.sectionNav[id];
