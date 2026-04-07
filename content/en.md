@@ -64,7 +64,7 @@
 | **Mathematics** | - | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Calculus</li><li>Mathematical Statistics &amp; Probability Theory</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
 | **Message Brokers** | - | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
 | **Containerization & Hosting** | - | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
-| **CI/CD** | - | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat |
+| **CI/CD** | - | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat <img src="content/logo/icon_duo_circ.svg" height="20" alt="YC"/> YC|
 | **Documentation** | Documentation & Reports | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX <img src="content/logo/markdown.svg" height="20" alt="Markdown"/> Markdown <img src="content/logo/typst.svg" height="20" alt="Typst"/> Typst |
 | | Presentations | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX (Beamer) |
 

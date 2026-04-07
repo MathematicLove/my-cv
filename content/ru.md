@@ -31,12 +31,12 @@
 
 ## Образование
 
-- <img src="tex-files/img/SCHOOL_LOGO.jpeg" height="20" alt="Школа"/> **Школа (полное среднее):** Азербайджан. Баку. Школа №53 (с уклоном математики).
-- <img src="tex-files/img/POLY_LOGO_MD.png" height="20" alt="СПбПУ"/> **Высшее:** РФ. Санкт-Петербург. СПбПУ Петра Великого. Институт компьютерных наук и кибербезопасности. Направление: математика и компьютерные науки - системы ИИ и суперкомпьютерные технологии. Высшая школа технологий искусственного интеллекта.
+- **Школа (полное среднее):** Азербайджан. Баку. Школа №53 (с уклоном математики).
+- **Высшее:** РФ. Санкт-Петербург. СПбПУ Петра Великого. Институт компьютерных наук и кибербезопасности. Направление: математика и компьютерные науки - системы ИИ и суперкомпьютерные технологии. Высшая школа технологий искусственного интеллекта.
 
 ## Опыт работы
 
-- <img src="tex-files/img/TBB_LOGO.png" height="20" alt="TBB"/> **The Blooms Bridge** - Backend developer (20.07.2024 - настоящее время)
+- **The Blooms Bridge** - Backend developer (20.07.2024 - настоящее время)
 
 ## Статьи
 
@@ -64,7 +64,7 @@
 | **Математика** | - | <ul class="knowledge-math-list"><li>Дискретная математика</li><li>Теория Графов</li><li>Линейная алгебра</li><li>Математический анализ</li><li>Математическая статистика и теория вероятностей</li><li>Методы оптимизации</li><li>Квантовые вычисления</li></ul> |
 | **Брокеры сообщений** | - | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
 | **Контейнеризация и хостинг** | - | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
-| **CI/CD** | - | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat |
+| **CI/CD** | - | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat <img src="content/logo/icon_duo_circ.svg" height="20" alt="YC"/> YC|
 | **Документация** | Документация и отчёты | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX <img src="content/logo/markdown.svg" height="20" alt="Markdown"/> Markdown <img src="content/logo/typst.svg" height="20" alt="Typst"/> Typst |
 | | Презентации | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX (Beamer) |
 
