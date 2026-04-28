@@ -9,7 +9,7 @@ Junior Software Engineer · SPbPU ICCS (AI & supercomputer technologies).
 
 - **Portfolio:** https://mathematiclove.github.io/my-cv/
 - **ORCID:** https://orcid.org/0009-0005-9984-0740
-- **eLIBRARY:** https://www.elibrary.ru/author_profile.asp?id=1342618
+- **eLIBRARY:** https://elibrary.ru/author_items.asp?authorid=1342618&pubrole=100&show_refs=1&pubcat=risc
 ```
 
 You can shorten the lines or add more links; keep the portfolio URL unchanged for consistent SEO.

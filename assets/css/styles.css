@@ -292,9 +292,21 @@ html[lang="ru"] .nav-skills-en {
   color: #b6de49;
 }
 
+.author__icon--elibrary {
+  color: #2e7d32;
+}
+
+.author__urls a:hover .author__icon--elibrary {
+  color: var(--link-color);
+}
+
 @media (prefers-color-scheme: dark) {
   .author__icon--orcid {
     color: #a6ce39;
+  }
+
+  .author__icon--elibrary {
+    color: #66bb6a;
   }
 }
 
