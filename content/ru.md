@@ -41,7 +41,7 @@
 ## Статьи
 
 - [Построение зоны интересов трамвайных рельс на основе их сегментации](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
-- [Применение методов компьютерного зрения для определения положения вне игры в футболе](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
+- [Применение методов компьютерного зрения для определения положения вне игры в футболе](https://www.elibrary.ru/item.asp?id=80243926)
 
 <div class="knowledge-table-wrap" id="skills">
 

@@ -41,7 +41,7 @@
 ## Articles
 
 - [Construction of a zone of interest for tram rails based on their segmentation](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
-- [Computer vision for offside detection in football](articles/salimli-computer-vision-for-offside-detection-in-football.pdf)
+- [Computer vision for offside detection in football](https://www.elibrary.ru/item.asp?id=80243926)
 
 <div class="knowledge-table-wrap" id="skills">
 
