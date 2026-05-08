@@ -91,7 +91,7 @@
     const footerName = document.getElementById('footer-name');
     if (footerName) footerName.textContent = m.footerName;
     if (m.sectionNav) {
-      var navIds = ['about', 'tasks', 'education', 'articles', 'experience', 'learning-hub', 'contact'];
+      var navIds = ['about', 'tasks', 'education', 'experience', 'articles', 'learning-hub', 'contact'];
       navIds.forEach(function (id) {
         var el = document.getElementById('nav-link-' + id);
         if (el && m.sectionNav[id]) el.textContent = m.sectionNav[id];

@@ -8,6 +8,8 @@
 
 - ### [ORCID](https://orcid.org/0009-0005-9984-0740)
 
+- ### [HuggingFace](https://huggingface.co/ayzeksalimli)
+
 - ### Some news
 
   - #### [Science week: AI and Data Analysis](https://ai.spbstu.ru/news/nn2026/)

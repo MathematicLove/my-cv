@@ -13,6 +13,10 @@
 - [Quotes from Movies and Cartoons](https://github.com/MathematicLove/quotes-web-app)
 - [Data Encryption and Decryption](https://github.com/MathematicLove/encrypt-it)
 
+### ML and AI
+
+- [Qt MNIST recognizer](https://github.com/MathematicLove/qt-mnist-recognizer)
+
 ### Soft
 
 - [Free MP3 Player iOS: AyzeksSound](https://github.com/MathematicLove/ayzeks-sound)

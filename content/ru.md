@@ -13,6 +13,10 @@
 - [Цитаты из фильмов и мультфильмов](https://github.com/MathematicLove/quotes-web-app)
 - [Шифрование и дешифрование данных](https://github.com/MathematicLove/encrypt-it)
 
+### ML and AI
+
+- [Распознование рукописных цифр с Qt интерфейсом](https://github.com/MathematicLove/qt-mnist-recognizer)
+
 ### Soft
 
 - [Бесплатный MP3 плеер iOS: AyzeksSound](https://github.com/MathematicLove/ayzeks-sound)
