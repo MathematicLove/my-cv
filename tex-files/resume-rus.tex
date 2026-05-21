@@ -1,15 +1,14 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[9pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T2A]{fontenc}
-\usepackage[english, russian]{babel}
+\usepackage[english,russian]{babel}
 \usepackage{xifthen}
 \usepackage[default]{raleway}
 \usepackage{hyperref}
 \renewcommand*\familydefault{\sfdefault}
 \usepackage{xcolor}
 \usepackage{moresize}
-\usepackage[a4paper]{geometry}
-\geometry{top=1.75cm, bottom=-.6cm, left=1.5cm, right=1.5cm}
+\usepackage[a4paper,top=1.45cm,bottom=-0.40cm,left=1.25cm,right=1.25cm]{geometry}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \setlength{\headheight}{-5pt}
@@ -17,7 +16,7 @@
 \lhead{}
 \chead{\small{
   \textbf{Салимли Айзек $\cdot$
-  Java-разработчик $\cdot$
+  ML-инженер $\cdot$
   Санкт-Петербург, Россия $\cdot$
   \textcolor{sectcol}{\textbf{\href
   {mailto:thisisnauchno@gmail.com}
@@ -43,13 +42,9 @@
 \definecolor{softcol}{RGB}{225,225,225}
 
 \renewcommand{\headrulewidth}{0pt}
-
 \renewcommand{\footrulewidth}{0pt}
-
 \renewcommand{\thepage}{}
-
 \renewcommand{\thesection}{}
-
 
 \newcommand{\tzlarrow}{(0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;}
 
@@ -68,7 +63,7 @@
 }
 
 \newcommand{\cvsection}[1]{
-  \vspace{10pt}
+  \vspace{5pt}
   \colorbox{sectcol}{\mystrut \makebox[1\linewidth][l]{
     \larrow{bgcol} \hspace{-8pt} \larrow{bgcol} \hspace{-8pt}
     \larrow{bgcol}\textcolor{white}{\textbf{#1}}\hspace{4pt}
@@ -76,8 +71,8 @@
 }
 
 \newcommand{\metasection}[2]{
-  \begin{tabular*}{1\textwidth}{p{2.4cm} p{11cm}}
-    \larrow{bgcol} \normalsize{\textcolor{sectcol}{#1}}&#2\\[10pt]
+  \begin{tabular*}{1\textwidth}{p{2.15cm} p{11.45cm}}
+    \larrow{bgcol} \normalsize{\textcolor{sectcol}{#1}}&#2\\[5pt]
   \end{tabular*}
 }
 
@@ -87,12 +82,12 @@
   \end{tabular*}
   \vspace{-10pt}
   \textcolor{softcol}{\hrule}
-  \vspace{10pt}
+  \vspace{8pt}
 }
 
 \newcommand{\cvdetail}[1]{
   \begin{tabular*}{1\textwidth}{p{2.5cm} p{14.5cm}}
-    & \larrow{bgcol}  #1\\[3pt]
+    & \larrow{bgcol}  #1\\[2.5pt]
   \end{tabular*}
 }
 
@@ -125,58 +120,66 @@
 \\
 \metasection{Языки:}{Русский (носитель), Английский (B2)}
 \\
-\metasection{Навыки:}{Java (core), Spring Framework, Spring MVC, Hibernate, Spring JPA, Spring JDBC, Concurrency, Maven, Gradle}
+\metasection{Основной стек ML/DL:}{Python, PyTorch, TensorFlow, Ultralytics YOLO, FastAPI, Scikit-learn, Scikit-image, Numpy, Pandas, Matplotlib, Seaborn, LangChain, OpenAI API, Hugging Face, Computer Vision}
 \\
-\metasection{Навыки DS/ML:}{Python, Numpy, Pandas, YOLO, Scikit-learn, Scikit-image, PyTorch, Matplotlib, Seaborn}
+\metasection{DevOps, CI/CD:}{Docker, Kubernetes, Terraform, Ansible, Jenkins}
 \\
-\metasection{Прочие навыки:}{Git, PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ, Docker, k8s, REST API, MVC, TCP/IP, Алгоритмы и структуры данных, Машинное обучение, Прогнозирование, Методы оптимизации, Теория вероятностей, Мат. статистика, Квантовые вычисления, Дискретная математика, ER-диаграммы, Use cases, BPM, BPMN}
+\metasection{Базы данных и брокеры:}{PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ}
 \\
-\metasection{Другие Я.П.:}{\textcolor{magenta}{Haskell}, \textcolor{olive}{C++}, \textcolor{blue}{Python}, \textcolor{purple}{R}}
+\metasection{Математика и теория:}{Статистическое машинное обучение, Теория вероятностей, Мат. статистика, Методы оптимизации, Алгоритмы и структуры данных, Дискретная математика, Квантовые вычисления}
 \\
-\metasection{Интересы:}{Математика в компьютерных науках, Путешествие, Футбол, Музыка}
+\metasection{Другие Я.П. и фреймворки:}{\textcolor{magenta}{Haskell}, C++, R, Java, Spring Framework, Hibernate, Spring JPA, Spring JDBC, Maven, Gradle, Concurrency}
+\\
+\metasection{Интересы:}{Компьютерное зрение, Математическое моделирование в ИИ, Путешествие, Футбол, Музыка}
 
 \cvsection{О себе}
 \\
-Junior Java-разработчик с сильной математической подготовкой, завершающий обучение по программе бакалавриата "Математика и компьютерные науки" в Санкт-Петербургском политехническом университете Петра Великого (СПбПУ). Практический опыт работы с Spring Framework, Hibernate и разработкой REST API, дополненный знаниями в области машинного обучения, алгоритмов и систем баз данных. Доказанная способность решать задачи оптимизации (VRP/DVRP) и внедрять решения на основе ИИ с использованием LLM-технологий (LangChain, OpenAI API). Стремлюсь применять математическое моделирование для решения практических задач в разработке ПО и анализе данных. Ищу возможности для профессионального роста в качестве Backend/Java-разработчика и участия в инновационных проектах.
+ML-инженер с сильной математической и статистической подготовкой, завершающий бакалавриат по направлению «Математика и компьютерные науки» в СПбПУ. Имею практический опыт разработки моделей компьютерного зрения и глубокого обучения (PyTorch, TensorFlow, Ultralytics YOLO), интеграции LLM-решений (LangChain + OpenAI API), решения задач оптимизации (VRP/DVRP) и создания production-систем на FastAPI. Владею DevOps-стеком (Docker, Kubernetes, Terraform, Ansible, Jenkins). Автор научных публикаций по компьютерному зрению. Стремлюсь применять статистическое машинное обучение для решения сложных задач в области ИИ.
 
 \cvsection{Опыт работы}
 
 \cvevent{'08/24 - 01/26}{ML-инженер и Back-end разработчик}{ \href{https://thebloomsbridge.io}
       {\textcolor{red}{\textbf{TheBloomsBridge}}}}
 \noindent
-\begin{minipage}{0.1\linewidth}
+\begin{minipage}{0.08\linewidth}
   \includegraphics[width=\linewidth]{img/TBB_LOGO.png}
 \end{minipage}%
-\begin{minipage}{0.5\linewidth}
-\cvdetail{Интеграция LLM-модели, обученной на собственных данных, с использованием LangChain и OpenAI API}
-\cvdetail{Многофакторный дисперсионный анализ и прогнозирование с помощью регрессионного анализа}
-\cvdetail{Разработка полной пользовательской панели управления (dashboard)}
-\cvdetail{Решение задач маршрутизации транспорта (VRP) и динамической маршрутизации (DVRP) для водителей доставки}
-\cvdetail{Деплой приложения на Firebase}
+\hspace{-8pt}%
+\begin{minipage}{0.87\linewidth}
+\cvdetail{Интеграция и обучение LLM-модели на собственных данных с использованием LangChain и OpenAI API}
+\cvdetail{Разработка моделей компьютерного зрения и прогнозирующих моделей (регрессионный анализ, многофакторный дисперсионный анализ)}
+\cvdetail{Решение задач маршрутизации транспорта (VRP) и динамической маршрутизации (DVRP) с применением методов оптимизации}
+\cvdetail{Разработка пользовательской панели управления (dashboard) на FastAPI}
+\cvdetail{Деплой ML-приложений на Firebase и Docker}
 \end{minipage}
 
 \cvsection{Образование}
 \cvevent{}{Бакалавриат, Математика и компьютерные науки}{ \href{https://www.spbstu.ru}
       {\textcolor{red}{\textbf{СПбПУ}}}}
 \noindent
-\begin{minipage}{0.1\linewidth}
+\begin{minipage}{0.08\linewidth}
   \includegraphics[width=\linewidth]{img/POLY_LOGO.png}
 \end{minipage}%
-\begin{minipage}{0.5\linewidth}
-  \cvdetail{Тема диплома: Распознавание посторонних объектов на трамвайных путях в реальном времени.}
-  \cvdetail{Статья: Оптимизация распределения такси на основе динамической VRP.}
-  \cvdetail{Статья: Безопасность на железной дороге с использованием компьютерного зрения}
-  \cvdetail{Статья: Автоматизация определения положения "вне игры" с помощью алгоритмов компьютерного зрения}
+\hspace{-8pt}%
+\begin{minipage}{0.87\linewidth}
+  \cvdetail{Тема диплома: Алгоритм детекции посторонних объектов в области трамвайных путей на основе их сегментации}
 \end{minipage}
+
+\cvsection{Публикации (научные статьи)}
+\cvdetail{- \href{https://www.elibrary.ru/item.asp?id=80243926}{Применение методов компьютерного зрения для определения положения вне игры в футболе}}
+\cvdetail{- \href{https://elib.spbstu.ru/dl/2/i26-137.pdf/download/i26-137.pdf}{Построение зоны интереса на основе сегментации} (сборник недели науки, стр. 386)\textsuperscript{1}}
+{\hspace{2em}\small \texttt{           } \textsuperscript{1} - Признан одним из лучших докладов.}
 
 \null
 \vspace*{\fill}
+
 \hspace{-0.25\linewidth}\colorbox{bgcol}{
   \makebox[1.5\linewidth][c]{
     \mystrut \small
     \textcolor{white}{
-      \href{https://github.com/MathematicLove}
-      {\textcolor{red}{\textbf{https://github.com/MathematicLove}}}
+      \href{https://github.com/MathematicLove}{\textbf{Мой GitHub}}
+      \ \textbf{|}\ 
+      \href{https://mathematiclove.github.io/my-cv}{\textbf{Мой сайт (больше обо мне и навыках)}}
     }
   }
 }
