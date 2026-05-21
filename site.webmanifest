@@ -1,9 +1,17 @@
 {
-  "name": "Ayzek's Base",
+  "name": "Salimli Ayzek",
   "short_name": "Ayzek",
   "icons": [
-    { "src": "assets/img/favicon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+    {
+      "src": "assets/img/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
   ],
   "theme_color": "#0b0f14",
   "background_color": "#0b0f14",

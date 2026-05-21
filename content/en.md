@@ -44,8 +44,19 @@
 
 ## Articles
 
-- [Construction of a zone of interest for tram rails based on their segmentation](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
+- [Construction of the zone of interest based on segmentation (Science Week collection p. 386)<sup>1</sup>](https://elib.spbstu.ru/dl/2/i26-137.pdf/download/i26-137.pdf)
 - [Computer vision for offside detection in football](https://www.elibrary.ru/item.asp?id=80243926)
+
+<p><sup>1</sup> Recognized as one of the best articles.</p>
+
+## Certificates
+
+<div class="certificates-grid">
+  <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
+    <img src="certificates/certificate-ijevsk.jpeg" alt="Certificate - Izhevsk" class="certificate-img">
+  </a>
+  <!-- Add new certificates here (each new <a>...</a> block) -->
+</div>
 
 <div class="knowledge-table-wrap" id="skills">
 

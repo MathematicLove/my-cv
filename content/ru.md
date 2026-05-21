@@ -44,8 +44,19 @@
 
 ## Статьи
 
-- [Построение зоны интересов трамвайных рельс на основе их сегментации](articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf)
+- [Построение зоны интереса на основе сегментации (сборник недели науки стр. 386)<sup>1</sup>](https://elib.spbstu.ru/dl/2/i26-137.pdf/download/i26-137.pdf)
 - [Применение методов компьютерного зрения для определения положения вне игры в футболе](https://www.elibrary.ru/item.asp?id=80243926)
+
+<p><sup>1</sup> Признан одним из лучших докладов.</p> 
+
+## Сертификаты
+
+<div class="certificates-grid">
+  <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
+    <img src="certificates/certificate-ijevsk.jpeg" alt="Сертификат - Ижевск" class="certificate-img">
+  </a>
+  <!-- Новые сертификаты просто добавляй сюда (каждый новый блок <a>...</a>). Они автоматически будут сдвигаться вправо -->
+</div>
 
 <div class="knowledge-table-wrap" id="skills">
 
