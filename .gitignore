@@ -1,3 +1,5 @@
 .DS_Store
+.idea*
+.vscode*
 tex-files/resume-eng.tex
 tex-files/resume-rus.tex
