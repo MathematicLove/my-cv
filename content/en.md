@@ -52,6 +52,9 @@
 ## Certificates
 
 <div class="certificates-grid">
+  <a href="certificates/spbstu-science-week.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/spbstu-science-week.jpg" alt="Certificate - SPbSTU Best Article" class="certificate-img">
+  </a>
   <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
     <img src="certificates/certificate-ijevsk.jpeg" alt="Certificate - Izhevsk" class="certificate-img">
   </a>
