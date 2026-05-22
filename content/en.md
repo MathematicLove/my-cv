@@ -58,6 +58,9 @@
   <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
     <img src="certificates/certificate-ijevsk.jpeg" alt="Certificate - Izhevsk" class="certificate-img">
   </a>
+  <a href="certificates/salimli-uc.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/salimli-uc.jpg" alt="Certificate - Universal Competitions" class="certificate-img">
+  </a>
   <!-- Add new certificates here (each new <a>...</a> block) -->
 </div>
 

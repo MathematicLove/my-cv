@@ -58,6 +58,9 @@
   <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
     <img src="certificates/certificate-ijevsk.jpeg" alt="Сертификат - Ижевск" class="certificate-img">
   </a>
+    <a href="certificates/salimli-uc.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/salimli-uc.jpg" alt="Certificate - Universal Competitions" class="certificate-img">
+  </a>
   <!-- Новые сертификаты просто добавляй сюда (каждый новый блок <a>...</a>). Они автоматически будут сдвигаться вправо -->
 </div>
 
