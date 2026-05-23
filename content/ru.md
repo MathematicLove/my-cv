@@ -46,8 +46,8 @@
 
 ## Статьи
 
-- [Построение зоны интереса на основе сегментации (сборник недели науки стр. 386)<sup>1</sup>](https://elib.spbstu.ru/dl/2/i26-137.pdf/download/i26-137.pdf){: data-counter="article-tram-clicks"}
-- [Применение методов компьютерного зрения для определения положения вне игры в футболе](https://www.elibrary.ru/item.asp?id=80243926){: data-counter="article-offside-clicks"}
+- [Построение зоны интереса на основе сегментации (сборник недели науки стр. 386)<sup>1</sup>](https://elib.spbstu.ru/dl/2/i26-137.pdf/download/i26-137.pdf)
+- [Применение методов компьютерного зрения для определения положения вне игры в футболе](https://www.elibrary.ru/item.asp?id=80243926)
 
 <strong><p><sup>1</sup> - Признан одним из лучших докладов.</strong></p>
 
