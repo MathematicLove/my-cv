@@ -252,25 +252,31 @@
       });
     });
 
-    // ==================== СТАТИСТИКА (исправлено) ====================
     const NAMESPACE = 'mathematiclove-cv';
 
     function incrementCounter(key) {
-      fetch(`https://countapi.mileshilliard.com/api/v1/hit/${NAMESPACE}/${key}`, { mode: 'no-cors' })
-        .catch(() => { });
+      console.log('🔥 СЧЁТЧИК ВЫЗВАН:', key);
+      const url = `https://countapi.mileshilliard.com/api/v1/hit/${key}`;
+
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon(url);
+      } else {
+        fetch(url, { mode: 'no-cors' }).catch(() => { });
+      }
     }
 
     if (window.location.pathname === '/' ||
       window.location.pathname === '/index.html' ||
       window.location.pathname.endsWith('/my-cv/')) {
-      incrementCounter('site-views');
+      incrementCounter('mathematiclove-cv-site-views');
     }
 
     document.addEventListener('click', function (e) {
       const link = e.target.closest('a[data-counter]');
       if (link) {
         const key = link.getAttribute('data-counter');
-        if (key) incrementCounter(key);
+        console.log('Клик по ссылке:', key);
+        if (key) incrementCounter('mathematiclove-cv-' + key);
       }
     });
   }

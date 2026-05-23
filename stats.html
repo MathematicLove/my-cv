@@ -60,11 +60,14 @@
     <script>
         async function getCount(key) {
             try {
+                console.log('📡 Запрос к API:', key);
                 const res = await fetch(`https://countapi.mileshilliard.com/api/v1/get/${key}`);
                 const data = await res.json();
+                console.log('✅ Ответ API для', key, ':', data.value);
                 return data.value || 0;
             } catch (e) {
-                return '-';
+                console.error('❌ Ошибка 404 для', key);
+                return 0;                    // ← вот это главное изменение
             }
         }
 
