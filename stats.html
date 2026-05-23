@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статистика</title>
+    <link rel="stylesheet" href="assets/css/styles.css?v=3">
+    <style>
+        .stats-container {
+            max-width: 800px;
+            margin: 3em auto;
+            padding: 2em 1em;
+        }
+
+        .stat-card {
+            background: var(--body-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 1.25em 1.5em;
+            margin-bottom: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: var(--heading-color);
+        }
+
+        .stat-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--link-color);
+        }
+
+        .refresh-btn {
+            margin-top: 2em;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+
+        .stats-title {
+            text-align: center;
+            margin-bottom: 2em;
+            font-size: 1.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stats-container">
+        <h1 class="stats-title">Статистика сайта</h1>
+        <div id="stats"></div>
+        <button onclick="loadStats()" class="btn btn--resume refresh-btn">Обновить данные</button>
+    </div>
+
+    <script>
+        async function getCount(key) {
+            try {
+                const res = await fetch(`https://countapi.mileshilliard.com/api/v1/get/${key}`);
+                const data = await res.json();
+                return data.value || 0;
+            } catch (e) {
+                return '-';
+            }
+        }
+
+        async function loadStats() {
+            const container = document.getElementById('stats');
+            container.innerHTML = '<p style="text-align:center">Загрузка...</p>';
+
+            const stats = {
+                'mathematiclove-cv-site-views': 'Просмотры главной страницы',
+                'mathematiclove-cv-github-clicks': 'Клик по GitHub',
+                'mathematiclove-cv-orcid-clicks': 'Клик по ORCID',
+                'mathematiclove-cv-elibrary-clicks': 'Клик по eLibrary',
+                'mathematiclove-cv-huggingface-clicks': 'Клик по Hugging Face',
+                'mathematiclove-cv-article-tram-clicks': 'Статья «Зона интереса трамвайных рельс»',
+                'mathematiclove-cv-article-offside-clicks': 'Статья «Положение вне игры в футболе»'
+            };
+
+            let html = '';
+            for (const [key, label] of Object.entries(stats)) {
+                const value = await getCount(key);
+                html += `<div class="stat-card"><div class="stat-label">${label}</div><div class="stat-value">${value}</div></div>`;
+            }
+            container.innerHTML = html;
+        }
+
+        window.onload = loadStats;
+    </script>
+</body>
+
+</html>

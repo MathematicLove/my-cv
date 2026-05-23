@@ -36,7 +36,17 @@
       portfolioHref: './cv/ru.pdf',
       langToggle: 'English version 🇬🇧',
       footerName: 'Салимли Айзек',
-      sectionNav: { about: 'Обо мне', tasks: 'Проекты', education: 'Образование', articles: 'Статьи', certificates: 'Сертификаты', experience: 'Опыт', skills: 'Знания', 'learning-hub': 'Learning Hub', contact: 'Контакты' }
+      sectionNav: {
+        about: 'Обо мне',
+        tasks: 'Проекты',
+        education: 'Образование',
+        articles: 'Статьи',
+        certificates: 'Сертификаты',
+        experience: 'Опыт',
+        skills: 'Знания',
+        'learning-hub': 'Learning Hub',
+        contact: 'Контакты'
+      }
     },
     en: {
       title: 'Salimli Ayzek',
@@ -50,7 +60,17 @@
       portfolioHref: './cv/en.pdf',
       langToggle: 'Версия на русском 🇷🇺',
       footerName: 'Salimli Ayzek',
-      sectionNav: { about: 'About', tasks: 'Projects', education: 'Education', articles: 'Articles', certificates: 'Certificates', experience: 'Experience', skills: 'Knowledge', 'learning-hub': 'Learning Hub', contact: 'Contacts' }
+      sectionNav: {
+        about: 'About',
+        tasks: 'Projects',
+        education: 'Education',
+        articles: 'Articles',
+        certificates: 'Certificates',
+        experience: 'Experience',
+        skills: 'Knowledge',
+        'learning-hub': 'Learning Hub',
+        contact: 'Contacts'
+      }
     }
   };
 
@@ -230,6 +250,28 @@
           }
         }
       });
+    });
+
+    // ==================== СТАТИСТИКА (исправлено) ====================
+    const NAMESPACE = 'mathematiclove-cv';
+
+    function incrementCounter(key) {
+      fetch(`https://countapi.mileshilliard.com/api/v1/hit/${NAMESPACE}/${key}`, { mode: 'no-cors' })
+        .catch(() => { });
+    }
+
+    if (window.location.pathname === '/' ||
+      window.location.pathname === '/index.html' ||
+      window.location.pathname.endsWith('/my-cv/')) {
+      incrementCounter('site-views');
+    }
+
+    document.addEventListener('click', function (e) {
+      const link = e.target.closest('a[data-counter]');
+      if (link) {
+        const key = link.getAttribute('data-counter');
+        if (key) incrementCounter(key);
+      }
     });
   }
 
