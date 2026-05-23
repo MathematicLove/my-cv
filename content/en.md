@@ -77,9 +77,9 @@
 | | Data Visualization | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
 | | Deep Learning | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> (Ultralytics) |
 | | Machine Learning | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
-| | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> |
+| | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/scipy.svg" height="20" alt="SciPy"/> <img src="content/logo/statsmodels.svg" height="20" alt="StatsModels"/>|
 | **Quantum Computing** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
-| **Frameworks** | - | <img src="content/logo/django.svg" height="20" alt="Django"/> Django <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring (Core, Boot, Web, Data JPA, Security) |
+| **Frameworks** | - | <img src="content/logo/fastapi.svg" height="20" alt="FastAPI"/> FastAPI <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring (Core, Boot, Web, Data JPA, Security) |
 | **Databases (DBMS)** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
 | | SQL | <img src="content/logo/mysql.svg" height="20" alt="MySQL"/> MySQL <img src="content/logo/postgresql.svg" height="20" alt="PostgreSQL"/> PostgreSQL |
 | **Mathematics** | - | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Calculus</li><li>Mathematical Statistics &amp; Probability Theory</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
