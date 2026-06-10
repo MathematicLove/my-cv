@@ -255,7 +255,7 @@
     const NAMESPACE = 'mathematiclove-cv';
 
     function incrementCounter(key) {
-      console.log('🔥 СЧЁТЧИК ВЫЗВАН:', key);
+      console.log('count++:', key);
       const url = `https://countapi.mileshilliard.com/api/v1/hit/${key}`;
 
       if (navigator.sendBeacon) {
