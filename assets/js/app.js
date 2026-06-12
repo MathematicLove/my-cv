@@ -17,8 +17,8 @@
     { re: /^Опыт работы$/i, id: 'experience' },
     { re: /^Articles$/i, id: 'articles' },
     { re: /^Статьи$/i, id: 'articles' },
-    { re: /^Сертификаты$/i, id: 'certificates' },
-    { re: /^Certificates$/i, id: 'certificates' },
+    { re: /^Дипломы и Сертификаты$/i, id: 'certificates' },
+    { re: /^Diplomas and Certificates$/i, id: 'certificates' },
     { re: /^Contacts$/i, id: 'contact' },
     { re: /^Контакты$/i, id: 'contact' }
   ];
@@ -41,7 +41,7 @@
         tasks: 'Проекты',
         education: 'Образование',
         articles: 'Статьи',
-        certificates: 'Сертификаты',
+        certificates: 'Дипломы и Сертификаты',
         experience: 'Опыт',
         skills: 'Знания',
         'learning-hub': 'Learning Hub',
@@ -65,7 +65,7 @@
         tasks: 'Projects',
         education: 'Education',
         articles: 'Articles',
-        certificates: 'Certificates',
+        certificates: 'Diplomas and Certificates',
         experience: 'Experience',
         skills: 'Knowledge',
         'learning-hub': 'Learning Hub',

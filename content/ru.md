@@ -49,16 +49,19 @@
 
 <strong><p><sup>1</sup> - Признан одним из лучших докладов.</strong></p>
 
-## Сертификаты
+## Дипломы и Сертификаты
 
 <div class="certificates-grid">
   <a href="certificates/spbstu-science-week.jpg" target="_blank" class="certificate-link">
     <img src="certificates/spbstu-science-week.jpg" alt="Certificate - SPbSTU Best Article" class="certificate-img">
   </a>
+  <a href="certificates/salimli-diploma-cp-original.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/salimli-diploma-cp.jpg?v=7" alt="Диплом - соревнования по программированию" class="certificate-img">
+  </a>
   <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
     <img src="certificates/certificate-ijevsk.jpeg" alt="Сертификат - Ижевск" class="certificate-img">
   </a>
-    <a href="certificates/salimli-uc.jpg" target="_blank" class="certificate-link">
+  <a href="certificates/salimli-uc.jpg" target="_blank" class="certificate-link">
     <img src="certificates/salimli-uc.jpg" alt="Certificate - Universal Competitions" class="certificate-img">
   </a>
   <!-- Новые сертификаты просто добавляй сюда (каждый новый блок <a>...</a>). Они автоматически будут сдвигаться вправо -->

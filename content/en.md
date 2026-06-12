@@ -49,11 +49,14 @@
 
 <strong><p><sup>1</sup> - Recognized as one of the best articles.</strong></p>
 
-## Certificates
+## Diplomas and Certificates
 
 <div class="certificates-grid">
   <a href="certificates/spbstu-science-week.jpg" target="_blank" class="certificate-link">
     <img src="certificates/spbstu-science-week.jpg" alt="Certificate - SPbSTU Best Article" class="certificate-img">
+  </a>
+  <a href="certificates/salimli-diploma-cp-original.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/salimli-diploma-cp.jpg?v=7" alt="Certificate - Competitive Programming Diploma" class="certificate-img">
   </a>
   <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
     <img src="certificates/certificate-ijevsk.jpeg" alt="Certificate - Izhevsk" class="certificate-img">
