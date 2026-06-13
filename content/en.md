@@ -44,7 +44,7 @@
 
 ## Articles
 
-- [Construction of the Region of Interest based on segmentation (Science Week collection p. 386)<sup>**1**</sup>](https://elib.spbstu.ru/dl/2/i26-137.pdf/download/i26-137.pdf)
+- [Construction of the Region of Interest based on segmentation<sup>1</sup>](https://www.elibrary.ru/qfcwed)
 - [Computer vision for offside detection in football](https://www.elibrary.ru/item.asp?id=80243926)
 
 <strong><p><sup>1</sup> - Recognized as one of the best articles.</strong></p>
