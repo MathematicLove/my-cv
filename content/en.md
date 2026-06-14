@@ -76,10 +76,12 @@
 <li><a href="https://github.com/MathematicLove/spbstu-iccs-mcs">Educational Projects</a></li>
 </ul>
 </div>
+
 ## Education
 
 - **School (complete secondary):** Azerbaijan. Baku. School №53 (with mathematics focus).
-- **Higher education:** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science - AI Systems and Supercomputer Technologies. Graduate School of Artificial Intelligence Technologies.
+- **Bachelor:** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science - AI Systems and Supercomputer Technologies. Graduate School of Artificial Intelligence Technologies.
+- **Master's degree (preliminary enrollment):** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science - Machine Learning and Artificial Intelligence. Graduate School of Artificial Intelligence Technologies.
 
 ## Experience
 

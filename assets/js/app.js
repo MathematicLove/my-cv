@@ -46,7 +46,8 @@
         skills: 'Знания',
         'learning-hub': 'Learning Hub',
         contact: 'Контакты'
-      }
+      },
+      navToggleLabel: 'Меню'
     },
     en: {
       title: 'Salimli Ayzek',
@@ -70,7 +71,8 @@
         skills: 'Knowledge',
         'learning-hub': 'Learning Hub',
         contact: 'Contacts'
-      }
+      },
+      navToggleLabel: 'Menu'
     }
   };
 
@@ -119,6 +121,21 @@
         if (el && m.sectionNav[id]) el.textContent = m.sectionNav[id];
       });
     }
+    var navToggle = document.getElementById('nav-toggle');
+    if (navToggle && m.navToggleLabel) {
+      navToggle.setAttribute('aria-label', m.navToggleLabel);
+    }
+  }
+
+  function isTouchDevice() {
+    return window.matchMedia('(hover: none), (pointer: coarse)').matches;
+  }
+
+  function closeMobileNav() {
+    var sectionNav = document.getElementById('section-nav');
+    var navToggle = document.getElementById('nav-toggle');
+    if (sectionNav) sectionNav.classList.remove('is-open');
+    if (navToggle) navToggle.setAttribute('aria-expanded', 'false');
   }
 
   function assignSectionIds(root) {
@@ -158,6 +175,8 @@
   }
 
   function initProjectShotPreviews() {
+    if (isTouchDevice()) return;
+
     var preview = document.getElementById('project-shot-preview');
     if (!preview) {
       preview = document.createElement('div');
@@ -283,6 +302,18 @@
       });
     }
 
+    var navToggle = document.getElementById('nav-toggle');
+    var sectionNav = document.getElementById('section-nav');
+    if (navToggle && sectionNav) {
+      navToggle.addEventListener('click', function () {
+        var open = sectionNav.classList.toggle('is-open');
+        navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      window.matchMedia('(min-width: 925px)').addEventListener('change', function (e) {
+        if (e.matches) closeMobileNav();
+      });
+    }
+
     var aboutNav = document.getElementById('nav-link-about');
     if (aboutNav) {
       aboutNav.addEventListener(
@@ -290,6 +321,7 @@
         function (e) {
           e.preventDefault();
           e.stopImmediatePropagation();
+          closeMobileNav();
           window.scrollTo({ top: 0, behavior: 'smooth' });
           if (window.history && window.history.replaceState) {
             window.history.replaceState(null, '', window.location.pathname + (window.location.search || ''));
@@ -302,6 +334,7 @@
     document.querySelectorAll('.section-nav__link').forEach(function (link) {
       if (link.id === 'nav-link-about') return;
       link.addEventListener('click', function (e) {
+        closeMobileNav();
         var href = link.getAttribute('href');
         if (href && href.indexOf('#') === 0 && href.length > 1) {
           var id = href.slice(1);

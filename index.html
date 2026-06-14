@@ -3,7 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="canonical" href="https://mathematiclove.github.io/my-cv/">
   <meta name="author" content="Салимли Айзек Мухтар оглы">
 
@@ -34,7 +37,8 @@
   <meta name="twitter:image" content="https://mathematiclove.github.io/my-cv/tex-files/img/ME.jpeg">
 
   <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
-  <link rel="stylesheet" href="assets/css/styles.css?v=15">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/styles.css?v=16">
 
   <script type="application/ld+json">
   {
@@ -127,7 +131,13 @@
     <header class="masthead">
       <div class="masthead-inner">
         <a class="site-title" href="./" id="site-title">Salimli Ayzek</a>
-        <nav class="section-nav" aria-label="Sections">
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false"
+          aria-controls="section-nav" aria-label="Menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+        <nav class="section-nav" id="section-nav" aria-label="Sections">
           <a href="#" class="section-nav__link" id="nav-link-about">About</a>
           <a href="#tasks" class="section-nav__link" id="nav-link-tasks">Projects</a>
           <a href="#education" class="section-nav__link" id="nav-link-education">Education</a>
@@ -223,7 +233,7 @@
     </div>
   </footer>
 
-  <script src="assets/js/app.js?v=11" defer></script>
+  <script src="assets/js/app.js?v=12" defer></script>
 </body>
 
 </html>
