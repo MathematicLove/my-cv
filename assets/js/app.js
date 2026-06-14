@@ -154,6 +154,68 @@
     root.innerHTML = html;
     assignSectionIds(root);
     ensureLearningHubAnchor(root);
+    initProjectShotPreviews();
+  }
+
+  function initProjectShotPreviews() {
+    var preview = document.getElementById('project-shot-preview');
+    if (!preview) {
+      preview = document.createElement('div');
+      preview.id = 'project-shot-preview';
+      preview.className = 'project-shot-preview';
+      preview.innerHTML = '<img alt="">';
+      document.body.appendChild(preview);
+    }
+
+    var previewImg = preview.querySelector('img');
+    var activeLink = null;
+
+    function hidePreview() {
+      preview.classList.remove('is-visible');
+      activeLink = null;
+    }
+
+    function positionPreview(e) {
+      var pad = 14;
+      preview.classList.add('is-visible');
+      var w = preview.offsetWidth;
+      var h = preview.offsetHeight;
+      var x = e.clientX + pad;
+      var y = e.clientY + pad;
+      if (x + w > window.innerWidth - pad) x = e.clientX - w - pad;
+      if (y + h > window.innerHeight - pad) y = e.clientY - h - pad;
+      preview.style.left = Math.max(pad, x) + 'px';
+      preview.style.top = Math.max(pad, y) + 'px';
+    }
+
+    document.querySelectorAll('.project-panel__shot').forEach(function (link) {
+      var img = link.querySelector('img');
+      if (!img) return;
+
+      link.addEventListener('mouseenter', function (e) {
+        activeLink = link;
+        previewImg.src = img.currentSrc || img.src;
+        previewImg.alt = img.alt || '';
+        var show = function (ev) {
+          if (activeLink === link) positionPreview(ev || e);
+        };
+        if (previewImg.complete) {
+          show(e);
+        } else {
+          previewImg.onload = function () {
+            show(e);
+          };
+        }
+      });
+
+      link.addEventListener('mousemove', function (e) {
+        if (activeLink === link && preview.classList.contains('is-visible')) {
+          positionPreview(e);
+        }
+      });
+
+      link.addEventListener('mouseleave', hidePreview);
+    });
   }
 
   function loadContent() {

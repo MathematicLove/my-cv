@@ -10,30 +10,72 @@
 
 ### Web
 
-- [Quotes from Movies and Cartoons](https://github.com/MathematicLove/quotes-web-app)
-- [Data Encryption and Decryption](https://github.com/MathematicLove/encrypt-it)
+<div class="projects-category">
+<div class="projects-mosaic">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it">Data Encryption and Decryption</a></h4>
+<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data Encryption and Decryption — home page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Data Encryption and Decryption — home page"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data Encryption and Decryption — encrypt page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Data Encryption and Decryption — encrypt page"></a></div>
+</article>
+</div>
+<ul class="projects-links">
+<li><a href="https://github.com/MathematicLove/quotes-web-app">Quotes from Movies and Cartoons</a></li>
+</ul>
+</div>
 
 ### ML and AI
 
-- [Object Detection on Dynamic RoI based on Segmentation with Tracking (weights available)](https://github.com/MathematicLove/tram-dynamic-roi-tracker)
-- [Qt MNIST recognizer](https://github.com/MathematicLove/qt-mnist-recognizer)
+<div class="projects-category">
+<div class="projects-mosaic">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker">Object Detection on Dynamic RoI based on Segmentation with Tracking (weights available)</a></h4>
+<div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI — night example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_NIGHT.png" alt="Object Detection on Dynamic RoI — night example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI — tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.png" alt="Object Detection on Dynamic RoI — tracking example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI — tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.jpg" alt="Object Detection on Dynamic RoI — tracking example"></a></div>
+</article>
+<article class="project-panel project-panel--plain">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer">Qt MNIST recognizer</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Qt MNIST recognizer — example"><img src="content/projects/QT_MNIST/EXAMPLE.png" alt="Qt MNIST recognizer — example"></a></div>
+</article>
+</div>
+</div>
 
 ### Soft
 
-- [Free MP3 Player iOS: AyzeksSound](https://github.com/MathematicLove/ayzeks-sound)
-- [Game of Life on CA](https://github.com/MathematicLove/live-the-game)
-- [TG-Bot Price Tracker: PriceCheckerBot](https://github.com/MathematicLove/price-checker-bot)
-- [TG-Bot Trip Planner: SpringTripPlannerBot](https://github.com/MathematicLove/trip-planner-bot-spring)
-- [HTTP Server on Java](https://github.com/MathematicLove/http-server)
-- [Card Management Service](https://github.com/MathematicLove/card-management-service)
+<div class="projects-category">
+<div class="projects-mosaic">
+<article class="project-panel project-panel--plain">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game">Game of Life on CA</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain"><a href="https://github.com/MathematicLove/live-the-game" class="project-panel__shot" aria-label="Game of Life on CA — more iterations"><img src="content/projects/GAME_OF_LIFE_ON_CA/MORE_ITERATIONS.png" alt="Game of Life on CA — more iterations"></a></div>
+</article>
+</div>
+<ul class="projects-links">
+<li><a href="https://github.com/MathematicLove/ayzeks-sound">Free MP3 Player iOS: AyzeksSound</a></li>
+<li><a href="https://github.com/MathematicLove/price-checker-bot">TG-Bot Price Tracker: PriceCheckerBot</a></li>
+<li><a href="https://github.com/MathematicLove/trip-planner-bot-spring">TG-Bot Trip Planner: SpringTripPlannerBot</a></li>
+<li><a href="https://github.com/MathematicLove/http-server">HTTP Server on Java</a></li>
+<li><a href="https://github.com/MathematicLove/card-management-service">Card Management Service</a></li>
+</ul>
+</div>
 
 ### Math
 
-- [MathLang Presentations](https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations)
-- [Educational Projects](https://github.com/MathematicLove/spbstu-iccs-mcs)
-- [Forecasting and Comparison of Demographic Indicators of Russia and Japan](https://github.com/MathematicLove/demographic-regression-ru-jp)
-- [Regression analysis of the consequences of the reduction in gas export](https://github.com/MathematicLove/regression-gas-export-impact)
-
+<div class="projects-category">
+<div class="projects-mosaic projects-mosaic--math">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations">MathLang Presentations</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="MathLang Presentations"><img src="content/projects/MATHLANG_PRESENTATIONS/MATHLANG_PRESENTATIONS.png" alt="MathLang Presentations"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp">Forecasting and Comparison of Demographic Indicators of Russia and Japan</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" class="project-panel__shot" aria-label="Forecasting and Comparison of Demographic Indicators of Russia and Japan"><img src="content/projects/FORECASTING_AND_COMPARSION_OF_DEMOGRAPHIC/RUSSIA_JAPAN.png" alt="Forecasting and Comparison of Demographic Indicators of Russia and Japan"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/regression-gas-export-impact">Regression analysis of the consequences of the reduction in gas export</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Regression analysis of gas export reduction — chi-square hypotheses"><img src="content/projects/REGRESSION_ANALYSIS/hypotheses_chi2_bars.png" alt="Regression analysis of gas export reduction — chi-square hypotheses"></a></div>
+</article>
+</div>
+<ul class="projects-links">
+<li><a href="https://github.com/MathematicLove/spbstu-iccs-mcs">Educational Projects</a></li>
+</ul>
+</div>
 ## Education
 
 - **School (complete secondary):** Azerbaijan. Baku. School №53 (with mathematics focus).

@@ -10,30 +10,72 @@
 
 ### Web
 
-- [Цитаты из фильмов и мультфильмов](https://github.com/MathematicLove/quotes-web-app)
-- [Шифрование и дешифрование данных](https://github.com/MathematicLove/encrypt-it)
+<div class="projects-category">
+<div class="projects-mosaic">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it">Шифрование и дешифрование данных</a></h4>
+<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных — главная страница"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Шифрование и дешифрование данных — главная страница"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных — страница шифрования"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Шифрование и дешифрование данных — страница шифрования"></a></div>
+</article>
+</div>
+<ul class="projects-links">
+<li><a href="https://github.com/MathematicLove/quotes-web-app">Цитаты из фильмов и мультфильмов</a></li>
+</ul>
+</div>
 
 ### ML and AI
 
-- [Детекция объектов на динамическом RoI на основе сегментации с трекингом (веса доступны)](https://github.com/MathematicLove/tram-dynamic-roi-tracker)
-- [Распознование рукописных цифр с Qt интерфейсом](https://github.com/MathematicLove/qt-mnist-recognizer)
+<div class="projects-category">
+<div class="projects-mosaic">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker">Детекция объектов на динамическом RoI на основе сегментации с трекингом (веса доступны)</a></h4>
+<div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI — ночной пример"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_NIGHT.png" alt="Детекция объектов на динамическом RoI — ночной пример"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI — пример трекинга"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.png" alt="Детекция объектов на динамическом RoI — пример трекинга"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI — пример трекинга"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.jpg" alt="Детекция объектов на динамическом RoI — пример трекинга"></a></div>
+</article>
+<article class="project-panel project-panel--plain">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer">Распознование рукописных цифр с Qt интерфейсом</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Распознавание рукописных цифр с Qt интерфейсом — пример"><img src="content/projects/QT_MNIST/EXAMPLE.png" alt="Распознавание рукописных цифр с Qt интерфейсом — пример"></a></div>
+</article>
+</div>
+</div>
 
 ### Soft
 
-- [Бесплатный MP3 плеер iOS: AyzeksSound](https://github.com/MathematicLove/ayzeks-sound)
-- [Игра в жизнь на КА](https://github.com/MathematicLove/live-the-game)
-- [ТГ-Бот отслеживания цен: PriceCheckerBot](https://github.com/MathematicLove/price-checker-bot)
-- [ТГ-Бот планирования путешествий: SpringTripPlannerBot](https://github.com/MathematicLove/trip-planner-bot-spring)
-- [HTTP сервер на Java](https://github.com/MathematicLove/http-server)
-- [Сервис банковских карт](https://github.com/MathematicLove/card-management-service)
+<div class="projects-category">
+<div class="projects-mosaic">
+<article class="project-panel project-panel--plain">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game">Игра в жизнь на КА</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain"><a href="https://github.com/MathematicLove/live-the-game" class="project-panel__shot" aria-label="Игра в жизнь на КА — больше итераций"><img src="content/projects/GAME_OF_LIFE_ON_CA/MORE_ITERATIONS.png" alt="Игра в жизнь на КА — больше итераций"></a></div>
+</article>
+</div>
+<ul class="projects-links">
+<li><a href="https://github.com/MathematicLove/ayzeks-sound">Бесплатный MP3 плеер iOS: AyzeksSound</a></li>
+<li><a href="https://github.com/MathematicLove/price-checker-bot">ТГ-Бот отслеживания цен: PriceCheckerBot</a></li>
+<li><a href="https://github.com/MathematicLove/trip-planner-bot-spring">ТГ-Бот планирования путешествий: SpringTripPlannerBot</a></li>
+<li><a href="https://github.com/MathematicLove/http-server">HTTP сервер на Java</a></li>
+<li><a href="https://github.com/MathematicLove/card-management-service">Сервис банковских карт</a></li>
+</ul>
+</div>
 
 ### Math
 
-- [Презентации MathLang](https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations)
-- [Учебные проекты](https://github.com/MathematicLove/spbstu-iccs-mcs)
-- [Прогнозирование и сравнение демографических показателей России и Японии](https://github.com/MathematicLove/demographic-regression-ru-jp)
-- [Регрессионный анализ последствий сокращения экспорта газа](https://github.com/MathematicLove/regression-gas-export-impact)
-
+<div class="projects-category">
+<div class="projects-mosaic projects-mosaic--math">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations">Презентации MathLang</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="Презентации MathLang"><img src="content/projects/MATHLANG_PRESENTATIONS/MATHLANG_PRESENTATIONS.png" alt="Презентации MathLang"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp">Прогнозирование и сравнение демографических показателей России и Японии</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" class="project-panel__shot" aria-label="Прогнозирование и сравнение демографических показателей России и Японии"><img src="content/projects/FORECASTING_AND_COMPARSION_OF_DEMOGRAPHIC/RUSSIA_JAPAN.png" alt="Прогнозирование и сравнение демографических показателей России и Японии"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/regression-gas-export-impact">Регрессионный анализ последствий сокращения экспорта газа</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Регрессионный анализ последствий сокращения экспорта газа — гипотезы chi²"><img src="content/projects/REGRESSION_ANALYSIS/hypotheses_chi2_bars.png" alt="Регрессионный анализ последствий сокращения экспорта газа — гипотезы chi²"></a></div>
+</article>
+</div>
+<ul class="projects-links">
+<li><a href="https://github.com/MathematicLove/spbstu-iccs-mcs">Учебные проекты</a></li>
+</ul>
+</div>
 ## Образование
 
 - **Школа (полное среднее):** Азербайджан. Баку. Школа №53 (с уклоном математики).
