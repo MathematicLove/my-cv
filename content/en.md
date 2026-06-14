@@ -15,6 +15,7 @@
 
 ### ML and AI
 
+- [Object Detection on Dynamic RoI based on Segmentation with Tracking (weights available)](https://github.com/MathematicLove/tram-dynamic-roi-tracker)
 - [Qt MNIST recognizer](https://github.com/MathematicLove/qt-mnist-recognizer)
 
 ### Soft

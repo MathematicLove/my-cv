@@ -15,6 +15,7 @@
 
 ### ML and AI
 
+- [Детекция объектов на динамическом RoI на основе сегментации с трекингом (веса доступны)](https://github.com/MathematicLove/tram-dynamic-roi-tracker)
 - [Распознование рукописных цифр с Qt интерфейсом](https://github.com/MathematicLove/qt-mnist-recognizer)
 
 ### Soft
