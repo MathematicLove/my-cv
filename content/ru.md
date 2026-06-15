@@ -35,12 +35,12 @@
 <div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Распознавание рукописных цифр с Qt интерфейсом — пример"><img src="content/projects/QT_MNIST/EXAMPLE.png" alt="Распознавание рукописных цифр с Qt интерфейсом — пример"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist">Классификация Fashion-MNIST с TinyVGG</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/fashion-mnist" class="project-panel__shot" aria-label="Классификация Fashion-MNIST с TinyVGG"><img src="content/projects/FASHION_MNIST/FASHION_MNIST.png" alt="Классификация Fashion-MNIST с TinyVGG"></a></div>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb">Классификация Fashion-MNIST с TinyVGG</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" class="project-panel__shot" aria-label="Классификация Fashion-MNIST с TinyVGG"><img src="content/projects/FASHION_MNIST/FASHION_MNIST.png" alt="Классификация Fashion-MNIST с TinyVGG"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sarcasmic-text-classification">Классификация саркастических текстов (Transformer NN)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/sarcasmic-text-classification" class="project-panel__shot" aria-label="Классификация саркастических текстов (Transformer NN)"><img src="content/projects/SARCASM_TEXT/SARCASM_TEXT.png" alt="Классификация саркастических текстов (Transformer NN)"></a></div>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb">Классификация саркастических текстов (Transformer NN)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb" class="project-panel__shot" aria-label="Классификация саркастических текстов (Transformer NN)"><img src="content/projects/SARCASM_TEXT/SARCASM_TEXT.png" alt="Классификация саркастических текстов (Transformer NN)"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="deleted-repo.html">Классификация здоровья листьев (GoogLeNet)</a></h4>
