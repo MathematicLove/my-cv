@@ -43,16 +43,16 @@
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/sarcasmic-text-classification" class="project-panel__shot" aria-label="Sarcasmic Text Classification (Transformer NN)"><img src="content/projects/SARCASM_TEXT/SARCASM_TEXT.png" alt="Sarcasmic Text Classification (Transformer NN)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/unhealthy-leafs-classification">Leafs Health Classification (GoogLeNet)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/unhealthy-leafs-classification" class="project-panel__shot" aria-label="Leafs Health Classification (GoogLeNet)"><img src="content/projects/LEAFS_HEALTH/LEAFS_HEATH.png" alt="Leafs Health Classification (GoogLeNet)"></a></div>
+<h4 class="project-panel__title"><a href="deleted-repo.html">Leafs Health Classification (GoogLeNet)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Leafs Health Classification (GoogLeNet)"><img src="content/projects/LEAFS_HEALTH/LEAFS_HEATH.png" alt="Leafs Health Classification (GoogLeNet)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/animal-classification">Classification of Cats, Dogs and Wild Animals (CNN)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/animal-classification" class="project-panel__shot" aria-label="Classification of Cats, Dogs and Wild Animals (CNN)"><img src="content/projects/ANIMAL_CLASSIFICATION/ANIMALS.png" alt="Classification of Cats, Dogs and Wild Animals (CNN)"></a></div>
+<h4 class="project-panel__title"><a href="deleted-repo.html">Classification of Cats, Dogs and Wild Animals (CNN)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Classification of Cats, Dogs and Wild Animals (CNN)"><img src="content/projects/ANIMAL_CLASSIFICATION/ANIMALS.png" alt="Classification of Cats, Dogs and Wild Animals (CNN)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/classification-breast-cancer">Breast Cancer Classification</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/classification-breast-cancer" class="project-panel__shot" aria-label="Breast Cancer Classification"><img src="content/projects/BREAST_CANCER/BREAST_CANCER.png" alt="Breast Cancer Classification"></a></div>
+<h4 class="project-panel__title"><a href="deleted-repo.html">Breast Cancer Classification</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Breast Cancer Classification"><img src="content/projects/BREAST_CANCER/BREAST_CANCER.png" alt="Breast Cancer Classification"></a></div>
 </article>
 </div>
 </div>
