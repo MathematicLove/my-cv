@@ -34,6 +34,26 @@
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer">Распознование рукописных цифр с Qt интерфейсом</a></h4>
 <div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Распознавание рукописных цифр с Qt интерфейсом — пример"><img src="content/projects/QT_MNIST/EXAMPLE.png" alt="Распознавание рукописных цифр с Qt интерфейсом — пример"></a></div>
 </article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist">Классификация Fashion-MNIST с TinyVGG</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/fashion-mnist" class="project-panel__shot" aria-label="Классификация Fashion-MNIST с TinyVGG"><img src="content/projects/FASHION_MNIST/FASHION_MNIST.png" alt="Классификация Fashion-MNIST с TinyVGG"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sarcasmic-text-classification">Классификация саркастических текстов (Transformer NN)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/sarcasmic-text-classification" class="project-panel__shot" aria-label="Классификация саркастических текстов (Transformer NN)"><img src="content/projects/SARCASM_TEXT/SARCASM_TEXT.png" alt="Классификация саркастических текстов (Transformer NN)"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/unhealthy-leafs-classification">Классификация здоровья листьев (GoogLeNet)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/unhealthy-leafs-classification" class="project-panel__shot" aria-label="Классификация здоровья листьев (GoogLeNet)"><img src="content/projects/LEAFS_HEALTH/LEAFS_HEATH.png" alt="Классификация здоровья листьев (GoogLeNet)"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/animal-classification">Классификация кошек, собак и диких животных (CNN)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/animal-classification" class="project-panel__shot" aria-label="Классификация кошек, собак и диких животных (CNN)"><img src="content/projects/ANIMAL_CLASSIFICATION/ANIMALS.png" alt="Классификация кошек, собак и диких животных (CNN)"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/classification-breast-cancer">Классификация рака груди</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/classification-breast-cancer" class="project-panel__shot" aria-label="Классификация рака груди"><img src="content/projects/BREAST_CANCER/BREAST_CANCER.png" alt="Классификация рака груди"></a></div>
+</article>
 </div>
 </div>
 
