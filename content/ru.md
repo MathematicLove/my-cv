@@ -1,26 +1,12 @@
 ## Обо мне
 
-- Салимли Айзек, студент 4-го курса СПбПУ, ИКНК, математика и компьютерные науки, системы ИИ и суперкомпьютерные технологии. Опыт работы: 1 год 5 месяцев The Blooms Bridge, интеграция систем ИИ (RAG, Computer Vision и т.д.) и back-end разработка. Сейчас в основном позиционируюсь как Junior разработчик программного обеспечения. При этом могу выполнять часть задач в области ML - подбор гиперпараметров, обучение моделей, интерпретация результатов, разметка данных, компьютерное зрение.
+- Салимли Айзек, студент 4-го курса СПбПУ (ИКНК), направление «Математика и компьютерные науки: системы ИИ и суперкомпьютерные технологии». Имею 1 год и 5 месяцев опыта в The Blooms Bridge: интеграция ИИ-систем (RAG, computer vision и др.) и backend-разработка. В первую очередь позиционирусь как Junior ML Engineer и фокусируюсь на ML-цикле: предобработка и трансформация данных, анализ данных, отбор признаков, обучение моделей, подбор гиперпараметров, интерпретация результатов, разметка данных, обучение LLM, внедрение (LangChain + LangGraph) и задачи компьютерного зрения (YOLO, ResNet, SegFormer, YOLO-seg).
 
 - Мои проф. интересы - компьютерное зрение, алгоритмы статистического/машинного обучения, нейронные сети, функциональное программирование, методы оптимизации, статистика, дискретная математика.
 
 - Из моих увлечений можно отметить путешествие, философию (особенно отображение когнетивного мышления, природы в область компьютерных наук), футбол, neue deutsche harte.  
 
 ## Проекты
-
-### Web
-
-<div class="projects-category">
-<div class="projects-mosaic">
-<article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it">Шифрование и дешифрование данных</a></h4>
-<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных — главная страница"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Шифрование и дешифрование данных — главная страница"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных — страница шифрования"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Шифрование и дешифрование данных — страница шифрования"></a></div>
-</article>
-</div>
-<ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/quotes-web-app">Цитаты из фильмов и мультфильмов</a></li>
-</ul>
-</div>
 
 ### ML and AI
 
@@ -55,6 +41,20 @@
 <div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Классификация рака груди"><img src="content/projects/BREAST_CANCER/BREAST_CANCER.png" alt="Классификация рака груди"></a></div>
 </article>
 </div>
+</div>
+
+### Web
+
+<div class="projects-category">
+<div class="projects-mosaic">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it">Шифрование и дешифрование данных</a></h4>
+<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных — главная страница"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Шифрование и дешифрование данных — главная страница"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных — страница шифрования"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Шифрование и дешифрование данных — страница шифрования"></a></div>
+</article>
+</div>
+<ul class="projects-links">
+<li><a href="https://github.com/MathematicLove/quotes-web-app">Цитаты из фильмов и мультфильмов</a></li>
+</ul>
 </div>
 
 ### Soft

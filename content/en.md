@@ -1,26 +1,12 @@
 ## About
 
-- Salimli Ayzek, 4th year student at SPbPU, ICCS, Mathematics and Computer Science, AI Systems and Supercomputer Technologies. Work experience: 1 year 5 months at The Blooms Bridge, AI systems integration (RAG, Computer Vision, etc.) and back-end development. I mainly position myself as a Junior Software Engineer. I can also take ML work such as - hyperparameter tuning, training models, interpreting results, data labeling, and computer vision.
+- Salimli Ayzek, a 4th-year student at SPbPU (ICCS), majoring in Mathematics and Computer Science, AI Systems and Supercomputer Technologies. I have 1 year and 5 months of experience at The Blooms Bridge: AI systems integration (RAG, computer vision, etc.) and backend development. I primarily position myself as a Junior ML Engineer and focus on the ML cycle: data preprocessing and transformation, data analysis, feature selection, model training, hyperparameter tuning, result interpretation, data labeling, LLM training, deployment (LangChain + LangGraph), and computer vision tasks (YOLO, ResNet, SegFormer, YOLO-seg).
 
 - My professional interests include computer vision, statistical and machine learning algorithms, neural networks, functional programming, optimization methods, statistics, and discrete mathematics.
 
 - Outside work: travel, philosophy (especially how cognitive thinking and foundational ideas connect with computer science), football, and neue deutsche harte.
 
 ## Projects
-
-### Web
-
-<div class="projects-category">
-<div class="projects-mosaic">
-<article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it">Data Encryption and Decryption</a></h4>
-<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data Encryption and Decryption — home page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Data Encryption and Decryption — home page"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data Encryption and Decryption — encrypt page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Data Encryption and Decryption — encrypt page"></a></div>
-</article>
-</div>
-<ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/quotes-web-app">Quotes from Movies and Cartoons</a></li>
-</ul>
-</div>
 
 ### ML and AI
 
@@ -55,6 +41,20 @@
 <div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Breast Cancer Classification"><img src="content/projects/BREAST_CANCER/BREAST_CANCER.png" alt="Breast Cancer Classification"></a></div>
 </article>
 </div>
+</div>
+
+### Web
+
+<div class="projects-category">
+<div class="projects-mosaic">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it">Data Encryption and Decryption</a></h4>
+<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data Encryption and Decryption — home page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Data Encryption and Decryption — home page"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data Encryption and Decryption — encrypt page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Data Encryption and Decryption — encrypt page"></a></div>
+</article>
+</div>
+<ul class="projects-links">
+<li><a href="https://github.com/MathematicLove/quotes-web-app">Quotes from Movies and Cartoons</a></li>
+</ul>
 </div>
 
 ### Soft
