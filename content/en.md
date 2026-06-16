@@ -1,6 +1,6 @@
 ## About
 
-- Salimli Ayzek, a 4th-year student at SPbPU (ICCS), majoring in Mathematics and Computer Science, AI Systems and Supercomputer Technologies. I have 1 year and 5 months of experience at The Blooms Bridge: AI systems integration (RAG, computer vision, etc.) and backend development. I primarily position myself as a Junior ML Engineer and focus on the ML cycle: data preprocessing and transformation, data analysis, feature selection, model training, hyperparameter tuning, result interpretation, data labeling, LLM training, deployment (LangChain + LangGraph), and computer vision tasks (YOLO, ResNet, SegFormer, YOLO-seg).
+- Salimli Ayzek, a 1st-year master's student (preliminary enrollment) at SPbSTU (ICCS), majoring in Mathematics and Computer Science: Machine Learning and Artificial Intelligence. I have 1 year and 5 months of experience at The Blooms Bridge: AI systems integration (RAG, computer vision, etc.) and backend development. I primarily position myself as a Junior ML Engineer and work with the ML cycle: data preprocessing and transformation, data analysis, feature selection, model training, hyperparameter tuning, result interpretation, data labeling, LLM training, model building (PyTorch, TensorFlow), deployment (LangChain + LangGraph), and computer vision tasks (YOLO, ResNet, SegFormer, YOLO-seg).
 
 - My professional interests include computer vision, statistical and machine learning algorithms, neural networks, functional programming, optimization methods, statistics, and discrete mathematics.
 
