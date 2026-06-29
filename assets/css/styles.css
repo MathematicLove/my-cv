@@ -802,6 +802,22 @@ html[lang="ru"] .nav-skills-en {
   text-align: left;
 }
 
+.page__content .edu-table td {
+  position: relative;
+  padding-right: 34px;
+}
+
+.page__content .edu-table .edu-td__logo {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  border-radius: 3px;
+  margin: 0;
+}
+
 .page__content .edu-table th {
   padding: 10px 13px;
   background: var(--lighter-gray);
@@ -837,16 +853,36 @@ html[lang="ru"] .nav-skills-en {
 .page__content .edu-table .edu-td__name,
 .page__content .edu-table .edu-td__detail,
 .page__content .edu-table .edu-td__program {
+  display: block;
   font-weight: 600;
   font-size: 0.85rem;
   color: var(--heading-color);
   line-height: 1.35;
   margin-bottom: 0.3rem;
+  text-decoration: none;
 }
 
-.page__content .edu-table .edu-td__detail,
-.page__content .edu-table .edu-td__program {
+.page__content .edu-table .edu-td__detail {
+  font-size: 0.74rem;
+  font-weight: 700;
   font-style: italic;
+  color: var(--heading-color);
+  font-family: var(--font-serif);
+}
+
+.page__content .edu-table .edu-td__program {
+  font-size: 0.72rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--heading-color);
+  font-family: var(--font-serif);
+}
+
+.page__content .edu-table a.edu-td__name:hover,
+.page__content .edu-table a.edu-td__detail:hover,
+.page__content .edu-table a.edu-td__program:hover {
+  color: var(--link-color);
+  text-decoration: underline;
 }
 
 @media (max-width: 640px) {
