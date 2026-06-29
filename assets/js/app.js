@@ -76,8 +76,11 @@
     }
   };
 
+  var CONTENT_VERSION = '20';
+
   function getContentPath() {
-    return currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
+    var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
+    return base + '?v=' + CONTENT_VERSION;
   }
 
   function applyMeta() {

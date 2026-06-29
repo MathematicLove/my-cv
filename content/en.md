@@ -99,9 +99,7 @@
 
 ## Education
 
-- **School (complete secondary):** Azerbaijan. Baku. School №53 (with mathematics focus).
-- **Bachelor:** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science - AI Systems and Supercomputer Technologies. Graduate School of Artificial Intelligence Technologies.
-- **Master's degree (preliminary enrollment):** Russia. Saint Petersburg. Peter the Great St. Petersburg Polytechnic University. Institute of Computer Science and Cybersecurity. Program: Mathematics and Computer Science - Machine Learning and Artificial Intelligence. Graduate School of Artificial Intelligence Technologies.
+<div class="edu-table-wrap"><table class="edu-table"><thead><tr><th class="edu-th--school"><span class="edu-th-title">School</span><span class="edu-th-sub">Complete secondary</span></th><th class="edu-th--bachelor"><span class="edu-th-title">Bachelor</span></th><th class="edu-th--master"><span class="edu-th-title">Master's degree</span><span class="edu-th-sub">Preliminary enrollment</span></th></tr></thead><tbody><tr><td><div class="edu-td__place">Azerbaijan - Baku</div><div class="edu-td__name">School №53</div><div class="edu-td__detail">Mathematics focus</div></td><td><div class="edu-td__place">Russia - Saint Petersburg</div><div class="edu-td__name">Peter the Great St. Petersburg Polytechnic University</div><div class="edu-td__detail">Institute of Computer Science and Cybersecurity</div><div class="edu-td__program">Mathematics and Computer Science - AI Systems and Supercomputer Technologies</div><div class="edu-td__detail">Graduate School of Artificial Intelligence Technologies</div></td><td><div class="edu-td__place">Russia - Saint Petersburg</div><div class="edu-td__name">Peter the Great St. Petersburg Polytechnic University</div><div class="edu-td__detail">Institute of Computer Science and Cybersecurity</div><div class="edu-td__program">Mathematics and Computer Science - Machine Learning and Artificial Intelligence</div><div class="edu-td__detail">Graduate School of Artificial Intelligence Technologies</div></td></tr></tbody></table></div>
 
 ## Experience
 
@@ -143,7 +141,7 @@
 | | Functional | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
 | **Data Science & ML (Python)** | Data Manipulation | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
 | | Data Visualization | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
-| | Deep Learning | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> (Ultralytics) |
+| | Deep Learning (Frameworks) | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/tensorflow-svgrepo-com.svg" height="20" alt="TensorFlow"/> <img src="content/logo/ultralytics.svg" height="22" alt="Ultralytics"/> |
 | | Machine Learning | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
 | | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/scipy.svg" height="20" alt="SciPy"/> <img src="content/logo/statsmodels.svg" height="20" alt="StatsModels"/>|
 | **Quantum Computing** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |

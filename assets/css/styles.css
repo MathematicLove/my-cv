@@ -780,6 +780,81 @@ html[lang="ru"] .nav-skills-en {
   margin: 0.2em 0;
 }
 
+.page__content .edu-table-wrap {
+  overflow-x: auto;
+  margin: 0.75rem 0 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.page__content .edu-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  table-layout: fixed;
+  border: 1px solid var(--border-color);
+}
+
+.page__content .edu-table th,
+.page__content .edu-table td {
+  border: 1px solid var(--border-color);
+  padding: 9px 13px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.page__content .edu-table th {
+  padding: 10px 13px;
+  background: var(--lighter-gray);
+}
+
+.page__content .edu-table .edu-th-title {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--heading-color);
+}
+
+.page__content .edu-table .edu-th-sub {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--gray);
+  margin-top: 0.3rem;
+}
+
+.page__content .edu-table td {
+  background: var(--body-color);
+  color: var(--body-text-color);
+}
+
+.page__content .edu-table .edu-td__place {
+  font-size: 0.74rem;
+  color: var(--gray);
+  margin-bottom: 0.3rem;
+}
+
+.page__content .edu-table .edu-td__name,
+.page__content .edu-table .edu-td__detail,
+.page__content .edu-table .edu-td__program {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--heading-color);
+  line-height: 1.35;
+  margin-bottom: 0.3rem;
+}
+
+.page__content .edu-table .edu-td__detail,
+.page__content .edu-table .edu-td__program {
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .page__content .edu-table {
+    min-width: 480px;
+  }
+}
+
 .footer {
   margin-top: auto;
   padding: 1.5em 1em;

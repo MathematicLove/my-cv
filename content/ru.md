@@ -99,9 +99,7 @@
 
 ## Образование
 
-- **Школа (полное среднее):** Азербайджан. Баку. Школа №53 (с уклоном математики).
-- **Бакалавр:** РФ. Санкт-Петербург. СПбПУ Петра Великого. Институт компьютерных наук и кибербезопасности. Направление: математика и компьютерные науки - системы ИИ и суперкомпьютерные технологии. Высшая школа технологий искусственного интеллекта.
-- **Магистратура (предварительно зачислен):** РФ. Санкт-Петербург. Санкт-Петербургский Политехнический Университет Петра Великого. Институт компьютерных наук и кибербезопасности. Направление: математика и компьютерные науки - машинное обучение и искусственный интеллект. Высшая школа технологий искусственного интеллекта.
+<div class="edu-table-wrap"><table class="edu-table"><thead><tr><th class="edu-th--school"><span class="edu-th-title">Школа</span><span class="edu-th-sub">Полное среднее</span></th><th class="edu-th--bachelor"><span class="edu-th-title">Бакалавр</span></th><th class="edu-th--master"><span class="edu-th-title">Магистратура</span><span class="edu-th-sub">Предварительно зачислен</span></th></tr></thead><tbody><tr><td><div class="edu-td__place">Азербайджан - Баку</div><div class="edu-td__name">Школа №53</div><div class="edu-td__detail">Уклон математики</div></td><td><div class="edu-td__place">РФ - Санкт-Петербург</div><div class="edu-td__name">СПбПУ Петра Великого</div><div class="edu-td__detail">Институт компьютерных наук и кибербезопасности</div><div class="edu-td__program">Математика и компьютерные науки - системы ИИ и суперкомпьютерные технологии</div><div class="edu-td__detail">Высшая школа технологий ИИ</div></td><td><div class="edu-td__place">РФ - Санкт-Петербург</div><div class="edu-td__name">СПбПУ Петра Великого</div><div class="edu-td__detail">Институт компьютерных наук и кибербезопасности</div><div class="edu-td__program">Математика и компьютерные науки - машинное обучение и искусственный интеллект</div><div class="edu-td__detail">Высшая школа технологий ИИ</div></td></tr></tbody></table></div>
 
 ## Опыт работы
 
@@ -143,7 +141,7 @@
 | | Функциональный | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
 | **Data Science & ML (Python)** | Работа с данными | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
 | | Визуализация данных | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
-| | Глубокое обучение | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/yolo.svg" height="22" alt="YOLO"/> (Ultralytics) |
+| | Глубокое обучение (Фреймворки) | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/tensorflow-svgrepo-com.svg" height="20" alt="TensorFlow"/> <img src="content/logo/ultralytics.svg" height="22" alt="Ultralytics"/> |
 | | Машинное обучение | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
 | | Вычисления | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/scipy.svg" height="20" alt="SciPy"/> <img src="content/logo/statsmodels.svg" height="20" alt="StatsModels"/>|
 | **Квантовые вычисления** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
