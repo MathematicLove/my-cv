@@ -103,7 +103,7 @@
 
 ## Опыт работы
 
-- **The Blooms Bridge** - Backend developer (20.07.2024 - настоящее время)
+- **[The Blooms Bridge](https://thebloomsbridge.io)** - ML Engineer (20.07.2024 - настоящее время)
 
 ## Статьи
 
