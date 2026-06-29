@@ -107,8 +107,8 @@
 
 ## Статьи
 
-- [Построение зоны интереса на основе сегментации<sup>1</sup>](https://www.elibrary.ru/qfcwed)
-- [Применение методов компьютерного зрения для определения положения вне игры в футболе](https://www.elibrary.ru/item.asp?id=80243926)
+- <a href="https://www.elibrary.ru/qfcwed" data-counter="article-tram-clicks">Построение зоны интереса на основе сегментации<sup>1</sup></a>
+- <a href="https://www.elibrary.ru/item.asp?id=80243926" data-counter="article-offside-clicks">Применение методов компьютерного зрения для определения положения вне игры в футболе</a>
 
 <strong><p><sup>1</sup> - Признан одним из лучших докладов.</strong></p>
 

@@ -107,8 +107,8 @@
 
 ## Articles
 
-- [Construction of the Region of Interest based on segmentation<sup>1</sup>](https://www.elibrary.ru/qfcwed)
-- [Computer vision for offside detection in football](https://www.elibrary.ru/item.asp?id=80243926)
+- <a href="https://www.elibrary.ru/qfcwed" data-counter="article-tram-clicks">Construction of the Region of Interest based on segmentation<sup>1</sup></a>
+- <a href="https://www.elibrary.ru/item.asp?id=80243926" data-counter="article-offside-clicks">Computer vision for offside detection in football</a>
 
 <strong><p><sup>1</sup> - Recognized as one of the best articles.</strong></p>
 

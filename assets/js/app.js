@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '24';
+  var CONTENT_VERSION = '25';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
