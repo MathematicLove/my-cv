@@ -43,7 +43,7 @@
         articles: 'Статьи',
         certificates: 'Дипломы и Сертификаты',
         experience: 'Опыт',
-        skills: 'Знания',
+        skills: 'Навыки',
         'learning-hub': 'Learning Hub',
         contact: 'Контакты'
       },
@@ -68,7 +68,7 @@
         articles: 'Articles',
         certificates: 'Diplomas and Certificates',
         experience: 'Experience',
-        skills: 'Knowledge',
+        skills: 'Skills',
         'learning-hub': 'Learning Hub',
         contact: 'Contacts'
       },
@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '25';
+  var CONTENT_VERSION = '28';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
