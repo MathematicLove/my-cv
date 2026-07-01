@@ -194,6 +194,11 @@ html[lang="ru"] .nav-skills-en {
   .sidebar {
     width: 240px;
     margin-bottom: 0;
+    position: sticky;
+    top: 4.5rem;
+    align-self: flex-start;
+    max-height: calc(100vh - 4.5rem);
+    overflow-y: auto;
   }
 }
 
