@@ -47,6 +47,14 @@
             margin-bottom: 2em;
             font-size: 1.8rem;
         }
+
+        .stats-group {
+            margin: 1.5em 0 0.75em;
+            font-size: 1.15rem;
+            color: var(--heading-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.35em;
+        }
     </style>
 </head>
 
@@ -75,20 +83,58 @@
             const container = document.getElementById('stats');
             container.innerHTML = '<p style="text-align:center">Загрузка...</p>';
 
-            const stats = {
-                'mathematiclove-cv-site-views': 'Main page',
-                'mathematiclove-cv-github-clicks': 'GitHub',
-                'mathematiclove-cv-orcid-clicks': 'ORCID',
-                'mathematiclove-cv-elibrary-clicks': 'eLibrary',
-                'mathematiclove-cv-huggingface-clicks': 'Hugging Face',
-                'mathematiclove-cv-article-tram-clicks': 'Article "RoI with segmenation"',
-                'mathematiclove-cv-article-offside-clicks': 'Article "CV in football"'
+            const groups = {
+                'Общее': {
+                    'mathematiclove-cv-site-views': 'Главная страница'
+                },
+                'Профили': {
+                    'mathematiclove-cv-github-clicks': 'GitHub',
+                    'mathematiclove-cv-orcid-clicks': 'ORCID',
+                    'mathematiclove-cv-researchgate-clicks': 'ResearchGate',
+                    'mathematiclove-cv-elibrary-clicks': 'eLibrary',
+                    'mathematiclove-cv-huggingface-clicks': 'Hugging Face'
+                },
+                'Статьи': {
+                    'mathematiclove-cv-article-tram-clicks': 'Статья «RoI на основе сегментации»',
+                    'mathematiclove-cv-article-offside-clicks': 'Статья «CV для офсайда в футболе»'
+                },
+                'Проекты — ML и AI': {
+                    'mathematiclove-cv-project-dynamic-roi-clicks': 'Object Detection on Dynamic RoI',
+                    'mathematiclove-cv-project-qt-mnist-clicks': 'Qt MNIST recognizer',
+                    'mathematiclove-cv-project-fashion-mnist-clicks': 'Fashion-MNIST (TinyVGG)',
+                    'mathematiclove-cv-project-sarcasm-clicks': 'Sarcasmic Text Classification',
+                    'mathematiclove-cv-project-leafs-health-clicks': 'Leafs Health Classification',
+                    'mathematiclove-cv-project-animal-classification-clicks': 'Animal Classification (CNN)',
+                    'mathematiclove-cv-project-breast-cancer-clicks': 'Breast Cancer Classification'
+                },
+                'Проекты — Web': {
+                    'mathematiclove-cv-project-encrypt-it-clicks': 'Data Encryption and Decryption',
+                    'mathematiclove-cv-project-quotes-clicks': 'Quotes from Movies and Cartoons'
+                },
+                'Проекты — Soft': {
+                    'mathematiclove-cv-project-game-of-life-clicks': 'Game of Life on CA',
+                    'mathematiclove-cv-project-ayzeks-sound-clicks': 'AyzeksSound (MP3 Player iOS)',
+                    'mathematiclove-cv-project-price-checker-clicks': 'PriceCheckerBot',
+                    'mathematiclove-cv-project-trip-planner-clicks': 'SpringTripPlannerBot',
+                    'mathematiclove-cv-project-http-server-clicks': 'HTTP Server on Java',
+                    'mathematiclove-cv-project-card-management-clicks': 'Card Management Service'
+                },
+                'Проекты — Math': {
+                    'mathematiclove-cv-project-mathlang-clicks': 'MathLang Presentations',
+                    'mathematiclove-cv-project-demographic-clicks': 'Demographic Regression (RU/JP)',
+                    'mathematiclove-cv-project-regression-gas-clicks': 'Regression: Gas Export Impact',
+                    'mathematiclove-cv-project-educational-clicks': 'Educational Projects'
+                }
             };
 
             let html = '';
-            for (const [key, label] of Object.entries(stats)) {
-                const value = await getCount(key);
-                html += `<div class="stat-card"><div class="stat-label">${label}</div><div class="stat-value">${value}</div></div>`;
+            for (const [group, stats] of Object.entries(groups)) {
+                html += `<h2 class="stats-group">${group}</h2>`;
+                const entries = Object.entries(stats);
+                const values = await Promise.all(entries.map(([key]) => getCount(key)));
+                entries.forEach(([, label], i) => {
+                    html += `<div class="stat-card"><div class="stat-label">${label}</div><div class="stat-value">${values[i]}</div></div>`;
+                });
             }
             container.innerHTML = html;
         }

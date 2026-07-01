@@ -13,31 +13,31 @@
 <div class="projects-category">
 <div class="projects-mosaic">
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker">Детекция объектов на динамическом RoI на основе сегментации с трекингом (веса доступны)</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" data-counter="project-dynamic-roi-clicks">Детекция объектов на динамическом RoI на основе сегментации с трекингом (веса доступны)</a></h4>
 <div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI - ночной пример"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_NIGHT.png" alt="Детекция объектов на динамическом RoI - ночной пример"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI - пример трекинга"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.png" alt="Детекция объектов на динамическом RoI - пример трекинга"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI - пример трекинга"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.jpg" alt="Детекция объектов на динамическом RoI - пример трекинга"></a></div>
 </article>
 <article class="project-panel project-panel--plain">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer">Распознование рукописных цифр с Qt интерфейсом</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" data-counter="project-qt-mnist-clicks">Распознование рукописных цифр с Qt интерфейсом</a></h4>
 <div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Распознавание рукописных цифр с Qt интерфейсом - пример"><img src="content/projects/QT_MNIST/EXAMPLE.png" alt="Распознавание рукописных цифр с Qt интерфейсом - пример"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb">Классификация Fashion-MNIST с TinyVGG</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" data-counter="project-fashion-mnist-clicks">Классификация Fashion-MNIST с TinyVGG</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" class="project-panel__shot" aria-label="Классификация Fashion-MNIST с TinyVGG"><img src="content/projects/FASHION_MNIST/FASHION_MNIST.png" alt="Классификация Fashion-MNIST с TinyVGG"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb">Классификация саркастических текстов (Transformer NN)</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb" data-counter="project-sarcasm-clicks">Классификация саркастических текстов (Transformer NN)</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb" class="project-panel__shot" aria-label="Классификация саркастических текстов (Transformer NN)"><img src="content/projects/SARCASM_TEXT/SARCASM_TEXT.png" alt="Классификация саркастических текстов (Transformer NN)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="deleted-repo.html">Классификация здоровья листьев (GoogLeNet)</a></h4>
+<h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-leafs-health-clicks">Классификация здоровья листьев (GoogLeNet)</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Классификация здоровья листьев (GoogLeNet)"><img src="content/projects/LEAFS_HEALTH/LEAFS_HEATH.png" alt="Классификация здоровья листьев (GoogLeNet)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="deleted-repo.html">Классификация кошек, собак и диких животных (CNN)</a></h4>
+<h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-animal-classification-clicks">Классификация кошек, собак и диких животных (CNN)</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Классификация кошек, собак и диких животных (CNN)"><img src="content/projects/ANIMAL_CLASSIFICATION/ANIMALS.png" alt="Классификация кошек, собак и диких животных (CNN)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="deleted-repo.html">Классификация рака груди</a></h4>
+<h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-breast-cancer-clicks">Классификация рака груди</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Классификация рака груди"><img src="content/projects/BREAST_CANCER/BREAST_CANCER.png" alt="Классификация рака груди"></a></div>
 </article>
 </div>
@@ -48,12 +48,12 @@
 <div class="projects-category">
 <div class="projects-mosaic">
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it">Шифрование и дешифрование данных</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it" data-counter="project-encrypt-it-clicks">Шифрование и дешифрование данных</a></h4>
 <div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных - главная страница"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Шифрование и дешифрование данных - главная страница"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных - страница шифрования"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Шифрование и дешифрование данных - страница шифрования"></a></div>
 </article>
 </div>
 <ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/quotes-web-app">Цитаты из фильмов и мультфильмов</a></li>
+<li><a href="https://github.com/MathematicLove/quotes-web-app" data-counter="project-quotes-clicks">Цитаты из фильмов и мультфильмов</a></li>
 </ul>
 </div>
 
@@ -62,16 +62,16 @@
 <div class="projects-category">
 <div class="projects-mosaic">
 <article class="project-panel project-panel--plain">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game">Игра в жизнь на КА</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game" data-counter="project-game-of-life-clicks">Игра в жизнь на КА</a></h4>
 <div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain"><a href="https://github.com/MathematicLove/live-the-game" class="project-panel__shot" aria-label="Игра в жизнь на КА - больше итераций"><img src="content/projects/GAME_OF_LIFE_ON_CA/MORE_ITERATIONS.png" alt="Игра в жизнь на КА - больше итераций"></a></div>
 </article>
 </div>
 <ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/ayzeks-sound">Бесплатный MP3 плеер iOS: AyzeksSound</a></li>
-<li><a href="https://github.com/MathematicLove/price-checker-bot">ТГ-Бот отслеживания цен: PriceCheckerBot</a></li>
-<li><a href="https://github.com/MathematicLove/trip-planner-bot-spring">ТГ-Бот планирования путешествий: SpringTripPlannerBot</a></li>
-<li><a href="https://github.com/MathematicLove/http-server">HTTP сервер на Java</a></li>
-<li><a href="https://github.com/MathematicLove/card-management-service">Сервис банковских карт</a></li>
+<li><a href="https://github.com/MathematicLove/ayzeks-sound" data-counter="project-ayzeks-sound-clicks">Бесплатный MP3 плеер iOS: AyzeksSound</a></li>
+<li><a href="https://github.com/MathematicLove/price-checker-bot" data-counter="project-price-checker-clicks">ТГ-Бот отслеживания цен: PriceCheckerBot</a></li>
+<li><a href="https://github.com/MathematicLove/trip-planner-bot-spring" data-counter="project-trip-planner-clicks">ТГ-Бот планирования путешествий: SpringTripPlannerBot</a></li>
+<li><a href="https://github.com/MathematicLove/http-server" data-counter="project-http-server-clicks">HTTP сервер на Java</a></li>
+<li><a href="https://github.com/MathematicLove/card-management-service" data-counter="project-card-management-clicks">Сервис банковских карт</a></li>
 </ul>
 </div>
 
@@ -80,20 +80,20 @@
 <div class="projects-category">
 <div class="projects-mosaic projects-mosaic--math">
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations">Презентации MathLang</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" data-counter="project-mathlang-clicks">Презентации MathLang</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="Презентации MathLang"><img src="content/projects/MATHLANG_PRESENTATIONS/MATHLANG_PRESENTATIONS.png" alt="Презентации MathLang"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp">Прогнозирование и сравнение демографических показателей России и Японии</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" data-counter="project-demographic-clicks">Прогнозирование и сравнение демографических показателей России и Японии</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" class="project-panel__shot" aria-label="Прогнозирование и сравнение демографических показателей России и Японии"><img src="content/projects/FORECASTING_AND_COMPARSION_OF_DEMOGRAPHIC/RUSSIA_JAPAN.png" alt="Прогнозирование и сравнение демографических показателей России и Японии"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/regression-gas-export-impact">Регрессионный анализ последствий сокращения экспорта газа</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/regression-gas-export-impact" data-counter="project-regression-gas-clicks">Регрессионный анализ последствий сокращения экспорта газа</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Регрессионный анализ последствий сокращения экспорта газа - гипотезы chi²"><img src="content/projects/REGRESSION_ANALYSIS/hypotheses_chi2_bars.png" alt="Регрессионный анализ последствий сокращения экспорта газа - гипотезы chi²"></a></div>
 </article>
 </div>
 <ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/spbstu-iccs-mcs">Учебные проекты</a></li>
+<li><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Учебные проекты</a></li>
 </ul>
 </div>
 

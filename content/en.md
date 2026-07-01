@@ -13,31 +13,31 @@
 <div class="projects-category">
 <div class="projects-mosaic">
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker">Object Detection on Dynamic RoI based on Segmentation with Tracking (weights available)</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" data-counter="project-dynamic-roi-clicks">Object Detection on Dynamic RoI based on Segmentation with Tracking (weights available)</a></h4>
 <div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - night example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_NIGHT.png" alt="Object Detection on Dynamic RoI - night example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.png" alt="Object Detection on Dynamic RoI - tracking example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.jpg" alt="Object Detection on Dynamic RoI - tracking example"></a></div>
 </article>
 <article class="project-panel project-panel--plain">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer">Qt MNIST recognizer</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" data-counter="project-qt-mnist-clicks">Qt MNIST recognizer</a></h4>
 <div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Qt MNIST recognizer - example"><img src="content/projects/QT_MNIST/EXAMPLE.png" alt="Qt MNIST recognizer - example"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb">Fashion-MNIST Classification with TinyVGG</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" data-counter="project-fashion-mnist-clicks">Fashion-MNIST Classification with TinyVGG</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" class="project-panel__shot" aria-label="Fashion-MNIST Classification with TinyVGG"><img src="content/projects/FASHION_MNIST/FASHION_MNIST.png" alt="Fashion-MNIST Classification with TinyVGG"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb">Sarcasmic Text Classification (Transformer NN)</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb" data-counter="project-sarcasm-clicks">Sarcasmic Text Classification (Transformer NN)</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb" class="project-panel__shot" aria-label="Sarcasmic Text Classification (Transformer NN)"><img src="content/projects/SARCASM_TEXT/SARCASM_TEXT.png" alt="Sarcasmic Text Classification (Transformer NN)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="deleted-repo.html">Leafs Health Classification (GoogLeNet)</a></h4>
+<h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-leafs-health-clicks">Leafs Health Classification (GoogLeNet)</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Leafs Health Classification (GoogLeNet)"><img src="content/projects/LEAFS_HEALTH/LEAFS_HEATH.png" alt="Leafs Health Classification (GoogLeNet)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="deleted-repo.html">Classification of Cats, Dogs and Wild Animals (CNN)</a></h4>
+<h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-animal-classification-clicks">Classification of Cats, Dogs and Wild Animals (CNN)</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Classification of Cats, Dogs and Wild Animals (CNN)"><img src="content/projects/ANIMAL_CLASSIFICATION/ANIMALS.png" alt="Classification of Cats, Dogs and Wild Animals (CNN)"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="deleted-repo.html">Breast Cancer Classification</a></h4>
+<h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-breast-cancer-clicks">Breast Cancer Classification</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Breast Cancer Classification"><img src="content/projects/BREAST_CANCER/BREAST_CANCER.png" alt="Breast Cancer Classification"></a></div>
 </article>
 </div>
@@ -48,12 +48,12 @@
 <div class="projects-category">
 <div class="projects-mosaic">
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it">Data Encryption and Decryption</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it" data-counter="project-encrypt-it-clicks">Data Encryption and Decryption</a></h4>
 <div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data Encryption and Decryption - home page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Data Encryption and Decryption - home page"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data Encryption and Decryption - encrypt page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Data Encryption and Decryption - encrypt page"></a></div>
 </article>
 </div>
 <ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/quotes-web-app">Quotes from Movies and Cartoons</a></li>
+<li><a href="https://github.com/MathematicLove/quotes-web-app" data-counter="project-quotes-clicks">Quotes from Movies and Cartoons</a></li>
 </ul>
 </div>
 
@@ -62,16 +62,16 @@
 <div class="projects-category">
 <div class="projects-mosaic">
 <article class="project-panel project-panel--plain">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game">Game of Life on CA</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game" data-counter="project-game-of-life-clicks">Game of Life on CA</a></h4>
 <div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain"><a href="https://github.com/MathematicLove/live-the-game" class="project-panel__shot" aria-label="Game of Life on CA - more iterations"><img src="content/projects/GAME_OF_LIFE_ON_CA/MORE_ITERATIONS.png" alt="Game of Life on CA - more iterations"></a></div>
 </article>
 </div>
 <ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/ayzeks-sound">Free MP3 Player iOS: AyzeksSound</a></li>
-<li><a href="https://github.com/MathematicLove/price-checker-bot">TG-Bot Price Tracker: PriceCheckerBot</a></li>
-<li><a href="https://github.com/MathematicLove/trip-planner-bot-spring">TG-Bot Trip Planner: SpringTripPlannerBot</a></li>
-<li><a href="https://github.com/MathematicLove/http-server">HTTP Server on Java</a></li>
-<li><a href="https://github.com/MathematicLove/card-management-service">Card Management Service</a></li>
+<li><a href="https://github.com/MathematicLove/ayzeks-sound" data-counter="project-ayzeks-sound-clicks">Free MP3 Player iOS: AyzeksSound</a></li>
+<li><a href="https://github.com/MathematicLove/price-checker-bot" data-counter="project-price-checker-clicks">TG-Bot Price Tracker: PriceCheckerBot</a></li>
+<li><a href="https://github.com/MathematicLove/trip-planner-bot-spring" data-counter="project-trip-planner-clicks">TG-Bot Trip Planner: SpringTripPlannerBot</a></li>
+<li><a href="https://github.com/MathematicLove/http-server" data-counter="project-http-server-clicks">HTTP Server on Java</a></li>
+<li><a href="https://github.com/MathematicLove/card-management-service" data-counter="project-card-management-clicks">Card Management Service</a></li>
 </ul>
 </div>
 
@@ -80,20 +80,20 @@
 <div class="projects-category">
 <div class="projects-mosaic projects-mosaic--math">
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations">MathLang Presentations</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" data-counter="project-mathlang-clicks">MathLang Presentations</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="MathLang Presentations"><img src="content/projects/MATHLANG_PRESENTATIONS/MATHLANG_PRESENTATIONS.png" alt="MathLang Presentations"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp">Forecasting and Comparison of Demographic Indicators of Russia and Japan</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" data-counter="project-demographic-clicks">Forecasting and Comparison of Demographic Indicators of Russia and Japan</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" class="project-panel__shot" aria-label="Forecasting and Comparison of Demographic Indicators of Russia and Japan"><img src="content/projects/FORECASTING_AND_COMPARSION_OF_DEMOGRAPHIC/RUSSIA_JAPAN.png" alt="Forecasting and Comparison of Demographic Indicators of Russia and Japan"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/regression-gas-export-impact">Regression analysis of the consequences of the reduction in gas export</a></h4>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/regression-gas-export-impact" data-counter="project-regression-gas-clicks">Regression analysis of the consequences of the reduction in gas export</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Regression analysis of gas export reduction - chi-square hypotheses"><img src="content/projects/REGRESSION_ANALYSIS/hypotheses_chi2_bars.png" alt="Regression analysis of gas export reduction - chi-square hypotheses"></a></div>
 </article>
 </div>
 <ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/spbstu-iccs-mcs">Educational Projects</a></li>
+<li><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Educational Projects</a></li>
 </ul>
 </div>
 

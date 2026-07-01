@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '28';
+  var CONTENT_VERSION = '29';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
@@ -374,6 +374,15 @@
       if (link) {
         const key = link.getAttribute('data-counter');
         console.log('Клик по ссылке:', key);
+        if (key) incrementCounter('mathematiclove-cv-' + key);
+        return;
+      }
+      // Clicks on a project's preview images count toward that project's title counter
+      const panelLink = e.target.closest('.project-panel a[href]');
+      if (panelLink) {
+        const panel = panelLink.closest('.project-panel');
+        const titleLink = panel && panel.querySelector('.project-panel__title a[data-counter]');
+        const key = titleLink && titleLink.getAttribute('data-counter');
         if (key) incrementCounter('mathematiclove-cv-' + key);
       }
     });
