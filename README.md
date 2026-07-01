@@ -9,4 +9,3 @@
 - ### [HuggingFace](https://huggingface.co/ayzeksalimli)
 - ### Some news
   - #### [Science week: AI and Data Analysis](https://ai.spbstu.ru/news/nn2026/)
-

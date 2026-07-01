@@ -340,6 +340,14 @@ html[lang="ru"] .nav-skills-en {
   color: var(--link-color);
 }
 
+.author__icon--researchgate {
+  color: #00d0af;
+}
+
+.author__urls a:hover .author__icon--researchgate {
+  color: #00e6c3;
+}
+
 @media (prefers-color-scheme: dark) {
   .author__icon--orcid {
     color: #a6ce39;
@@ -347,6 +355,10 @@ html[lang="ru"] .nav-skills-en {
 
   .author__icon--elibrary {
     color: #66bb6a;
+  }
+
+  .author__icon--researchgate {
+    color: #1de9b6;
   }
 }
 
