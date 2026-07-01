@@ -1,187 +1,152 @@
-\documentclass[9pt,a4paper]{article}
-\usepackage[utf8]{inputenc}
+\documentclass[10pt,a4paper]{article}
+
 \usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
-\usepackage{xifthen}
-\usepackage[default]{raleway}
-\usepackage{hyperref}
+\usepackage[margin=0cm]{geometry}
+\usepackage{paratype}   
 \renewcommand*\familydefault{\sfdefault}
 \usepackage{xcolor}
-\usepackage{moresize}
-\usepackage[a4paper,top=1.45cm,bottom=-0.40cm,left=1.25cm,right=1.25cm]{geometry}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\setlength{\headheight}{-5pt}
-
-\lhead{}
-\chead{\small{
-  \textbf{Салимли Айзек $\cdot$
-  ML-инженер $\cdot$
-  Санкт-Петербург, Россия $\cdot$
-  \textcolor{sectcol}{\textbf{\href
-  {mailto:thisisnauchno@gmail.com}
-  {thisisnauchno@gmail.com}}} $\cdot$
-  +7 921 945 67 03
-}}}
-\rhead{}
-
-\setlength{\parindent}{0mm}
-
-\usepackage{multicol}
-\usepackage{multirow}
-\usepackage{array}
-\newcolumntype{x}[1]{>{\raggedleft\hspace{0pt}}p{#1}}
-\usepackage{graphicx}
-\usepackage{wrapfig}
-\usepackage{float}
+\usepackage{amssymb}
 \usepackage{tikz}
-\usetikzlibrary{shapes, backgrounds,mindmap, trees}
-\usepackage{color}
-\definecolor{sectcol}{RGB}{90,90,120}
-\definecolor{bgcol}{RGB}{110,110,110}
-\definecolor{softcol}{RGB}{225,225,225}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
 
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\renewcommand{\thepage}{}
-\renewcommand{\thesection}{}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
 
-\newcommand{\tzlarrow}{(0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;}
+\definecolor{sidebar}{RGB}{43,45,66}    
+\definecolor{accent}{RGB}{239,131,84}    
+\definecolor{light}{RGB}{237,242,244}    
+\definecolor{muted}{RGB}{141,153,174}    
+\definecolor{ink}{RGB}{43,45,66}         
 
-\newcommand{\larrow}[1]{
-  \begin{tikzpicture}[scale=0.58]
-    \filldraw[fill=#1!100,draw=#1!100!black]  \tzlarrow
-  \end{tikzpicture}
-}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
 
-\newcommand{\tzrarrow}{ (0,0.2) -- (0.1,0) -- (0.3,0) -- (0.2,0.2) -- (0.3,0.4) -- (0.1,0.4) -- cycle;}
+\newlength{\sidewidth}\setlength{\sidewidth}{0.34\paperwidth}
+\newlength{\mainwidth}\setlength{\mainwidth}{0.66\paperwidth}
+\newlength{\sidepad}\setlength{\sidepad}{0.55cm}
+\newlength{\mainpad}\setlength{\mainpad}{0.75cm}
 
-\newcommand{\rarrow}{
-  \begin{tikzpicture}[scale=0.7]
-    \filldraw[fill=sectcol!100,draw=sectcol!100!black] \tzrarrow
-  \end{tikzpicture}
-}
+\newcommand{\sideheading}[1]{%
+  \vspace{11pt}%
+  {\color{accent}\bfseries\large\MakeUppercase{#1}}\par
+  \vspace{-4pt}{\color{muted}\rule{\linewidth}{0.6pt}}\par\vspace{4pt}}
 
-\newcommand{\cvsection}[1]{
-  \vspace{5pt}
-  \colorbox{sectcol}{\mystrut \makebox[1\linewidth][l]{
-    \larrow{bgcol} \hspace{-8pt} \larrow{bgcol} \hspace{-8pt}
-    \larrow{bgcol}\textcolor{white}{\textbf{#1}}\hspace{4pt}
-  }}\\
-}
+\newcommand{\mainheading}[1]{%
+  \vspace{10pt}%
+  {\color{sidebar}\bfseries\Large #1}\par
+  \vspace{-5pt}{\color{accent}\rule{\linewidth}{1.6pt}}\par\vspace{5pt}}
 
-\newcommand{\metasection}[2]{
-  \begin{tabular*}{1\textwidth}{p{2.15cm} p{11.45cm}}
-    \larrow{bgcol} \normalsize{\textcolor{sectcol}{#1}}&#2\\[5pt]
-  \end{tabular*}
-}
+\newcommand{\entry}[3]{%
+  {\bfseries #1}\hfill{\color{accent}\small #3}\par
+  {\color{accent}\small #2}\par\vspace{2pt}}
 
-\newcommand{\cvevent}[3]{
-  \begin{tabular*}{1\textwidth}{p{2.5cm} p{10.5cm} x{4.0cm}}
-    \textcolor{bgcol}{#1} & \textbf{#2} & \vspace{2.5pt}\textcolor{sectcol}{#3}
-  \end{tabular*}
-  \vspace{-10pt}
-  \textcolor{softcol}{\hrule}
-  \vspace{8pt}
-}
+\newcommand{\skillgroup}[2]{%
+  {\color{light}\bfseries\small #1}\par
+  {\color{muted}\small #2}\par\vspace{5pt}}
 
-\newcommand{\cvdetail}[1]{
-  \begin{tabular*}{1\textwidth}{p{2.5cm} p{14.5cm}}
-    & \larrow{bgcol}  #1\\[2.5pt]
-  \end{tabular*}
-}
+\newcommand{\contact}[2]{%
+  {\color{accent}#1}\hspace{6pt}{\color{light}\small #2}\par\vspace{4pt}}
 
-\newcommand{\mystrut}{\rule[-.3\baselineskip]{0pt}{\baselineskip}}
+\newlist{cvbullets}{itemize}{1}
+\setlist[cvbullets]{leftmargin=12pt,itemsep=2pt,topsep=2pt,label={\color{accent}\footnotesize$\blacktriangleright$}}
 
-\title{резюме}
 \begin{document}
+\selectlanguage{russian}
 
-\pagestyle{fancy}
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north west,inner sep=0] at (current page.north west)
+       {\color{sidebar}\rule{\sidewidth}{\paperheight}};
+\end{tikzpicture}
 
-\vspace{-20pt}
+\vspace*{0.85cm}
 
-\hspace{-0.25\linewidth}\colorbox{bgcol}{
-  \makebox[1.5\linewidth][c]{
-    \HUGE{\textcolor{white}{\textsc{Салимли Айзек}}}
-    \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}}
-    \HUGE{\textcolor{white}{\textsc{Резюме}}}
-  }
-}
-
-\begin{figure}[H]
-\begin{flushright}
-  \includegraphics[width=0.2\linewidth]{img/ME.jpeg}
-\end{flushright}
-\end{figure}
-
-\vspace{-115pt}
-
-\metasection{Статус:}{Студент бакалавриата (год выпуска 2026), СПбПУ, ИКНК, Математика и компьютерные науки}
-\\
-\metasection{Языки:}{Русский (носитель), Английский (B2)}
-\\
-\metasection{Основной стек ML/DS:}{Python, PyTorch, TensorFlow, Ultralytics YOLO, FastAPI, Scikit-learn, Scikit-image, Numpy, Pandas, Matplotlib, Seaborn, LangChain, OpenAI API, Hugging Face, Computer Vision}
-\\
-\metasection{DevOps, CI/CD:}{Docker, Kubernetes, Terraform, Ansible, Jenkins}
-\\
-\metasection{Базы данных и брокеры:}{PostgreSQL, MySQL, MongoDB, Redis, RabbitMQ}
-\\
-\metasection{Математика и теория:}{Статистическое машинное обучение, Теория вероятностей, Мат. статистика, Методы оптимизации, Алгоритмы и структуры данных, Дискретная математика, Квантовые вычисления}
-\\
-\metasection{Другие Я.П. и фреймворки:}{\textcolor{magenta}{Haskell}, C++, R, Java, Spring Framework, Hibernate, Spring JPA, Spring JDBC, Maven, Gradle, Concurrency}
-\\
-\metasection{Интересы:}{Компьютерное зрение, Математическое моделирование в ИИ, Путешествие, Футбол, Музыка}
-
-\cvsection{О себе}
-\\
-ML-инженер с сильной математической и статистической подготовкой, завершающий бакалавриат по направлению «Математика и компьютерные науки» в СПбПУ. Имею практический опыт разработки моделей компьютерного зрения и глубокого обучения (PyTorch, TensorFlow, Ultralytics YOLO), интеграции LLM-решений (LangChain + OpenAI API), решения задач оптимизации (VRP/DVRP) и создания production-систем на FastAPI. Владею DevOps-стеком (Docker, Kubernetes, Terraform, Ansible, Jenkins). Автор научных публикаций по компьютерному зрению. Стремлюсь применять статистическое машинное обучение для решения сложных задач в области ИИ.
-
-\cvsection{Опыт работы}
-
-\cvevent{'08/24 - 01/26}{ML-инженер и Back-end разработчик}{ \href{https://thebloomsbridge.io}
-      {\textcolor{red}{\textbf{TheBloomsBridge}}}}
 \noindent
-\begin{minipage}{0.08\linewidth}
-  \includegraphics[width=\linewidth]{img/TBB_LOGO.png}
-\end{minipage}%
-\hspace{-8pt}%
-\begin{minipage}{0.87\linewidth}
-\cvdetail{Интеграция и обучение LLM-модели на собственных данных с использованием LangChain и OpenAI API}
-\cvdetail{Разработка моделей компьютерного зрения и прогнозирующих моделей (регрессионный анализ, многофакторный дисперсионный анализ)}
-\cvdetail{Решение задач маршрутизации транспорта (VRP) и динамической маршрутизации (DVRP) с применением методов оптимизации}
-\cvdetail{Разработка пользовательской панели управления (dashboard) на FastAPI}
-\cvdetail{Деплой ML-приложений на Firebase и Docker}
+\begin{minipage}[t]{\sidewidth}
+  \hspace{\sidepad}%
+  \begin{minipage}[t]{\dimexpr\linewidth-2\sidepad\relax}
+    \vspace{0pt}
+    \begin{center}
+      \begin{tikzpicture}
+        \clip (0,0) circle (1.85cm);
+        \node at (0,0){\includegraphics[width=3.9cm]{img/ME.jpeg}};
+        \draw[accent,line width=1.4pt] (0,0) circle (1.85cm);
+      \end{tikzpicture}
+    \end{center}
+
+    \sideheading{Контакты}
+    \contact{\faEnvelope}{\href{mailto:thisisnauchno@gmail.com}{thisisnauchno@gmail.com}}
+    \contact{\faPhone*}{+7 921 945 67 03}
+    \contact{\faMapMarker*}{Санкт-Петербург, Россия}
+    \contact{\faGithub}{\href{https://github.com/MathematicLove}{GitHub}}
+    \contact{\faGlobe}{\href{https://mathematiclove.github.io/my-cv}{Портфолио}}
+    \contact{\faOrcid}{\href{https://orcid.org/0009-0005-9984-0740}{ORCID}}
+    \contact{\faBook}{\href{https://elibrary.ru/author_items.asp?authorid=1342618&pubrole=100&show_refs=1&pubcat=risc}{Профиль eLibrary}}
+
+    \sideheading{Навыки}
+    \skillgroup{ML / DS}{Python, PyTorch, TensorFlow, Ultralytics YOLO, FastAPI, Scikit-learn, Scikit-image, NumPy, Pandas, Matplotlib, Seaborn, LangChain, OpenAI API, Hugging Face, Computer Vision}
+    \skillgroup{DevOps / CI-CD}{Docker, Kubernetes, Terraform, Ansible, Jenkins}
+    \skillgroup{СУБД}{PostgreSQL, MySQL, MongoDB, Redis}
+    \skillgroup{Брокеры}{RabbitMQ}
+    \skillgroup{Математика и теория}{Статистическое ML, теория вероятностей, мат. статистика, методы оптимизации, алгоритмы и структуры данных, дискретная математика, квантовые вычисления}
+    \skillgroup{Другие Я.П. / фреймворки}{\textcolor{accent}{Haskell}, C++, R, Java, Spring, Hibernate, Spring JPA, Spring JDBC, Maven, Gradle, Concurrency}
+
+    \sideheading{Языки}
+    \skillgroup{Русский}{носитель}
+    \skillgroup{Английский}{B2}
+    \skillgroup{Азербайджанский}{средний уровень}
+
+    \sideheading{Интересы}
+    {\color{muted}\small Компьютерное зрение, математическое моделирование в ИИ, путешествия, футбол, музыка}
+  \end{minipage}
+\end{minipage}% <-- keep adjacent, no blank line (blank line = \par -> breaks the two-column layout)
+\begin{minipage}[t]{\mainwidth}
+  \hspace{\mainpad}%
+  \begin{minipage}[t]{\dimexpr\linewidth-1.5\mainpad\relax}
+    \vspace{0pt}
+    \color{ink}
+    {\color{sidebar}\fontsize{30}{34}\selectfont\bfseries Салимли Айзек}\par
+    \vspace{2pt}{\color{accent}\Large ML-инженер}\par
+
+    \mainheading{О себе}
+    ML-инженер с сильной математической и статистической подготовкой, завершающий
+    бакалавриат по направлению \emph{«Математика и компьютерные науки»} в СПбПУ. Имею
+    практический опыт разработки моделей компьютерного зрения и глубокого обучения
+    (PyTorch, TensorFlow, Ultralytics YOLO), интеграции LLM-решений (LangChain +
+    OpenAI API), решения задач оптимизации (VRP/DVRP) и создания production-систем на
+    FastAPI. Владею DevOps-стеком (Docker, Kubernetes, Terraform, Ansible, Jenkins).
+    Автор научных публикаций по компьютерному зрению.
+
+    \mainheading{Опыт работы}
+    \entry{ML-инженер и Back-end разработчик}{\href{https://thebloomsbridge.io}{TheBloomsBridge}}{08/2024 -- 01/2026}
+    \begin{cvbullets}
+      \item Интеграция и обучение LLM-модели на собственных данных с помощью LangChain и OpenAI API.
+      \item Разработка моделей компьютерного зрения и прогнозирующих моделей (регрессионный, многофакторный дисперсионный анализ).
+      \item Решение задач маршрутизации транспорта (VRP) и динамической маршрутизации (DVRP) методами оптимизации.
+      \item Разработка пользовательской панели управления (dashboard) на FastAPI.
+      \item Деплой ML-приложений на Firebase и Docker.
+    \end{cvbullets}
+
+    \mainheading{Образование}
+    \entry{Магистратура - Математика и компьютерные науки}{\href{https://www.spbstu.ru}{Санкт-Петербургский политехнический университет Петра Великого}}{07/2026 -- 07/2028}
+    \begin{cvbullets}
+      \item Программа: Машинное обучение и искусственный интеллект, ИКНК, Высшая школа технологий ИИ (предварительно зачислен).
+    \end{cvbullets}
+    \vspace{3pt}
+    \entry{Бакалавриат - Математика и компьютерные науки}{\href{https://www.spbstu.ru}{Санкт-Петербургский политехнический университет Петра Великого}}{09/2022 -- 07/2026}
+    \begin{cvbullets}
+      \item Тема диплома: алгоритм детекции посторонних объектов в области трамвайных путей на основе их сегментации.
+    \end{cvbullets}
+
+    \mainheading{Публикации}
+    \begin{cvbullets}
+      \item \href{https://www.elibrary.ru/item.asp?id=80243926}{Применение методов компьютерного зрения для определения положения вне игры в футболе}.
+      \item \href{https://elib.spbstu.ru/dl/2/i26-137.pdf/download/i26-137.pdf}{Построение зоны интереса на основе сегментации} - сборник недели науки, стр.\,386 \textit{(признан одним из лучших докладов)}.
+    \end{cvbullets}
+  \end{minipage}
 \end{minipage}
-
-\cvsection{Образование}
-\cvevent{}{Бакалавриат, Математика и компьютерные науки}{ \href{https://www.spbstu.ru}
-      {\textcolor{red}{\textbf{СПбПУ}}}}
-\noindent
-\begin{minipage}{0.08\linewidth}
-  \includegraphics[width=\linewidth]{img/POLY_LOGO.png}
-\end{minipage}%
-\hspace{-8pt}%
-\begin{minipage}{0.87\linewidth}
-  \cvdetail{Тема диплома: Алгоритм детекции посторонних объектов в области трамвайных путей на основе их сегментации}
-\end{minipage}
-
-\cvsection{Публикации (научные статьи)}
-\cvdetail{- \href{https://www.elibrary.ru/item.asp?id=80243926}{Применение методов компьютерного зрения для определения положения вне игры в футболе}}
-\cvdetail{- \href{https://elib.spbstu.ru/dl/2/i26-137.pdf/download/i26-137.pdf}{Построение зоны интереса на основе сегментации} (сборник недели науки, стр. 386)\textsuperscript{1}}
-{\hspace{2em}\small \texttt{           } \textsuperscript{1} - Признан одним из лучших докладов.}
-
-\null
-\vspace*{\fill}
-
-\hspace{-0.25\linewidth}\colorbox{bgcol}{
-  \makebox[1.5\linewidth][c]{
-    \mystrut \small
-    \textcolor{white}{
-      \href{https://github.com/MathematicLove}{\textbf{Мой GitHub}}
-      \ \textbf{|}\ 
-      \href{https://mathematiclove.github.io/my-cv}{\textbf{Мой сайт (больше обо мне и навыках)}}
-    }
-  }
-}
 
 \end{document}
