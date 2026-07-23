@@ -667,6 +667,11 @@ html[lang="ru"] .nav-skills-en {
   height: 108px;
 }
 
+/* Show full image (no cropping) inside the shot box; keeps card height aligned */
+.project-panel__shots--fit .project-panel__shot img {
+  object-fit: contain;
+}
+
 .project-shot-preview {
   position: fixed;
   z-index: 2000;
