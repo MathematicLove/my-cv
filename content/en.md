@@ -17,6 +17,10 @@
 <div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - night example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_NIGHT.png" alt="Object Detection on Dynamic RoI - night example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.png" alt="Object Detection on Dynamic RoI - tracking example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.jpg" alt="Object Detection on Dynamic RoI - tracking example"></a></div>
 </article>
 <article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-recommendation" data-counter="project-fashion-recommender-clicks">Vision Fashion Recommender</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/fashion-recommendation" class="project-panel__shot" aria-label="Vision Fashion Recommender - example"><img src="content/projects/FASHION_RECOMMENDER/FASHON_RECOMMENDER.png" alt="Vision Fashion Recommender - example"></a></div>
+</article>
+<article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/heart-disease" data-counter="project-heart-disease-clicks">Heart Disease Classifier</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/heart-disease" class="project-panel__shot" aria-label="Heart Disease Classifier - predictions in PCA space (Gradient Boosting)"><img src="content/projects/HEART_DISEASE/HEART_DISEASE_PCA.png" alt="Heart Disease Classifier - predictions in PCA space (Gradient Boosting)"></a></div>
 </article>
