@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mathematiclove.github.io/my-cv/</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mathematiclove.github.io/my-cv/learning-hub/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://mathematiclove.github.io/my-cv/articles/salimli-identification-of-the-roi-of-tram-tracks-based-on-their-segmentation.pdf</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://mathematiclove.github.io/my-cv/articles/salimli-computer-vision-for-offside-detection-in-football.pdf</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
