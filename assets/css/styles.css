@@ -672,6 +672,27 @@ html[lang="ru"] .nav-skills-en {
   object-fit: contain;
 }
 
+/* One image on top (full width) + two below; total height matches sibling cards */
+.project-panel__shots--stack .project-panel__shot {
+  height: 70px;
+}
+.project-panel__shots--stack .project-panel__shot:first-child {
+  width: 100%;
+}
+.project-panel__shots--stack .project-panel__shot:not(:first-child) {
+  width: calc(50% - 0.25rem);
+}
+
+/* Slightly taller single-shot cell (opt-in per card) */
+.project-panel__shots--tall .project-panel__shot {
+  height: 150px;
+}
+
+/* Slightly taller stacked cell (opt-in, e.g. RU card with longer title) */
+.project-panel__shots--stack-lg .project-panel__shot {
+  height: 80px;
+}
+
 .project-shot-preview {
   position: fixed;
   z-index: 2000;
