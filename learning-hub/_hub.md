@@ -1,4 +1,4 @@
 # Learning Hub
 
-- [[computer-science|Computer Science]]
-- [[mathematics|Mathematics]]
+- [[computer-science/|Computer Science]]
+- [[mathematics/|Mathematics]]

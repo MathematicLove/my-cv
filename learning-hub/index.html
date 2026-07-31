@@ -146,7 +146,8 @@
       var pageSlug = (hashIdx >= 0 ? s.slice(0, hashIdx) : s).replace(/\.md$/i, '').replace(/\\$/, '');
       var hashPart = (hashIdx >= 0 ? s.slice(hashIdx) : '').replace(/\\$/g, '');
       var label = (text || slug).trim();
-      var pageParam = pageSlug.indexOf('/') !== -1 ? pageSlug : (basePath ? basePath + '/' + pageSlug : pageSlug);
+      var isAbsolute = pageSlug.replace(/\/$/, '').indexOf('/') !== -1;
+      var pageParam = isAbsolute ? pageSlug : (basePath ? basePath + '/' + pageSlug : pageSlug);
       var target = '?page=' + encodeURIComponent(pageParam) + hashPart;
       return '[' + label + '](' + target + ')';
     });
@@ -159,17 +160,24 @@
     return page.replace(/[^a-z0-9_/-]/gi, '') || defaultPage;
   }
 
-  function resolvePath(slug) {
+  // A slug ending with "/" is a directory; otherwise a lecture file is tried
+  // first and the directory index is used as a fallback (for old links).
+  function resolveCandidates(slug) {
+    var isDir = /\/$/.test(slug);
     var parts = slug.split('/').filter(Boolean);
-    if (parts.length === 0) return { path: '_hub.md', basePath: '' };
-    if (parts.length === 1) return { path: parts[0] + '/_index.md', basePath: parts[0] };
-    if (parts.length === 2) {
-      return { path: parts[0] + '/' + parts[1] + '/_' + parts[1] + '.md', basePath: parts[0] + '/' + parts[1] };
-    }
-    if (parts.length === 3) {
-      return { path: parts[0] + '/' + parts[1] + '/' + parts[2] + '.md', basePath: parts[0] + '/' + parts[1] };
-    }
-    return { path: slug + '.md', basePath: '' };
+    if (parts.length === 0) return [{ path: '_hub.md', basePath: '' }];
+
+    var joined = parts.join('/');
+    var last = parts[parts.length - 1];
+    var dirIndex = {
+      path: joined + '/' + (parts.length === 1 ? '_index.md' : '_' + last + '.md'),
+      basePath: joined
+    };
+    var lecture = {
+      path: joined + '.md',
+      basePath: parts.slice(0, -1).join('/')
+    };
+    return isDir ? [dirIndex, lecture] : [lecture, dirIndex];
   }
 
   function renderMath(html) {
@@ -222,16 +230,24 @@
     }
   }
 
+  function fetchFirst(candidates) {
+    var i = 0;
+    function attempt() {
+      if (i >= candidates.length) return Promise.reject(new Error('Not found'));
+      var res = candidates[i++];
+      return fetch(res.path, { cache: 'no-store' }).then(function (r) {
+        if (!r.ok) return attempt();
+        return r.text().then(function (md) { return { md: md, basePath: res.basePath }; });
+      }, attempt);
+    }
+    return attempt();
+  }
+
   function loadPage() {
     var slug = getPageFromUrl();
-    var res = resolvePath(slug);
-    fetch(res.path, { cache: 'no-store' })
-      .then(function (r) {
-        if (!r.ok) throw new Error('Not found');
-        return r.text();
-      })
-      .then(function (md) {
-        var withWiki = wikiLinks(md, res.basePath);
+    fetchFirst(resolveCandidates(slug))
+      .then(function (res) {
+        var withWiki = wikiLinks(res.md, res.basePath);
         if (typeof marked !== 'undefined') {
           marked.setOptions({ gfm: true });
           render(marked.parse(withWiki));

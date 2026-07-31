@@ -1,5 +1,5 @@
 # Mathematics
 
-- [[discrete|Discrete mathematics]]
-- [[probability|Probability theory]]
-- [[statistics|Mathematical statistics]]
+- [[discrete/|Discrete mathematics]]
+- [[probability/|Probability theory]]
+- [[statistics/|Mathematical statistics]]

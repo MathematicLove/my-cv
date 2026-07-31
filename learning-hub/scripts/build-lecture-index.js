@@ -1,61 +1,131 @@
 #!/usr/bin/env node
 
+/**
+ * Rebuilds every index page of the learning hub:
+ *
+ *   learning-hub/_hub.md                 -> list of categories
+ *   learning-hub/<cat>/_index.md         -> list of topics (+ lectures lying in the category)
+ *   learning-hub/<cat>/<topic>/_<topic>.md -> list of lectures (+ nested subdirectories)
+ *   ... same rule for any deeper subdirectory
+ *
+ * Directory links get a trailing slash so index.html can resolve them without a
+ * probe request. Existing labels and their order are preserved, so manual
+ * wording (e.g. "SQL (Postgres)") survives a rebuild; new files are appended.
+ */
+
 const fs = require('fs');
 const path = require('path');
 
 const HUB_ROOT = path.resolve(__dirname, '..');
-const CATEGORIES = ['computer-science', 'mathematics'];
+const SKIP_DIRS = new Set(['scripts', 'img', 'assets', 'node_modules']);
+const ROOT_TITLE = 'Learning Hub';
 
-function getFirstHeading(filePath) {
-  const content = fs.readFileSync(filePath, 'utf8');
-  const line = content.split('\n').find((l) => /^#+\s+.+/.test(l.trim()));
-  if (line) return line.replace(/^#+\s*/, '').trim();
-  return path.basename(filePath, '.md');
+function isMarkdown(f) {
+  return f.endsWith('.md');
 }
 
-function getTopicTitle(topicPath, topicSlug, indexFilePath) {
-  if (fs.existsSync(indexFilePath)) {
-    const firstLine = fs.readFileSync(indexFilePath, 'utf8').split('\n')[0];
-    const m = firstLine.match(/^#\s+(.+)$/);
-    if (m) return m[1].trim();
+function firstHeading(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  const line = fs
+    .readFileSync(filePath, 'utf8')
+    .split('\n')
+    .find((l) => /^#+\s+.+/.test(l.trim()));
+  return line ? line.replace(/^#+\s*/, '').trim() : null;
+}
+
+function prettify(slug) {
+  const s = slug.replace(/^\d+[_-]/, '').replace(/[_-]/g, ' ').trim();
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+/** Name of the index file that represents `dir` (relative depth from the hub root). */
+function indexFileName(dirName, depth) {
+  if (depth === 0) return '_hub.md';
+  if (depth === 1) return '_index.md';
+  return '_' + dirName + '.md';
+}
+
+/** Parses an existing index page: its title, free-form lines and label overrides. */
+function readExisting(indexPath) {
+  const result = { title: null, extra: [], labels: new Map() };
+  if (!fs.existsSync(indexPath)) return result;
+
+  const lines = fs.readFileSync(indexPath, 'utf8').split('\n');
+  let titleTaken = false;
+
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!titleTaken && /^#\s+.+/.test(line)) {
+      result.title = line.replace(/^#\s*/, '').trim();
+      titleTaken = true;
+      continue;
+    }
+    const link = line.match(/^[-*]\s+\[\[([^\]|]+)(?:\|([^\]]+))?\]\]\s*$/);
+    if (link) {
+      const target = link[1].trim().replace(/\/$/, '');
+      result.labels.set(target, (link[2] || link[1]).trim());
+      continue;
+    }
+    if (line) result.extra.push(raw.replace(/\s+$/, ''));
   }
-  return topicSlug.charAt(0).toUpperCase() + topicSlug.slice(1).replace(/_/g, ' ');
+  return result;
 }
 
-function main() {
-  for (const cat of CATEGORIES) {
-    const catPath = path.join(HUB_ROOT, cat);
-    if (!fs.existsSync(catPath) || !fs.statSync(catPath).isDirectory()) continue;
+function buildDir(absDir, depth) {
+  const dirName = path.basename(absDir);
+  const indexPath = path.join(absDir, indexFileName(dirName, depth));
+  const existing = readExisting(indexPath);
 
-    const topics = fs.readdirSync(catPath).filter((f) => {
-      const p = path.join(catPath, f);
-      return fs.statSync(p).isDirectory();
-    });
+  const names = fs.readdirSync(absDir).filter((f) => !f.startsWith('.'));
 
-    for (const topic of topics) {
-      const topicPath = path.join(catPath, topic);
-      const indexFile = '_' + topic + '.md';
-      const indexPath = path.join(topicPath, indexFile);
+  const subDirs = names
+    .filter((f) => !SKIP_DIRS.has(f) && fs.statSync(path.join(absDir, f)).isDirectory())
+    .sort();
 
-      const lectureFiles = fs
-        .readdirSync(topicPath)
-        .filter((f) => f.endsWith('.md') && !f.startsWith('_'))
-        .sort();
+  const lectures = names
+    .filter((f) => isMarkdown(f) && !f.startsWith('_') && fs.statSync(path.join(absDir, f)).isFile())
+    .sort();
 
-      const topicTitle = getTopicTitle(topicPath, topic, indexPath);
-      const entries = [];
+  // Children first, so their titles are available for this page's links.
+  const childTitles = new Map();
+  for (const sub of subDirs) {
+    childTitles.set(sub, buildDir(path.join(absDir, sub), depth + 1));
+  }
 
-      for (const f of lectureFiles) {
-        const slug = f.replace(/\.md$/, '');
-        const title = getFirstHeading(path.join(topicPath, f));
-        entries.push(`- [[${slug}|${title}]]`);
-      }
+  const entries = new Map(); // target(no slash) -> markdown list item
+  for (const sub of subDirs) {
+    const label = existing.labels.get(sub) || childTitles.get(sub) || prettify(sub);
+    entries.set(sub, `- [[${sub}/|${label}]]`);
+  }
+  for (const f of lectures) {
+    const slug = f.replace(/\.md$/, '');
+    const label = existing.labels.get(slug) || firstHeading(path.join(absDir, f)) || prettify(slug);
+    entries.set(slug, `- [[${slug}|${label}]]`);
+  }
 
-      const md = `# ${topicTitle}\n\n${entries.join('\n')}\n`;
-      fs.writeFileSync(indexPath, md);
-      console.log('Updated', path.relative(HUB_ROOT, indexPath));
+  // Keep the previous ordering for entries that still exist, append the new ones.
+  const ordered = [];
+  for (const target of existing.labels.keys()) {
+    if (entries.has(target)) {
+      ordered.push(entries.get(target));
+      entries.delete(target);
     }
   }
+  ordered.push(...entries.values());
+
+  const title = existing.title || (depth === 0 ? ROOT_TITLE : prettify(dirName));
+  const blocks = [`# ${title}`];
+  if (existing.extra.length) blocks.push(existing.extra.join('\n'));
+  if (ordered.length) blocks.push(ordered.join('\n'));
+
+  const md = blocks.join('\n\n') + '\n';
+  const prev = fs.existsSync(indexPath) ? fs.readFileSync(indexPath, 'utf8') : null;
+  if (prev !== md) {
+    fs.writeFileSync(indexPath, md);
+    console.log((prev === null ? 'Created' : 'Updated') + ' ' + path.relative(HUB_ROOT, indexPath));
+  }
+
+  return title;
 }
 
-main();
+buildDir(HUB_ROOT, 0);
