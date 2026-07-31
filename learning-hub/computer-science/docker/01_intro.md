@@ -15,20 +15,20 @@
 - Размерам (GB)
 - Скорость загрузки (приложений)
 
-![Docker vs. VM](/content/arc/docker-vs-vm.png)
+![Docker vs. VM](../content/arc/docker-vs-vm.png)
 
 Архитектура Docker выглядет следующим образом:
 
-![Docker Arch.](/content/arc/docker-arch-linux.png)
+![Docker Arch.](../content/arc/docker-arch-linux.png)
 
 На Windows OS выглядет так:
 
-![Docker Arch. Windows](/content/arc/docker-arch-windows.png)
+![Docker Arch. Windows](../content/arc/docker-arch-windows.png)
 
 Однако в реальности на серверах, есть кластеры состоящие из узлов (ноды), для случая, если
 один из нодов упадет, работал другой. И выглядет архитектура так:
 
-![Docker Prod.](/content/arc/product-docker.png)
+![Docker Prod.](../content/arc/product-docker.png)
 
 ## Как упрощается разработка и установка приложений с Docker
 
@@ -41,7 +41,7 @@
 5. Администратор читает документацию
 6. Администратор развертывает приложение на сервере.
 
-![Regular Dev.](/content/arc/regular-dev.png)
+![Regular Dev.](../content/arc/regular-dev.png)
 
 Цикл с Docker:
 
@@ -52,7 +52,7 @@
 5. Программист пушит в Dockerhub
 6. Администратор берет образ из Dockerhub и развертывает на сервере образ. (любое количество образов)
 
-![Docker Dev.](/content/arc/docker-dev.png)
+![Docker Dev.](../content/arc/docker-dev.png)
 
 Проблема:
 Вдруг программист сделал что-то не так. Что работало только на его компьютере (локальном). Например добавили маленькую библиотеку, не добавили в документацию. Или что-то было настроенно только под его компьютер, на сервере это работать не будет.
@@ -94,7 +94,7 @@ docker pull nginx:<version>
 - Следить за CPU
 - Следить за GPU
 
-![Regestry Example.](/content/arc/regestry-example.png)
+![Regestry Example.](../content/arc/regestry-example.png)
 
 ## Базовые команды
 
