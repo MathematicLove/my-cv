@@ -1,6 +1,6 @@
 ## Обо мне
 
-- Салимли Айзек - магистр СПбПУ (ИКНК), направление Математика и компьютерные науки: машинное обучение и искусственный интеллект. Имею 1 год и 5 месяцев опыта в The Blooms Bridge: интеграция ИИ-систем (RAG, computer vision и др.) и backend-разработка. В первую очередь позиционирусь как Data Scientist и работаю с ML-циклом: предобработка и трансформация данных, анализ данных, отбор признаков, обучение моделей, подбор гиперпараметров, интерпретация результатов, разметка данных, обучение LLM, построение моделей (PyTorch, TensorFlow), внедрение (LangChain + LangGraph) и задачи компьютерного зрения (YOLO, ResNet, MobileNet, ViT, U-Net, SegFormer, YOLO-seg).
+- Салимли Айзек - магистр СПбПУ (ИКНК), направление Математика и компьютерные науки: машинное обучение и искусственный интеллект. Имею 1 год и 5 месяцев опыта в The Blooms Bridge: интеграция ИИ-систем (RAG, computer vision и др.) и backend-разработка. В первую очередь позиционирусь как Data Scientist и работаю с ML-циклом: предобработка и трансформация данных, анализ данных, отбор признаков, обучение моделей, подбор гиперпараметров, интерпретация результатов, разметка данных, обучение LLM, построение моделей (PyTorch, TensorFlow), внедрение (LangChain + LangGraph) и задачи компьютерного зрения (YOLO, ResNet, MobileNet, ViT, U-Net, SegFormer, YOLO-seg, YOLO-pose, MediaPipe, OpenCV).
 
 - Мои проф. интересы - компьютерное зрение, алгоритмы статистического/машинного обучения, нейронные сети, функциональное программирование, методы оптимизации, статистика, дискретная математика.
 
@@ -15,6 +15,10 @@
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" data-counter="project-dynamic-roi-clicks">Детекция объектов на динамическом RoI на основе сегментации с трекингом (веса доступны)</a></h4>
 <div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI - ночной пример"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_NIGHT.png" alt="Детекция объектов на динамическом RoI - ночной пример"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI - пример трекинга"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.png" alt="Детекция объектов на динамическом RoI - пример трекинга"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Детекция объектов на динамическом RoI - пример трекинга"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.jpg" alt="Детекция объектов на динамическом RoI - пример трекинга"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sign-language-to-text" data-counter="project-sign-language-clicks">Переводчик жестовых языков ASL и RSL в текст (и текста в жесты)</a></h4>
+<div class="project-panel__shots project-panel__shots--stack-2up project-panel__shots--stack-2up-lg"><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Переводчик жестовых языков - пример 1"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_1.png" alt="Переводчик жестовых языков - пример 1"></a><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Переводчик жестовых языков - пример 2"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_2.png" alt="Переводчик жестовых языков - пример 2"></a><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Переводчик жестовых языков - пример 3"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_3.png" alt="Переводчик жестовых языков - пример 3"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/hand-tracking-drawing" data-counter="project-hand-tracking-clicks">Рисование жестами руки (с 3D)</a></h4>
@@ -155,11 +159,12 @@
 | **Языки программирования** | Мультипарадигменный | <img src="content/logo/cplusplus.svg" height="20" alt="C++"/> C++ <img src="content/logo/python.svg" height="20" alt="Python"/> Python |
 | | Объектно-ориентированный (преимущественно) | <img src="content/logo/java.svg" height="20" alt="Java"/> Java |
 | | Функциональный | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
-| **Data Science & ML (Python)** | Работа с данными | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
+| **Data science, ML, Компьютерное зрение** | Работа с данными | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
 | | Визуализация данных | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
 | | Глубокое обучение (Фреймворки) | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/tensorflow-svgrepo-com.svg" height="20" alt="TensorFlow"/> <img src="content/logo/ultralytics.svg" height="22" alt="Ultralytics"/> |
 | | Машинное обучение | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
 | | Вычисления | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/scipy.svg" height="20" alt="SciPy"/> <img src="content/logo/statsmodels.svg" height="20" alt="StatsModels"/>|
+| | Компьютерное зрение | <img src="content/logo/opencv.svg" height="22" alt="OpenCV"/> OpenCV |
 | **Квантовые вычисления** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
 | **Фреймворки** | - | <img src="content/logo/fastapi.svg" height="20" alt="FastAPI"/> FastAPI <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring Boot |
 | **Базы данных (СУБД)** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |

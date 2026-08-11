@@ -683,6 +683,26 @@ html[lang="ru"] .nav-skills-en {
   width: calc(50% - 0.25rem);
 }
 
+/* Two images on top (half width each) + one full-width below;
+   tighter gap keeps the card level with siblings whose title is one line shorter */
+.project-panel__shots--stack-2up {
+  gap: 0.3rem;
+}
+.project-panel__shots--stack-2up .project-panel__shot {
+  height: 63px;
+}
+.project-panel__shots--stack-2up .project-panel__shot:nth-child(-n + 2) {
+  width: calc(50% - 0.15rem);
+}
+.project-panel__shots--stack-2up .project-panel__shot:nth-child(n + 3) {
+  width: 100%;
+}
+
+/* Taller variant (opt-in, e.g. RU card with a shorter title) */
+.project-panel__shots--stack-2up-lg .project-panel__shot {
+  height: 72px;
+}
+
 /* Slightly taller single-shot cell (opt-in per card) */
 .project-panel__shots--tall .project-panel__shot {
   height: 150px;

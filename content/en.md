@@ -1,6 +1,6 @@
 ## About
 
-- Salimli Ayzek - master's student at SPbSTU (ICCS), majoring in Mathematics and Computer Science: Machine Learning and Artificial Intelligence. I have 1 year and 5 months of experience at The Blooms Bridge: AI systems integration (RAG, computer vision, etc.) and backend development. I primarily position myself as a Data Scientist and work with the ML cycle: data preprocessing and transformation, data analysis, feature selection, model training, hyperparameter tuning, result interpretation, data labeling, LLM training, model building (PyTorch, TensorFlow), deployment (LangChain + LangGraph), and computer vision tasks (YOLO, ResNet, MobileNet, ViT, U-Net, SegFormer, YOLO-seg).
+- Salimli Ayzek - master's student at SPbSTU (ICCS), majoring in Mathematics and Computer Science: Machine Learning and Artificial Intelligence. I have 1 year and 5 months of experience at The Blooms Bridge: AI systems integration (RAG, computer vision, etc.) and backend development. I primarily position myself as a Data Scientist and work with the ML cycle: data preprocessing and transformation, data analysis, feature selection, model training, hyperparameter tuning, result interpretation, data labeling, LLM training, model building (PyTorch, TensorFlow), deployment (LangChain + LangGraph), and computer vision tasks (YOLO, ResNet, MobileNet, ViT, U-Net, SegFormer, YOLO-seg, YOLO-pose, MediaPipe, OpenCV).
 
 - My professional interests include computer vision, statistical and machine learning algorithms, neural networks, functional programming, optimization methods, statistics, and discrete mathematics.
 
@@ -15,6 +15,10 @@
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" data-counter="project-dynamic-roi-clicks">Object Detection on Dynamic RoI based on Segmentation with Tracking (weights available)</a></h4>
 <div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - night example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_NIGHT.png" alt="Object Detection on Dynamic RoI - night example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.png" alt="Object Detection on Dynamic RoI - tracking example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object Detection on Dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.jpg" alt="Object Detection on Dynamic RoI - tracking example"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sign-language-to-text" data-counter="project-sign-language-clicks">ASL, RSL sign languages to text (text to sign) translator</a></h4>
+<div class="project-panel__shots project-panel__shots--stack-2up"><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 1"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_1.png" alt="Sign language translator - example 1"></a><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 2"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_2.png" alt="Sign language translator - example 2"></a><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 3"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_3.png" alt="Sign language translator - example 3"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/hand-tracking-drawing" data-counter="project-hand-tracking-clicks">Hand Tracking Drawing (with 3D)</a></h4>
@@ -155,11 +159,12 @@
 | **Programming Languages** | Multi-paradigm | <img src="content/logo/cplusplus.svg" height="20" alt="C++"/> C++ <img src="content/logo/python.svg" height="20" alt="Python"/> Python |
 | | Object-Oriented (primarily)| <img src="content/logo/java.svg" height="20" alt="Java"/> Java |
 | | Functional | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
-| **Data Science & ML (Python)** | Data Manipulation | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
+| **Data science, ML, Computer vision** | Data Manipulation | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
 | | Data Visualization | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
 | | Deep Learning (Frameworks) | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/tensorflow-svgrepo-com.svg" height="20" alt="TensorFlow"/> <img src="content/logo/ultralytics.svg" height="22" alt="Ultralytics"/> |
 | | Machine Learning | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
 | | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/scipy.svg" height="20" alt="SciPy"/> <img src="content/logo/statsmodels.svg" height="20" alt="StatsModels"/>|
+| | Computer Vision | <img src="content/logo/opencv.svg" height="22" alt="OpenCV"/> OpenCV |
 | **Quantum Computing** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
 | **Frameworks** | - | <img src="content/logo/fastapi.svg" height="20" alt="FastAPI"/> FastAPI <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring Boot |
 | **Databases (DBMS)** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
