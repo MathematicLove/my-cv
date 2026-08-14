@@ -571,6 +571,34 @@ html[lang="ru"] .nav-skills-en {
   min-height: calc(0.96rem * 1.4 * 4);
 }
 
+/* Rows whose titles differ in length: reserve two title lines and stretch the
+   panels, so shot blocks of one row start and end on the same line */
+.projects-mosaic--even {
+  align-items: stretch;
+}
+
+.projects-mosaic--even .project-panel__title {
+  min-height: calc(0.96rem * 1.4 * 2);
+}
+
+/* One shot height for every card of the Web / Soft / Math grids, so all of
+   them sit on the same level whatever their layout is */
+.projects-mosaic--even .project-panel__shot,
+.projects-mosaic--math .project-panel__shot {
+  height: 180px;
+}
+
+.projects-mosaic--even .project-panel__shots--grid2x2 .project-panel__shot {
+  height: 86px;
+}
+
+/* Fixed three-column rhythm: cards of a trailing row keep the column width
+   instead of stretching across the whole row */
+.projects-mosaic--grid3 .project-panel {
+  flex: 0 1 calc(33.333% - 0.67rem);
+  min-width: 300px;
+}
+
 .project-panel {
   flex: 1 1 300px;
   max-width: 100%;
@@ -665,6 +693,12 @@ html[lang="ru"] .nav-skills-en {
   width: calc(33.333% - 0.34rem);
   min-width: 0;
   height: 108px;
+}
+
+/* 2x2 grid of shots; total height matches a single 132px cell */
+.project-panel__shots--grid2x2 .project-panel__shot {
+  width: calc(50% - 0.25rem);
+  height: 62px;
 }
 
 /* Show full image (no cropping) inside the shot box; keeps card height aligned */
@@ -781,6 +815,11 @@ html[lang="ru"] .nav-skills-en {
 @media (max-width: 640px) {
   .project-panel {
     flex-basis: 100%;
+  }
+
+  .projects-mosaic--grid3 .project-panel {
+    flex: 1 1 100%;
+    min-width: 0;
   }
 
   .project-panel__shots--x3 .project-panel__shot {

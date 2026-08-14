@@ -70,39 +70,49 @@
 ### Web
 
 <div class="projects-category">
-<div class="projects-mosaic">
+<div class="projects-mosaic projects-mosaic--even">
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it" data-counter="project-encrypt-it-clicks">Шифрование и дешифрование данных</a></h4>
 <div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных - главная страница"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Шифрование и дешифрование данных - главная страница"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных - страница шифрования"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Шифрование и дешифрование данных - страница шифрования"></a></div>
 </article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/quotes-web-app" data-counter="project-quotes-clicks">Цитаты из фильмов и мультфильмов</a></h4>
+<div class="project-panel__shots project-panel__shots--grid2x2"><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Цитаты из фильмов и мультфильмов - пример 1"><img src="content/projects/QUOTES_APP/QUOTES_EXAMPLE_1.png" alt="Цитаты из фильмов и мультфильмов - пример 1"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Цитаты из фильмов и мультфильмов - пример 2"><img src="content/projects/QUOTES_APP/QUOTES_EXAMPLE_2.png" alt="Цитаты из фильмов и мультфильмов - пример 2"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Цитаты из фильмов и мультфильмов - пример 3"><img src="content/projects/QUOTES_APP/QUOTES_EXAMPLE_3.png" alt="Цитаты из фильмов и мультфильмов - пример 3"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Цитаты из фильмов и мультфильмов - пример 4"><img src="content/projects/QUOTES_APP/QUOTES_EXAMPLE_4.png" alt="Цитаты из фильмов и мультфильмов - пример 4"></a></div>
+</article>
 </div>
-<ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/quotes-web-app" data-counter="project-quotes-clicks">Цитаты из фильмов и мультфильмов</a></li>
-</ul>
 </div>
 
 ### Soft
 
 <div class="projects-category">
-<div class="projects-mosaic">
-<article class="project-panel project-panel--plain">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game" data-counter="project-game-of-life-clicks">Игра в жизнь на КА</a></h4>
-<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain"><a href="https://github.com/MathematicLove/live-the-game" class="project-panel__shot" aria-label="Игра в жизнь на КА - больше итераций"><img src="content/projects/GAME_OF_LIFE_ON_CA/MORE_ITERATIONS.png" alt="Игра в жизнь на КА - больше итераций"></a></div>
+<div class="projects-mosaic projects-mosaic--even projects-mosaic--grid3">
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game" data-counter="project-game-of-life-clicks">Игра «Жизнь» на клеточном автомате</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/live-the-game" class="project-panel__shot" aria-label="Игра «Жизнь» на клеточном автомате - больше итераций"><img src="content/projects/GAME_OF_LIFE_ON_CA/MORE_ITERATIONS.png" alt="Игра «Жизнь» на клеточном автомате - больше итераций"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/ll1-grammar-with-bfs-semantics" data-counter="project-ll1-grammar-clicks">LL(1)-грамматика с BFS-семантикой на Haskell</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit"><a href="https://github.com/MathematicLove/ll1-grammar-with-bfs-semantics" class="project-panel__shot" aria-label="LL(1)-грамматика с BFS-семантикой на Haskell - пример"><img src="content/projects/LL1_GRAMMAR/LL1_EXAMPLE.png" alt="LL(1)-грамматика с BFS-семантикой на Haskell - пример"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/trip-planner-bot-spring" data-counter="project-trip-planner-clicks">ТГ-бот на Spring: Планировщик путешествий</a></h4>
+<div class="project-panel__shots project-panel__shots--x2 project-panel__shots--fit"><a href="https://github.com/MathematicLove/trip-planner-bot-spring" class="project-panel__shot" aria-label="ТГ-бот на Spring: Планировщик путешествий - пример 1"><img src="content/projects/TRIP_PLANNER/EXAMPLE_1.PNG" alt="ТГ-бот на Spring: Планировщик путешествий - пример 1"></a><a href="https://github.com/MathematicLove/trip-planner-bot-spring" class="project-panel__shot" aria-label="ТГ-бот на Spring: Планировщик путешествий - пример 2"><img src="content/projects/TRIP_PLANNER/EXAMPLE_2.PNG" alt="ТГ-бот на Spring: Планировщик путешествий - пример 2"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/ayzeks-sound" data-counter="project-ayzeks-sound-clicks">AyzeksSound: Открытый MP3-плеер для iOS</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit"><a href="https://github.com/MathematicLove/ayzeks-sound" class="project-panel__shot" aria-label="AyzeksSound: Открытый MP3-плеер для iOS - пример"><img src="content/projects/IOS_MP3/MP3_EXAMPLE.png" alt="AyzeksSound: Открытый MP3-плеер для iOS - пример"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/card-management-service" data-counter="project-card-management-clicks">Сервис управления банковскими картами</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit"><a href="https://github.com/MathematicLove/card-management-service" class="project-panel__shot" aria-label="Сервис управления банковскими картами - пример"><img src="content/projects/CARD_MANAGMENT/CARD_EXAMPLE.png" alt="Сервис управления банковскими картами - пример"></a></div>
 </article>
 </div>
-<ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/ayzeks-sound" data-counter="project-ayzeks-sound-clicks">Бесплатный MP3 плеер iOS: AyzeksSound</a></li>
-<li><a href="https://github.com/MathematicLove/price-checker-bot" data-counter="project-price-checker-clicks">ТГ-Бот отслеживания цен: PriceCheckerBot</a></li>
-<li><a href="https://github.com/MathematicLove/trip-planner-bot-spring" data-counter="project-trip-planner-clicks">ТГ-Бот планирования путешествий: SpringTripPlannerBot</a></li>
-<li><a href="https://github.com/MathematicLove/http-server" data-counter="project-http-server-clicks">HTTP сервер на Java</a></li>
-<li><a href="https://github.com/MathematicLove/card-management-service" data-counter="project-card-management-clicks">Сервис банковских карт</a></li>
-</ul>
 </div>
 
 ### Math
 
 <div class="projects-category">
-<div class="projects-mosaic projects-mosaic--math">
+<div class="projects-mosaic projects-mosaic--math projects-mosaic--grid3">
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" data-counter="project-mathlang-clicks">Презентации MathLang</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="Презентации MathLang"><img src="content/projects/MATHLANG_PRESENTATIONS/MATHLANG_PRESENTATIONS.png" alt="Презентации MathLang"></a></div>
@@ -115,10 +125,11 @@
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/regression-gas-export-impact" data-counter="project-regression-gas-clicks">Регрессионный анализ последствий сокращения экспорта газа</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Регрессионный анализ последствий сокращения экспорта газа - гипотезы chi²"><img src="content/projects/REGRESSION_ANALYSIS/hypotheses_chi2_bars.png" alt="Регрессионный анализ последствий сокращения экспорта газа - гипотезы chi²"></a></div>
 </article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Сборник учебных проектов (бакалавриат)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" class="project-panel__shot" aria-label="Сборник учебных проектов (бакалавриат) - ИКНК СПбПУ"><img src="content/projects/SPBSTU/LOGO_ICCS.png" alt="Сборник учебных проектов (бакалавриат) - ИКНК СПбПУ"></a></div>
+</article>
 </div>
-<ul class="projects-links">
-<li><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Учебные проекты</a></li>
-</ul>
 </div>
 
 ## Образование
