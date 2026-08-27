@@ -138,7 +138,22 @@
 
 ## Experience
 
-- **[The Blooms Bridge](https://thebloomsbridge.io)** - ML Engineer (20.07.2024 - present).
+- **[The Blooms Bridge](https://thebloomsbridge.io)** - **ML Engineer** (20.07.2024 - present)
+  - Integration of AI systems, including computer vision and agentic workflows, into the project using RAG, YOLO, YOLO-seg, SegFormer, OpenCV, LangChain, and LangGraph
+  - Development of a project dashboard and algorithms for dynamic vehicle routing problem (dVRP) tasks
+  - Research and training of semantic and instance segmentation models for real-time segmentation tasks
+  - Development of an automated system for reconciling customer orders with the items collected by couriers
+  - Development of a RAG system that provides recommendations based on reports
+  - Clustering of users by their orders and geographic areas
+  - Development of a zero-shot recommendation system for finding similar products
+  - Forecasting the number of products required for procurement
+  - Statistical and time-series analysis using ARIMA, SARIMA, and SARIMAX
+  - Development of a dynamic route optimization algorithm accounting for the courier's mode of transport, road events, product characteristics, and weather conditions
+  - Research into replacing the ESA attention mechanism with state-space models (SSMs) in ViT-style segmenters
+
+- **Private tutoring** - **Mathematics Tutor** (02.04.2023 - 03.05.2024)
+  - Preparation for state exams in mathematics
+  - Linear algebra for applicants to technical degree programs
 
 ## Articles
 
