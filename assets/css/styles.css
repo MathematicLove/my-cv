@@ -1566,3 +1566,56 @@ html[lang="ru"] .nav-skills-en {
   z-index: 1001;
   pointer-events: none;
 }
+/* Print */
+@media print {
+  .masthead-wrapper,
+  .footer,
+  .skip-link,
+  .scroll-progress,
+  .project-shot-preview,
+  .author__urls-btn,
+  .nav-toggle {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  #main {
+    display: block;
+    max-width: none;
+    padding: 0;
+  }
+
+  .sidebar {
+    position: static;
+    width: auto;
+    margin-bottom: 1em;
+  }
+
+  /* Reveal animation must not hide blocks that were never scrolled into view */
+  .js-anim #markdown-root > .reveal,
+  #markdown-root {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  #markdown-root h2,
+  #markdown-root h3 {
+    break-after: avoid;
+  }
+
+  #markdown-root img,
+  #markdown-root li,
+  .project-panel {
+    break-inside: avoid;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
