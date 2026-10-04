@@ -342,6 +342,14 @@
     loadContent();
     setYear();
 
+    var bar = document.createElement('div');
+    bar.className = 'scroll-progress';
+    document.body.appendChild(bar);
+    window.addEventListener('scroll', function () {
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      bar.style.transform = 'scaleX(' + (max > 0 ? window.scrollY / max : 0) + ')';
+    }, {passive: true});
+
     const langBtn = document.getElementById('lang-toggle');
     if (langBtn) langBtn.addEventListener('click', toggleLanguage);
 
