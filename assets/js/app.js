@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '48';
+  var CONTENT_VERSION = '49';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
@@ -175,6 +175,56 @@
     assignSectionIds(root);
     ensureLearningHubAnchor(root);
     initProjectShotPreviews();
+    initReveal(root);
+    initScrollSpy(root);
+    root.classList.remove('is-switching');
+  }
+
+  var revealObserver = null;
+
+  function initReveal(root) {
+    if (revealObserver) revealObserver.disconnect();
+    if (!('IntersectionObserver' in window) ||
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    document.documentElement.classList.add('js-anim');
+    revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+    Array.prototype.forEach.call(root.children, function (el) {
+      el.classList.add('reveal');
+      revealObserver.observe(el);
+    });
+  }
+
+  function initScrollSpy(root) {
+    var heads = Array.prototype.filter.call(root.querySelectorAll('h2[id]'), function (h) {
+      return document.getElementById('nav-link-' + h.id);
+    });
+    function setActive(id) {
+      document.querySelectorAll('.section-nav__link').forEach(function (a) {
+        a.classList.toggle('is-active', a.id === 'nav-link-' + id);
+      });
+    }
+    var current = null;
+    function onScroll() {
+      var id = null;
+      heads.forEach(function (h) {
+        if (h.getBoundingClientRect().top <= window.innerHeight * 0.35) id = h.id;
+      });
+      if (id !== current) {
+        current = id;
+        setActive(id);
+      }
+    }
+    if (window._spyHandler) window.removeEventListener('scroll', window._spyHandler);
+    window._spyHandler = onScroll;
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
   }
 
   function initProjectShotPreviews() {
@@ -257,7 +307,10 @@
       })
       .catch(err => {
         const root = document.getElementById('markdown-root');
-        if (root) root.innerHTML = '<p>Не удалось загрузить :(</p>';
+        if (root) {
+          root.innerHTML = '<p>Не удалось загрузить :(</p>';
+          root.classList.remove('is-switching');
+        }
         console.error(err);
       });
   }
@@ -269,7 +322,9 @@
     localStorage.setItem('lang', currentLang);
     applyMeta();
     updateUI();
-    loadContent();
+    var root = document.getElementById('markdown-root');
+    if (root) root.classList.add('is-switching');
+    setTimeout(loadContent, 180);
   }
 
   function toggleLanguage() {

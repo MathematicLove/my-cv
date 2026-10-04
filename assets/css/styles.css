@@ -119,9 +119,74 @@ a:hover {
   font-size: 0.85rem;
 }
 
+.section-nav__link {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
 .section-nav__link:hover {
   color: var(--masthead-link-color-hover);
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.section-nav__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.25s ease;
+}
+
+.section-nav__link:hover::after,
+.section-nav__link.is-active::after {
+  transform: scaleX(1);
+}
+
+.section-nav__link.is-active {
+  color: var(--masthead-link-color-hover);
+}
+
+/* Section reveal on scroll + language switch fade */
+.js-anim #markdown-root > .reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.js-anim #markdown-root > .reveal.is-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+#markdown-root {
+  transition: opacity 0.18s ease;
+}
+
+#markdown-root.is-switching {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .js-anim #markdown-root > .reveal,
+  #markdown-root {
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+
+  .section-nav,
+  .section-nav__link::after {
+    transition: none !important;
+  }
 }
 
 .nav-toggle {
@@ -1303,18 +1368,32 @@ html[lang="ru"] .nav-skills-en {
   }
 
   .section-nav {
-    display: none;
+    display: flex;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.3s ease, opacity 0.25s ease, visibility 0s linear 0.3s, padding 0.3s ease;
     flex-basis: 100%;
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    padding: 0.35em 0 0.15em;
-    border-top: 1px solid var(--border-color);
+    padding: 0 0;
+    border-top: 1px solid transparent;
     margin-top: 0.15em;
   }
 
   .section-nav.is-open {
-    display: flex;
+    max-height: 30rem;
+    opacity: 1;
+    visibility: visible;
+    padding: 0.35em 0 0.15em;
+    border-top-color: var(--border-color);
+    transition: max-height 0.3s ease, opacity 0.25s ease, visibility 0s, padding 0.3s ease;
+  }
+
+  .section-nav__link::after {
+    display: none;
   }
 
   .section-nav__link {
