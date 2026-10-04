@@ -1560,7 +1560,7 @@ html[lang="ru"] .nav-skills-en {
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--link-color);
+  background: #fff;
   transform: scaleX(0);
   transform-origin: left center;
   z-index: 1001;
