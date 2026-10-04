@@ -1553,3 +1553,16 @@ html[lang="ru"] .nav-skills-en {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 }
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--link-color);
+  transform: scaleX(0);
+  transform-origin: left center;
+  z-index: 1001;
+  pointer-events: none;
+}
