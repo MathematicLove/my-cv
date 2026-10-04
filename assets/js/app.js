@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '49';
+  var CONTENT_VERSION = '51';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
@@ -176,7 +176,7 @@
     ensureLearningHubAnchor(root);
     initProjectShotPreviews();
     initReveal(root);
-    initScrollSpy(root);
+    initScrollSpy();
     root.classList.remove('is-switching');
   }
 
@@ -201,25 +201,29 @@
     });
   }
 
-  function initScrollSpy(root) {
-    var heads = Array.prototype.filter.call(root.querySelectorAll('h2[id]'), function (h) {
-      return document.getElementById('nav-link-' + h.id);
+  function initScrollSpy() {
+    var links = Array.prototype.slice.call(document.querySelectorAll('.section-nav__link'));
+    var items = [];
+    links.forEach(function (a) {
+      var id = a.id === 'nav-link-about' ? 'about' : (a.getAttribute('href') || '').replace(/^#/, '');
+      var el = id && document.getElementById(id);
+      if (el) items.push({ link: a, el: el });
     });
-    function setActive(id) {
-      document.querySelectorAll('.section-nav__link').forEach(function (a) {
-        a.classList.toggle('is-active', a.id === 'nav-link-' + id);
-      });
-    }
+    items.sort(function (x, y) {
+      return x.el.getBoundingClientRect().top - y.el.getBoundingClientRect().top;
+    });
     var current = null;
     function onScroll() {
-      var id = null;
-      heads.forEach(function (h) {
-        if (h.getBoundingClientRect().top <= window.innerHeight * 0.35) id = h.id;
+      var active = null;
+      items.forEach(function (it) {
+        if (it.el.getBoundingClientRect().top <= window.innerHeight * 0.35) active = it;
       });
-      if (id !== current) {
-        current = id;
-        setActive(id);
-      }
+      var activeLink = active && active.link;
+      if (activeLink === current) return;
+      current = activeLink;
+      links.forEach(function (a) {
+        a.classList.toggle('is-active', !!activeLink && (a === activeLink || a.getAttribute('href') === activeLink.getAttribute('href')));
+      });
     }
     if (window._spyHandler) window.removeEventListener('scroll', window._spyHandler);
     window._spyHandler = onScroll;
