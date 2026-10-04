@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '51';
+  var CONTENT_VERSION = '52';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
@@ -215,8 +215,13 @@
     var current = null;
     function onScroll() {
       var active = null;
+      // Trigger line slides from 35% down to the bottom of the viewport as the page
+      // scrolls, so the last sections (which can never reach 35%) still get highlighted.
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      var progress = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+      var line = window.innerHeight * (0.35 + 0.65 * progress * progress);
       items.forEach(function (it) {
-        if (it.el.getBoundingClientRect().top <= window.innerHeight * 0.35) active = it;
+        if (it.el.getBoundingClientRect().top <= line) active = it;
       });
       var activeLink = active && active.link;
       if (activeLink === current) return;
