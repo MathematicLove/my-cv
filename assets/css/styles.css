@@ -807,6 +807,11 @@ html[lang="ru"] .nav-skills-en {
   height: 150px;
 }
 
+/* Single shot that offsets a two-line title, so the card matches its one-line-title neighbours */
+.project-panel__shots--short .project-panel__shot {
+  height: 129px;
+}
+
 /* Slightly taller stacked cell (opt-in, e.g. RU card with longer title) */
 .project-panel__shots--stack-lg .project-panel__shot {
   height: 80px;
