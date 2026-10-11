@@ -159,18 +159,26 @@
   - Подготовка к государственным экзаменам по математике
   - Линейная алгебра для поступающих на технические направления
 
-## Статьи
+## Публикации
 
+- <a href="https://naukaip.ru/wp-content/uploads/2026/10/MK-2794.pdf" data-counter="article-segformer-clicks">Улучшение декодера SegFormer для семантической сегментации с помощью добавления блока поканальной свертки (стр. 52)<sup>2</sup></a>
 - <a href="https://www.elibrary.ru/qfcwed" data-counter="article-tram-clicks">Построение зоны интереса на основе сегментации<sup>1</sup></a>
 - <a href="https://www.elibrary.ru/item.asp?id=80243926" data-counter="article-offside-clicks">Применение методов компьютерного зрения для определения положения вне игры в футболе</a>
 
-<strong><p><sup>1</sup> - Признан одним из лучших докладов.</strong></p>
+<p class="article-note"><strong><sup>1</sup> - Признан одним из лучших докладов.</strong></p>
+<p class="article-note"><strong><sup>2</sup> - 1-ое место в секции «Технические науки».</strong></p>
 
 ## Дипломы и Сертификаты
 
 <div class="certificates-grid">
   <a href="certificates/spbstu-science-week.jpg" target="_blank" class="certificate-link">
     <img src="certificates/spbstu-science-week.jpg" alt="Certificate - SPbSTU Best Article" class="certificate-img">
+  </a>
+  <a href="certificates/salimli-diploma-segformer.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/salimli-diploma-segformer-thumb.jpg" alt="Диплом - 1 место, конференция «Молодой учёный» (декодер SegFormer)" class="certificate-img">
+  </a>
+  <a href="certificates/salimli-certificate-segformer.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/salimli-certificate-segformer-cp.jpg" alt="Сертификат - участие в конференции «Молодой учёный» (декодер SegFormer)" class="certificate-img">
   </a>
   <a href="certificates/salimli-diploma-cp-original.jpg" target="_blank" class="certificate-link">
     <img src="certificates/salimli-diploma-cp.jpg?v=7" alt="Диплом - соревнования по программированию" class="certificate-img">

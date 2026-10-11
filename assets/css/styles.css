@@ -589,6 +589,12 @@ html[lang="ru"] .nav-skills-en {
   color: var(--body-text-color) !important;
 }
 
+/* Footnotes under the article list */
+#markdown-root p.article-note,
+.page__content p.article-note {
+  font-size: 0.85em;
+}
+
 #markdown-root ul,
 .page__content ul {
   margin: 0 0 1em;

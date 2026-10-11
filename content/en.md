@@ -161,16 +161,24 @@
 
 ## Articles
 
+- <a href="https://naukaip.ru/wp-content/uploads/2026/10/MK-2794.pdf" data-counter="article-segformer-clicks">Improving the SegFormer decoder for semantic segmentation by adding a depthwise convolution block (page 52)<sup>2</sup></a>
 - <a href="https://www.elibrary.ru/qfcwed" data-counter="article-tram-clicks">Construction of the Region of Interest based on segmentation<sup>1</sup></a>
 - <a href="https://www.elibrary.ru/item.asp?id=80243926" data-counter="article-offside-clicks">Computer vision for offside detection in football</a>
 
-<strong><p><sup>1</sup> - Recognized as one of the best articles.</strong></p>
+<p class="article-note"><strong><sup>1</sup> - Recognized as one of the best articles.</strong></p>
+<p class="article-note"><strong><sup>2</sup> - 1st place in the "Technical Sciences" section.</strong></p>
 
 ## Diplomas and Certificates
 
 <div class="certificates-grid">
   <a href="certificates/spbstu-science-week.jpg" target="_blank" class="certificate-link">
     <img src="certificates/spbstu-science-week.jpg" alt="Certificate - SPbSTU Best Article" class="certificate-img">
+  </a>
+  <a href="certificates/salimli-diploma-segformer.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/salimli-diploma-segformer-thumb.jpg" alt="Diploma - 1st place, Young Scientist conference (SegFormer decoder)" class="certificate-img">
+  </a>
+  <a href="certificates/salimli-certificate-segformer.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/salimli-certificate-segformer-cp.jpg" alt="Certificate - participation, Young Scientist conference (SegFormer decoder)" class="certificate-img">
   </a>
   <a href="certificates/salimli-diploma-cp-original.jpg" target="_blank" class="certificate-link">
     <img src="certificates/salimli-diploma-cp.jpg?v=7" alt="Certificate - Competitive Programming Diploma" class="certificate-img">

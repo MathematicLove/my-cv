@@ -16,7 +16,7 @@
     { re: /^Experience$/i, id: 'experience' },
     { re: /^Опыт работы$/i, id: 'experience' },
     { re: /^Articles$/i, id: 'articles' },
-    { re: /^Статьи$/i, id: 'articles' },
+    { re: /^Публикации$/i, id: 'articles' },
     { re: /^Дипломы и Сертификаты$/i, id: 'certificates' },
     { re: /^Diplomas and Certificates$/i, id: 'certificates' },
     { re: /^Contacts$/i, id: 'contact' },
@@ -40,7 +40,7 @@
         about: 'Обо мне',
         tasks: 'Проекты',
         education: 'Образование',
-        articles: 'Статьи',
+        articles: 'Публикации',
         certificates: 'Дипломы и Сертификаты',
         experience: 'Опыт',
         skills: 'Навыки',
@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '55';
+  var CONTENT_VERSION = '59';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
