@@ -26,7 +26,7 @@
   const meta = {
     ru: {
       title: 'Салимли Айзек',
-      description: 'Портфолио разработчика: языки, фреймворки, DevOps, базы данных, математика и проекты.',
+      description: 'Портфолио Data Scientist: машинное обучение, компьютерное зрение, языки, фреймворки, DevOps, базы данных, математика и проекты.',
       siteTitle: 'Салимли Айзек',
       authorName: 'Салимли Айзек',
       authorBio: 'Data Scientist. Магистр 1-го курса, СПбПУ, ИКНК. Математика и компьютерные науки, машинное обучение и искусственный интеллект.',
@@ -51,7 +51,7 @@
     },
     en: {
       title: 'Salimli Ayzek',
-      description: 'Developer portfolio: languages, frameworks, DevOps, databases, mathematics and projects.',
+      description: 'Data Scientist portfolio: machine learning, computer vision, languages, frameworks, DevOps, databases, mathematics and projects.',
       siteTitle: 'Salimli Ayzek',
       authorName: 'Salimli Ayzek',
       authorBio: "Data Scientist. 1st-year master's student, SPbSTU, ICCS. Mathematics and Computer Science, Machine Learning and Artificial Intelligence.",
@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '59';
+  var CONTENT_VERSION = '60';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
