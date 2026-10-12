@@ -14,59 +14,59 @@
 <div class="projects-mosaic">
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" data-counter="project-dynamic-roi-clicks">Object detection on dynamic RoI based on segmentation with tracking (weights available)</a></h4>
-<div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object detection on dynamic RoI - night example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_NIGHT.png" alt="Object detection on dynamic RoI - night example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object detection on dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.png" alt="Object detection on dynamic RoI - tracking example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object detection on dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/EXAMPLE_TRACKING.jpg" alt="Object detection on dynamic RoI - tracking example"></a></div>
+<div class="project-panel__shots project-panel__shots--x3"><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object detection on dynamic RoI - night example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/thumb/example_night.png.webp" alt="Object detection on dynamic RoI - night example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object detection on dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/thumb/example_tracking.png.webp" alt="Object detection on dynamic RoI - tracking example"></a><a href="https://github.com/MathematicLove/tram-dynamic-roi-tracker" class="project-panel__shot" aria-label="Object detection on dynamic RoI - tracking example"><img src="content/projects/OBJECT_DETECTION_ON_DYNAMIC_ROI/thumb/example_tracking.jpg.webp" alt="Object detection on dynamic RoI - tracking example"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/aofitasotr/bpmn-architect" data-counter="project-bpmn-architect-clicks">Text-to-BPMN (generating BPMN diagrams from text)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--short"><a href="https://github.com/aofitasotr/bpmn-architect" class="project-panel__shot" aria-label="Text-to-BPMN - example"><img src="content/projects/BPMN_ARCH/BPMN_EXAMPLE.jpg" alt="Text-to-BPMN - example"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--short"><a href="https://github.com/aofitasotr/bpmn-architect" class="project-panel__shot" aria-label="Text-to-BPMN - example"><img src="content/projects/BPMN_ARCH/thumb/bpmn_example.jpg.webp" alt="Text-to-BPMN - example"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/real-time-censorship" data-counter="project-real-time-censorship-clicks">Real-time censorship API (for online meetings)</a></h4>
-<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/real-time-censorship" class="project-panel__shot" aria-label="Real-time censorship API - example 1"><img src="content/projects/REAL_TIME_CENSORSHIP/EXAMPLE_1.png" alt="Real-time censorship API - example 1"></a><a href="https://github.com/MathematicLove/real-time-censorship" class="project-panel__shot" aria-label="Real-time censorship API - example 2"><img src="content/projects/REAL_TIME_CENSORSHIP/EXAMPLE_2.png" alt="Real-time censorship API - example 2"></a></div>
+<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/real-time-censorship" class="project-panel__shot" aria-label="Real-time censorship API - example 1"><img src="content/projects/REAL_TIME_CENSORSHIP/thumb/example_1.png.webp" alt="Real-time censorship API - example 1"></a><a href="https://github.com/MathematicLove/real-time-censorship" class="project-panel__shot" aria-label="Real-time censorship API - example 2"><img src="content/projects/REAL_TIME_CENSORSHIP/thumb/example_2.png.webp" alt="Real-time censorship API - example 2"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sign-language-to-text" data-counter="project-sign-language-clicks">ASL, RSL sign languages to text (text to sign) translator</a></h4>
-<div class="project-panel__shots project-panel__shots--stack-2up"><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 1"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_1.png" alt="Sign language translator - example 1"></a><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 2"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_2.png" alt="Sign language translator - example 2"></a><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 3"><img src="content/projects/SIGN_TO_TEXT/EXAMPLE_3.png" alt="Sign language translator - example 3"></a></div>
+<div class="project-panel__shots project-panel__shots--stack-2up"><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 1"><img src="content/projects/SIGN_TO_TEXT/thumb/example_1.png.webp" alt="Sign language translator - example 1"></a><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 2"><img src="content/projects/SIGN_TO_TEXT/thumb/example_2.png.webp" alt="Sign language translator - example 2"></a><a href="https://github.com/MathematicLove/sign-language-to-text" class="project-panel__shot" aria-label="Sign language translator - example 3"><img src="content/projects/SIGN_TO_TEXT/thumb/example_3.png.webp" alt="Sign language translator - example 3"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/hand-tracking-drawing" data-counter="project-hand-tracking-clicks">Hand tracking drawing (with 3D)</a></h4>
-<div class="project-panel__shots project-panel__shots--stack"><a href="https://github.com/MathematicLove/hand-tracking-drawing" class="project-panel__shot" aria-label="Hand tracking drawing - example 1"><img src="content/projects/HAND_TRACKING_DRAWING/HAND_TRACK_EXAMPLE_2.png" alt="Hand tracking drawing - example 1"></a><a href="https://github.com/MathematicLove/hand-tracking-drawing" class="project-panel__shot" aria-label="Hand tracking drawing - example 2"><img src="content/projects/HAND_TRACKING_DRAWING/HAND_TRACK_EXAMPLE_3.png" alt="Hand tracking drawing - example 2"></a><a href="https://github.com/MathematicLove/hand-tracking-drawing" class="project-panel__shot" aria-label="Hand tracking drawing - example 3"><img src="content/projects/HAND_TRACKING_DRAWING/HAND_TRACK_EXAMPLE_1.png" alt="Hand tracking drawing - example 3"></a></div>
+<div class="project-panel__shots project-panel__shots--stack"><a href="https://github.com/MathematicLove/hand-tracking-drawing" class="project-panel__shot" aria-label="Hand tracking drawing - example 1"><img src="content/projects/HAND_TRACKING_DRAWING/thumb/hand_track_example_2.png.webp" alt="Hand tracking drawing - example 1"></a><a href="https://github.com/MathematicLove/hand-tracking-drawing" class="project-panel__shot" aria-label="Hand tracking drawing - example 2"><img src="content/projects/HAND_TRACKING_DRAWING/thumb/hand_track_example_3.png.webp" alt="Hand tracking drawing - example 2"></a><a href="https://github.com/MathematicLove/hand-tracking-drawing" class="project-panel__shot" aria-label="Hand tracking drawing - example 3"><img src="content/projects/HAND_TRACKING_DRAWING/thumb/hand_track_example_1.png.webp" alt="Hand tracking drawing - example 3"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/pose-driven-3d-characters/tree/main" data-counter="project-pose-3d-clicks">Pose driven 3D characters</a></h4>
-<div class="project-panel__shots project-panel__shots--x2 project-panel__shots--fit project-panel__shots--tall"><a href="https://github.com/MathematicLove/pose-driven-3d-characters/tree/main" class="project-panel__shot" aria-label="Pose driven 3D characters - example 1"><img src="content/projects/POSE_DRIVEN_3D_CHARACTERS/POSE_DRIVEN_3D_EXAMPLE_1.png" alt="Pose driven 3D characters - example 1"></a><a href="https://github.com/MathematicLove/pose-driven-3d-characters/tree/main" class="project-panel__shot" aria-label="Pose driven 3D characters - example 2"><img src="content/projects/POSE_DRIVEN_3D_CHARACTERS/POSE_DRIVEN_3D_EXAMPLE_2.png" alt="Pose driven 3D characters - example 2"></a></div>
+<div class="project-panel__shots project-panel__shots--x2 project-panel__shots--fit project-panel__shots--tall"><a href="https://github.com/MathematicLove/pose-driven-3d-characters/tree/main" class="project-panel__shot" aria-label="Pose driven 3D characters - example 1"><img src="content/projects/POSE_DRIVEN_3D_CHARACTERS/thumb/pose_driven_3d_example_1.png.webp" alt="Pose driven 3D characters - example 1"></a><a href="https://github.com/MathematicLove/pose-driven-3d-characters/tree/main" class="project-panel__shot" aria-label="Pose driven 3D characters - example 2"><img src="content/projects/POSE_DRIVEN_3D_CHARACTERS/thumb/pose_driven_3d_example_2.png.webp" alt="Pose driven 3D characters - example 2"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-recommendation" data-counter="project-fashion-recommender-clicks">Vision fashion recommender</a></h4>
-<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--tall"><a href="https://github.com/MathematicLove/fashion-recommendation" class="project-panel__shot" aria-label="Vision fashion recommender - example"><img src="content/projects/FASHION_RECOMMENDER/FASHON_RECOMMENDER.png" alt="Vision fashion recommender - example"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--tall"><a href="https://github.com/MathematicLove/fashion-recommendation" class="project-panel__shot" aria-label="Vision fashion recommender - example"><img src="content/projects/FASHION_RECOMMENDER/thumb/fashon_recommender.png.webp" alt="Vision fashion recommender - example"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/heart-disease" data-counter="project-heart-disease-clicks">Heart disease classifier</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/heart-disease" class="project-panel__shot" aria-label="Heart disease classifier - predictions in PCA space (Gradient Boosting)"><img src="content/projects/HEART_DISEASE/HEART_DISEASE_PCA.png" alt="Heart disease classifier - predictions in PCA space (Gradient Boosting)"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/heart-disease" class="project-panel__shot" aria-label="Heart disease classifier - predictions in PCA space (Gradient Boosting)"><img src="content/projects/HEART_DISEASE/thumb/heart_disease_pca.png.webp" alt="Heart disease classifier - predictions in PCA space (Gradient Boosting)"></a></div>
 </article>
 <article class="project-panel project-panel--plain">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" data-counter="project-qt-mnist-clicks">Qt MNIST recognizer</a></h4>
-<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Qt MNIST recognizer - example"><img src="content/projects/QT_MNIST/EXAMPLE.png" alt="Qt MNIST recognizer - example"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Qt MNIST recognizer - example"><img src="content/projects/QT_MNIST/thumb/example.png.webp" alt="Qt MNIST recognizer - example"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" data-counter="project-fashion-mnist-clicks">Fashion-MNIST classification with TinyVGG</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" class="project-panel__shot" aria-label="Fashion-MNIST classification with TinyVGG"><img src="content/projects/FASHION_MNIST/FASHION_MNIST.png" alt="Fashion-MNIST classification with TinyVGG"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" class="project-panel__shot" aria-label="Fashion-MNIST classification with TinyVGG"><img src="content/projects/FASHION_MNIST/thumb/fashion_mnist.png.webp" alt="Fashion-MNIST classification with TinyVGG"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb" data-counter="project-sarcasm-clicks">Sarcasmic text classification (transformer NN)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb" class="project-panel__shot" aria-label="Sarcasmic text classification (transformer NN)"><img src="content/projects/SARCASM_TEXT/SARCASM_TEXT.png" alt="Sarcasmic text classification (transformer NN)"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/sarcasmic-text-classification/blob/main/sarcasm_text_classification.ipynb" class="project-panel__shot" aria-label="Sarcasmic text classification (transformer NN)"><img src="content/projects/SARCASM_TEXT/thumb/sarcasm_text.png.webp" alt="Sarcasmic text classification (transformer NN)"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-leafs-health-clicks">Leafs health classification (GoogLeNet)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Leafs health classification (GoogLeNet)"><img src="content/projects/LEAFS_HEALTH/LEAFS_HEATH.png" alt="Leafs health classification (GoogLeNet)"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Leafs health classification (GoogLeNet)"><img src="content/projects/LEAFS_HEALTH/thumb/leafs_heath.png.webp" alt="Leafs health classification (GoogLeNet)"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-animal-classification-clicks">Classification of cats, dogs and wild animals (CNN)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Classification of cats, dogs and wild animals (CNN)"><img src="content/projects/ANIMAL_CLASSIFICATION/ANIMALS.png" alt="Classification of cats, dogs and wild animals (CNN)"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Classification of cats, dogs and wild animals (CNN)"><img src="content/projects/ANIMAL_CLASSIFICATION/thumb/animals.png.webp" alt="Classification of cats, dogs and wild animals (CNN)"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-breast-cancer-clicks">Breast cancer classification</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Breast cancer classification"><img src="content/projects/BREAST_CANCER/BREAST_CANCER.png" alt="Breast cancer classification"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Breast cancer classification"><img src="content/projects/BREAST_CANCER/thumb/breast_cancer.png.webp" alt="Breast cancer classification"></a></div>
 </article>
 </div>
 </div>
@@ -77,11 +77,11 @@
 <div class="projects-mosaic projects-mosaic--even">
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it" data-counter="project-encrypt-it-clicks">Data encryption and decryption</a></h4>
-<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data encryption and decryption - home page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/HOME_PAGE.png" alt="Data encryption and decryption - home page"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data encryption and decryption - encrypt page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/ENCRYPT_PAGE.png" alt="Data encryption and decryption - encrypt page"></a></div>
+<div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data encryption and decryption - home page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/thumb/home_page.png.webp" alt="Data encryption and decryption - home page"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Data encryption and decryption - encrypt page"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/thumb/encrypt_page.png.webp" alt="Data encryption and decryption - encrypt page"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/quotes-web-app" data-counter="project-quotes-clicks">Quotes from movies and cartoons</a></h4>
-<div class="project-panel__shots project-panel__shots--grid2x2"><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Quotes from movies and cartoons - example 1"><img src="content/projects/QUOTES_APP/QUOTES_EXAMPLE_1.png" alt="Quotes from movies and cartoons - example 1"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Quotes from movies and cartoons - example 2"><img src="content/projects/QUOTES_APP/QUOTES_EXAMPLE_2.png" alt="Quotes from movies and cartoons - example 2"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Quotes from movies and cartoons - example 3"><img src="content/projects/QUOTES_APP/QUOTES_EXAMPLE_3.png" alt="Quotes from movies and cartoons - example 3"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Quotes from movies and cartoons - example 4"><img src="content/projects/QUOTES_APP/QUOTES_EXAMPLE_4.png" alt="Quotes from movies and cartoons - example 4"></a></div>
+<div class="project-panel__shots project-panel__shots--grid2x2"><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Quotes from movies and cartoons - example 1"><img src="content/projects/QUOTES_APP/thumb/quotes_example_1.png.webp" alt="Quotes from movies and cartoons - example 1"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Quotes from movies and cartoons - example 2"><img src="content/projects/QUOTES_APP/thumb/quotes_example_2.png.webp" alt="Quotes from movies and cartoons - example 2"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Quotes from movies and cartoons - example 3"><img src="content/projects/QUOTES_APP/thumb/quotes_example_3.png.webp" alt="Quotes from movies and cartoons - example 3"></a><a href="https://github.com/MathematicLove/quotes-web-app" class="project-panel__shot" aria-label="Quotes from movies and cartoons - example 4"><img src="content/projects/QUOTES_APP/thumb/quotes_example_4.png.webp" alt="Quotes from movies and cartoons - example 4"></a></div>
 </article>
 </div>
 </div>
@@ -92,7 +92,7 @@
 <div class="projects-mosaic projects-mosaic--even projects-mosaic--grid3">
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/live-the-game" data-counter="project-game-of-life-clicks">Game of life on CA</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/live-the-game" class="project-panel__shot" aria-label="Game of life on CA - more iterations"><img src="content/projects/GAME_OF_LIFE_ON_CA/MORE_ITERATIONS.png" alt="Game of life on CA - more iterations"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/live-the-game" class="project-panel__shot" aria-label="Game of life on CA - more iterations"><img src="content/projects/GAME_OF_LIFE_ON_CA/thumb/more_iterations.png.webp" alt="Game of life on CA - more iterations"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/ll1-grammar-with-bfs-semantics" data-counter="project-ll1-grammar-clicks">LL(1) grammar with BFS semantics on Haskell</a></h4>
@@ -100,15 +100,15 @@
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/trip-planner-bot-spring" data-counter="project-trip-planner-clicks">Spring based TG-Bot: Trip planner</a></h4>
-<div class="project-panel__shots project-panel__shots--x2 project-panel__shots--fit"><a href="https://github.com/MathematicLove/trip-planner-bot-spring" class="project-panel__shot" aria-label="Spring based TG-Bot: Trip planner - example 1"><img src="content/projects/TRIP_PLANNER/EXAMPLE_1.PNG" alt="Spring based TG-Bot: Trip planner - example 1"></a><a href="https://github.com/MathematicLove/trip-planner-bot-spring" class="project-panel__shot" aria-label="Spring based TG-Bot: Trip planner - example 2"><img src="content/projects/TRIP_PLANNER/EXAMPLE_2.PNG" alt="Spring based TG-Bot: Trip planner - example 2"></a></div>
+<div class="project-panel__shots project-panel__shots--x2 project-panel__shots--fit"><a href="https://github.com/MathematicLove/trip-planner-bot-spring" class="project-panel__shot" aria-label="Spring based TG-Bot: Trip planner - example 1"><img src="content/projects/TRIP_PLANNER/thumb/example_1.png.webp" alt="Spring based TG-Bot: Trip planner - example 1"></a><a href="https://github.com/MathematicLove/trip-planner-bot-spring" class="project-panel__shot" aria-label="Spring based TG-Bot: Trip planner - example 2"><img src="content/projects/TRIP_PLANNER/thumb/example_2.png.webp" alt="Spring based TG-Bot: Trip planner - example 2"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/ayzek-sounds" data-counter="project-ayzeks-sound-clicks">AyzekSounds: Open source MP3 player for iOS</a></h4>
-<div class="project-panel__shots project-panel__shots--x2 project-panel__shots--fit"><a href="https://github.com/MathematicLove/ayzek-sounds" class="project-panel__shot" aria-label="AyzekSounds: Open source MP3 player for iOS - example 1"><img src="content/projects/IOS_MP3/MP3_EXAMPLE_1.PNG" alt="AyzekSounds: Open source MP3 player for iOS - example 1"></a><a href="https://github.com/MathematicLove/ayzek-sounds" class="project-panel__shot" aria-label="AyzekSounds: Open source MP3 player for iOS - example 2"><img src="content/projects/IOS_MP3/MP3_EXAMPLE_2.PNG" alt="AyzekSounds: Open source MP3 player for iOS - example 2"></a></div>
+<div class="project-panel__shots project-panel__shots--x2 project-panel__shots--fit"><a href="https://github.com/MathematicLove/ayzek-sounds" class="project-panel__shot" aria-label="AyzekSounds: Open source MP3 player for iOS - example 1"><img src="content/projects/IOS_MP3/thumb/mp3_example_1.png.webp" alt="AyzekSounds: Open source MP3 player for iOS - example 1"></a><a href="https://github.com/MathematicLove/ayzek-sounds" class="project-panel__shot" aria-label="AyzekSounds: Open source MP3 player for iOS - example 2"><img src="content/projects/IOS_MP3/thumb/mp3_example_2.png.webp" alt="AyzekSounds: Open source MP3 player for iOS - example 2"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/card-management-service" data-counter="project-card-management-clicks">Card management service</a></h4>
-<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit"><a href="https://github.com/MathematicLove/card-management-service" class="project-panel__shot" aria-label="Card management service - example"><img src="content/projects/CARD_MANAGMENT/CARD_EXAMPLE.png" alt="Card management service - example"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit"><a href="https://github.com/MathematicLove/card-management-service" class="project-panel__shot" aria-label="Card management service - example"><img src="content/projects/CARD_MANAGMENT/thumb/card_example.png.webp" alt="Card management service - example"></a></div>
 </article>
 </div>
 </div>
@@ -119,19 +119,19 @@
 <div class="projects-mosaic projects-mosaic--math projects-mosaic--grid3">
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" data-counter="project-mathlang-clicks">MathLang presentations</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="MathLang presentations"><img src="content/projects/MATHLANG_PRESENTATIONS/MATHLANG_PRESENTATIONS.png" alt="MathLang presentations"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="MathLang presentations"><img src="content/projects/MATHLANG_PRESENTATIONS/thumb/mathlang_presentations.png.webp" alt="MathLang presentations"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" data-counter="project-demographic-clicks">Forecasting and comparison of demographic indicators of Russia and Japan</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" class="project-panel__shot" aria-label="Forecasting and comparison of demographic indicators of Russia and Japan"><img src="content/projects/FORECASTING_AND_COMPARSION_OF_DEMOGRAPHIC/RUSSIA_JAPAN.png" alt="Forecasting and comparison of demographic indicators of Russia and Japan"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" class="project-panel__shot" aria-label="Forecasting and comparison of demographic indicators of Russia and Japan"><img src="content/projects/FORECASTING_AND_COMPARSION_OF_DEMOGRAPHIC/thumb/russia_japan.png.webp" alt="Forecasting and comparison of demographic indicators of Russia and Japan"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/regression-gas-export-impact" data-counter="project-regression-gas-clicks">Regression analysis of the consequences of the reduction in gas export</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Regression analysis of gas export reduction - chi-square hypotheses"><img src="content/projects/REGRESSION_ANALYSIS/hypotheses_chi2_bars.png" alt="Regression analysis of gas export reduction - chi-square hypotheses"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Regression analysis of gas export reduction - chi-square hypotheses"><img src="content/projects/REGRESSION_ANALYSIS/thumb/hypotheses_chi2_bars.png.webp" alt="Regression analysis of gas export reduction - chi-square hypotheses"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Education collection (bachelor)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" class="project-panel__shot" aria-label="Education collection (bachelor) - ICCS SPbSTU"><img src="content/projects/SPBSTU/LOGO_ICCS.png" alt="Education collection (bachelor) - ICCS SPbSTU"></a></div>
+<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" class="project-panel__shot" aria-label="Education collection (bachelor) - ICCS SPbSTU"><img src="content/projects/SPBSTU/thumb/logo_iccs.png.webp" alt="Education collection (bachelor) - ICCS SPbSTU"></a></div>
 </article>
 </div>
 </div>
@@ -172,22 +172,22 @@
 
 <div class="certificates-grid">
   <a href="certificates/spbstu-science-week.jpg" target="_blank" class="certificate-link">
-    <img src="certificates/spbstu-science-week.jpg" alt="Certificate - SPbSTU Best Article" class="certificate-img">
+    <img src="certificates/thumb/spbstu-science-week.jpg.webp" alt="Certificate - SPbSTU Best Article" class="certificate-img">
   </a>
   <a href="certificates/salimli-diploma-segformer.jpg" target="_blank" class="certificate-link">
-    <img src="certificates/salimli-diploma-segformer-thumb.jpg" alt="Diploma - 1st place, Young Scientist conference (SegFormer decoder)" class="certificate-img">
+    <img src="certificates/thumb/salimli-diploma-segformer-thumb.jpg.webp" alt="Diploma - 1st place, Young Scientist conference (SegFormer decoder)" class="certificate-img">
   </a>
   <a href="certificates/salimli-certificate-segformer.jpg" target="_blank" class="certificate-link">
-    <img src="certificates/salimli-certificate-segformer-cp.jpg" alt="Certificate - participation, Young Scientist conference (SegFormer decoder)" class="certificate-img">
+    <img src="certificates/thumb/salimli-certificate-segformer-cp.jpg.webp" alt="Certificate - participation, Young Scientist conference (SegFormer decoder)" class="certificate-img">
   </a>
   <a href="certificates/salimli-diploma-cp-original.jpg" target="_blank" class="certificate-link">
-    <img src="certificates/salimli-diploma-cp.jpg?v=7" alt="Certificate - Competitive Programming Diploma" class="certificate-img">
+    <img src="certificates/thumb/salimli-diploma-cp.jpg.webp" alt="Certificate - Competitive Programming Diploma" class="certificate-img">
   </a>
   <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
-    <img src="certificates/certificate-ijevsk.jpeg" alt="Certificate - Izhevsk" class="certificate-img">
+    <img src="certificates/thumb/certificate-ijevsk.jpeg.webp" alt="Certificate - Izhevsk" class="certificate-img">
   </a>
   <a href="certificates/salimli-uc.jpg" target="_blank" class="certificate-link">
-    <img src="certificates/salimli-uc.jpg" alt="Certificate - Universal Competitions" class="certificate-img">
+    <img src="certificates/thumb/salimli-uc.jpg.webp" alt="Certificate - Universal Competitions" class="certificate-img">
   </a>
   <!-- Add new certificates here (each new <a>...</a> block) -->
 </div>
