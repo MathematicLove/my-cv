@@ -1630,3 +1630,9 @@ html[lang="ru"] .nav-skills-en {
     text-decoration: none;
   }
 }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 2px;
+}
