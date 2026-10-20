@@ -21,6 +21,10 @@
 <div class="project-panel__shots project-panel__shots--x1 project-panel__shots--short"><a href="https://github.com/aofitasotr/bpmn-architect" class="project-panel__shot" aria-label="Text-to-BPMN - example"><img src="content/projects/BPMN_ARCH/thumb/bpmn_example.jpg.webp" alt="Text-to-BPMN - example"></a></div>
 </article>
 <article class="project-panel">
+<h4 class="project-panel__title"><a href="https://huggingface.co/ayzeksalimli/segformer-dw-b0" data-counter="project-segformer-dw-clicks">SegFormer depthwise enhancement (weights on HuggingFace)</a></h4>
+<div class="project-panel__shots project-panel__shots--collage" style="--k:0.921"><a href="https://huggingface.co/ayzeksalimli/segformer-dw-b0" class="project-panel__shot" style="--ar:2.727" aria-label="SegFormer-DW - architecture"><img src="content/projects/SEGFORMER_DW/thumb/arch.png.webp" alt="SegFormer-DW - architecture"></a><a href="https://huggingface.co/ayzeksalimli/segformer-dw-b0" class="project-panel__shot" style="--ar:1.551" aria-label="SegFormer-DW - latency"><img src="content/projects/SEGFORMER_DW/thumb/latency.png.webp" alt="SegFormer-DW - latency"></a><a href="https://huggingface.co/ayzeksalimli/segformer-dw-b0" class="project-panel__shot project-panel__shot--full" style="--ar:3.940" aria-label="SegFormer-DW - quality"><img src="content/projects/SEGFORMER_DW/thumb/quality.png.webp" alt="SegFormer-DW - quality"></a></div>
+</article>
+<article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/real-time-censorship" data-counter="project-real-time-censorship-clicks">Real-time censorship API (for online meetings)</a></h4>
 <div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/real-time-censorship" class="project-panel__shot" aria-label="Real-time censorship API - example 1"><img src="content/projects/REAL_TIME_CENSORSHIP/thumb/example_1.png.webp" alt="Real-time censorship API - example 1"></a><a href="https://github.com/MathematicLove/real-time-censorship" class="project-panel__shot" aria-label="Real-time censorship API - example 2"><img src="content/projects/REAL_TIME_CENSORSHIP/thumb/example_2.png.webp" alt="Real-time censorship API - example 2"></a></div>
 </article>
@@ -42,11 +46,11 @@
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/heart-disease" data-counter="project-heart-disease-clicks">Heart disease classifier</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/heart-disease" class="project-panel__shot" aria-label="Heart disease classifier - predictions in PCA space (Gradient Boosting)"><img src="content/projects/HEART_DISEASE/thumb/heart_disease_pca.png.webp" alt="Heart disease classifier - predictions in PCA space (Gradient Boosting)"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--tall"><a href="https://github.com/MathematicLove/heart-disease" class="project-panel__shot" aria-label="Heart disease classifier - predictions in PCA space (Gradient Boosting)"><img src="content/projects/HEART_DISEASE/thumb/heart_disease_pca.png.webp" alt="Heart disease classifier - predictions in PCA space (Gradient Boosting)"></a></div>
 </article>
 <article class="project-panel project-panel--plain">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" data-counter="project-qt-mnist-clicks">Qt MNIST recognizer</a></h4>
-<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Qt MNIST recognizer - example"><img src="content/projects/QT_MNIST/thumb/example.png.webp" alt="Qt MNIST recognizer - example"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--plain project-panel__shots--portrait project-panel__shots--xtall"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" class="project-panel__shot" aria-label="Qt MNIST recognizer - example"><img src="content/projects/QT_MNIST/thumb/example.png.webp" alt="Qt MNIST recognizer - example"></a></div>
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/fashion-mnist/blob/main/fashion_mnist.ipynb" data-counter="project-fashion-mnist-clicks">Fashion-MNIST classification with TinyVGG</a></h4>
@@ -66,7 +70,7 @@
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-breast-cancer-clicks">Breast cancer classification</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Breast cancer classification"><img src="content/projects/BREAST_CANCER/thumb/breast_cancer.png.webp" alt="Breast cancer classification"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--xtall"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Breast cancer classification"><img src="content/projects/BREAST_CANCER/thumb/breast_cancer.png.webp" alt="Breast cancer classification"></a></div>
 </article>
 </div>
 </div>
@@ -118,10 +122,6 @@
 <div class="projects-category">
 <div class="projects-mosaic projects-mosaic--math projects-mosaic--grid3">
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" data-counter="project-mathlang-clicks">MathLang presentations</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="MathLang presentations"><img src="content/projects/MATHLANG_PRESENTATIONS/thumb/mathlang_presentations.png.webp" alt="MathLang presentations"></a></div>
-</article>
-<article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" data-counter="project-demographic-clicks">Forecasting and comparison of demographic indicators of Russia and Japan</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" class="project-panel__shot" aria-label="Forecasting and comparison of demographic indicators of Russia and Japan"><img src="content/projects/FORECASTING_AND_COMPARSION_OF_DEMOGRAPHIC/thumb/russia_japan.png.webp" alt="Forecasting and comparison of demographic indicators of Russia and Japan"></a></div>
 </article>
@@ -130,15 +130,19 @@
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Regression analysis of gas export reduction - chi-square hypotheses"><img src="content/projects/REGRESSION_ANALYSIS/thumb/hypotheses_chi2_bars.png.webp" alt="Regression analysis of gas export reduction - chi-square hypotheses"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Education collection (bachelor)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" class="project-panel__shot" aria-label="Education collection (bachelor) - ICCS SPbSTU"><img src="content/projects/SPBSTU/thumb/logo_iccs.png.webp" alt="Education collection (bachelor) - ICCS SPbSTU"></a></div>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Bachelor's degree works (SPbSTU, 02.03.01_1)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit project-panel__shots--logo"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" class="project-panel__shot" aria-label="Bachelor's degree works (SPbSTU, 02.03.01_1)"><img src="content/projects/SPBSTU/thumb/logo_iccs.png.webp" alt="Bachelor's degree works (SPbSTU, 02.03.01_1)"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs-magistracy" data-counter="project-educational-magistracy-clicks">Master's degree works (SPbSTU, 02.04.01_1)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit project-panel__shots--logo"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs-magistracy" class="project-panel__shot" aria-label="Master's degree works (SPbSTU, 02.04.01_1)"><img src="content/projects/SPBSTU/thumb/logo_iccs.png.webp" alt="Master's degree works (SPbSTU, 02.04.01_1)"></a></div>
 </article>
 </div>
 </div>
 
 ## Education
 
-<div class="edu-timeline"><article class="edu-step"><div class="edu-step__marker"><span class="edu-step__dot"></span></div><div class="edu-step__card"><div class="edu-step__head"><img class="edu-step__logo" src="tex-files/img/SCHOOL_LOGO.jpeg" alt="School logo"><span class="edu-step__stage"><span class="edu-step__stage-title">School</span><span class="edu-step__stage-sub">Complete secondary</span></span></div><div class="edu-step__place">Azerbaijan - Baku</div><div class="edu-step__name">School №53</div><div class="edu-step__detail">Mathematics focus</div></div></article><article class="edu-step"><div class="edu-step__marker"><span class="edu-step__dot"></span></div><div class="edu-step__card"><div class="edu-step__head"><img class="edu-step__logo" src="tex-files/img/POLY_LOGO_MD.png" alt="SPbPU logo"><span class="edu-step__stage"><span class="edu-step__stage-title">Bachelor</span></span></div><div class="edu-step__place">Russia - Saint Petersburg</div><a class="edu-step__name" href="https://spbstu.ru" target="_blank" rel="noopener">Peter the Great St. Petersburg Polytechnic University</a><a class="edu-step__detail" href="https://iccs.spbstu.ru" target="_blank" rel="noopener">Institute of Computer Science and Cybersecurity</a><a class="edu-step__program" href="https://ai.spbstu.ru" target="_blank" rel="noopener">Mathematics and Computer Science - AI Systems and Supercomputer Technologies</a><div class="edu-step__detail edu-step__detail--plain">Graduate School of Artificial Intelligence Technologies</div></div></article><article class="edu-step"><div class="edu-step__marker"><span class="edu-step__dot"></span></div><div class="edu-step__card"><div class="edu-step__head"><img class="edu-step__logo" src="tex-files/img/POLY_LOGO_MD.png" alt="SPbPU logo"><span class="edu-step__stage"><span class="edu-step__stage-title">Master's degree</span><span class="edu-step__stage-sub">1st year</span></span></div><div class="edu-step__place">Russia - Saint Petersburg</div><a class="edu-step__name" href="https://spbstu.ru" target="_blank" rel="noopener">Peter the Great St. Petersburg Polytechnic University</a><a class="edu-step__detail" href="https://iccs.spbstu.ru" target="_blank" rel="noopener">Institute of Computer Science and Cybersecurity</a><a class="edu-step__program" href="https://ai.spbstu.ru" target="_blank" rel="noopener">Mathematics and Computer Science - Machine Learning and Artificial Intelligence</a><div class="edu-step__detail edu-step__detail--plain">Graduate School of Artificial Intelligence Technologies</div></div></article></div>
+<div class="edu-timeline"><article class="edu-step"><div class="edu-step__marker"><span class="edu-step__dot"></span></div><div class="edu-step__card"><div class="edu-step__head"><img class="edu-step__logo" src="tex-files/img/SCHOOL_LOGO.jpeg" alt="School logo"><span class="edu-step__stage"><span class="edu-step__stage-title">School</span><span class="edu-step__stage-sub">Complete secondary</span></span></div><div class="edu-step__place">Azerbaijan - Baku</div><div class="edu-step__name">School №53</div><div class="edu-step__detail">Mathematics focus</div></div></article><article class="edu-step"><div class="edu-step__marker"><span class="edu-step__dot"></span></div><div class="edu-step__card"><div class="edu-step__head"><img class="edu-step__logo" src="tex-files/img/POLY_LOGO_MD.png" alt="SPbSTU logo"><span class="edu-step__stage"><span class="edu-step__stage-title">Bachelor</span></span></div><div class="edu-step__place">Russia - Saint Petersburg</div><a class="edu-step__name" href="https://spbstu.ru" target="_blank" rel="noopener">Peter the Great St. Petersburg Polytechnic University</a><a class="edu-step__detail" href="https://iccs.spbstu.ru" target="_blank" rel="noopener">Institute of Computer Science and Cybersecurity</a><a class="edu-step__program" href="https://ai.spbstu.ru" target="_blank" rel="noopener">Mathematics and Computer Science - AI Systems and Supercomputer Technologies</a><div class="edu-step__detail edu-step__detail--plain">Graduate School of Artificial Intelligence Technologies</div></div></article><article class="edu-step"><div class="edu-step__marker"><span class="edu-step__dot"></span></div><div class="edu-step__card"><div class="edu-step__head"><img class="edu-step__logo" src="tex-files/img/POLY_LOGO_MD.png" alt="SPbSTU logo"><span class="edu-step__stage"><span class="edu-step__stage-title">Master's degree</span><span class="edu-step__stage-sub">1st year</span></span></div><div class="edu-step__place">Russia - Saint Petersburg</div><a class="edu-step__name" href="https://spbstu.ru" target="_blank" rel="noopener">Peter the Great St. Petersburg Polytechnic University</a><a class="edu-step__detail" href="https://iccs.spbstu.ru" target="_blank" rel="noopener">Institute of Computer Science and Cybersecurity</a><a class="edu-step__program" href="https://ai.spbstu.ru" target="_blank" rel="noopener">Mathematics and Computer Science - Machine Learning and Artificial Intelligence</a><div class="edu-step__detail edu-step__detail--plain">Graduate School of Artificial Intelligence Technologies</div></div></article></div>
 
 ## Experience
 
@@ -196,27 +200,18 @@
 
 <h3 class="knowledge-title">Skills</h3>
 
-| Category | Type | Technologies / Libraries |
-| :--- | :--- | :--- |
-| **Programming Languages** | Multi-paradigm | <img src="content/logo/cplusplus.svg" height="20" alt="C++"/> C++ <img src="content/logo/python.svg" height="20" alt="Python"/> Python |
-| | Object-Oriented (primarily)| <img src="content/logo/java.svg" height="20" alt="Java"/> Java |
-| | Functional | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
-| **Data science, ML, Computer vision** | Data Manipulation | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
-| | Data Visualization | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
-| | Deep Learning (Frameworks) | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/tensorflow-svgrepo-com.svg" height="20" alt="TensorFlow"/> <img src="content/logo/ultralytics.svg" height="22" alt="Ultralytics"/> |
-| | Machine Learning | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
-| | Scientific Computing | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/scipy.svg" height="20" alt="SciPy"/> <img src="content/logo/statsmodels.svg" height="20" alt="StatsModels"/>|
-| | Computer Vision | <img src="content/logo/opencv.svg" height="22" alt="OpenCV"/> OpenCV |
-| **Quantum Computing** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
-| **Frameworks** | - | <img src="content/logo/fastapi.svg" height="20" alt="FastAPI"/> FastAPI <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring Boot |
-| **Databases (DBMS)** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
-| | SQL | <img src="content/logo/mysql.svg" height="20" alt="MySQL"/> MySQL <img src="content/logo/postgresql.svg" height="20" alt="PostgreSQL"/> PostgreSQL |
-| **Mathematics** | - | <ul class="knowledge-math-list"><li>Discrete Math</li><li>Graph Theory</li><li>Linear Algebra</li><li>Calculus</li><li>Mathematical Statistics &amp; Probability Theory</li><li>Statistical Learning</li><li>Optimization Methods</li><li>Quantum Computing</li></ul> |
-| **Message Brokers** | - | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
-| **Containerization & Hosting** | - | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
-| **CI/CD & Cloud** | - | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat <img src="content/logo/icon_duo_circ.svg" height="20" alt="YC"/> YC|
-| **Documentation** | Documentation & Reports | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX <img src="content/logo/markdown.svg" height="20" alt="Markdown"/> Markdown <img src="content/logo/typst.svg" height="20" alt="Typst"/> Typst |
-| | Presentations | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX (Beamer) |
+| Category | Technologies / Libraries |
+| :--- | :--- |
+| **Languages** | <img src="content/logo/badges/python.svg" height="22" alt="Python"/> <img src="content/logo/badges/haskell.svg" height="22" alt="Haskell"/> |
+| **Data Science, ML &amp; CV** | <img src="content/logo/badges/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/badges/tensorflow.svg" height="22" alt="TensorFlow"/> <img src="content/logo/badges/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/badges/pandas.svg" height="22" alt="Pandas"/> <img src="content/logo/badges/pyspark.svg" height="22" alt="PySpark"/> <img src="content/logo/badges/scikit-learn.svg" height="22" alt="Scikit-learn"/> <img src="content/logo/badges/yolo.svg" height="22" alt="YOLO"/> <img src="content/logo/badges/opencv.svg" height="22" alt="OpenCV"/> <img src="content/logo/badges/pillow.svg" height="22" alt="PIL"/> |
+| **MLOps** | <img src="content/logo/badges/mlflow.svg" height="22" alt="MLflow"/> <img src="content/logo/badges/huggingface.svg" height="22" alt="Hugging Face"/> <img src="content/logo/badges/zenml.svg" height="22" alt="ZenML"/> |
+| **Visualization** | <img src="content/logo/badges/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/badges/plotly.svg" height="22" alt="Plotly"/> <img src="content/logo/badges/seaborn.svg" height="22" alt="Seaborn"/> |
+| **BI &amp; Analytics** | <img src="content/logo/badges/tableau.svg" height="22" alt="Tableau"/> <img src="content/logo/badges/excel.svg" height="22" alt="Excel"/> |
+| **Scientific** | <img src="content/logo/badges/scipy.svg" height="22" alt="SciPy"/> <img src="content/logo/badges/statsmodels.svg" height="22" alt="Statsmodels"/> <img src="content/logo/badges/cirq.svg" height="22" alt="Cirq"/> |
+| **DBMS &amp; Message Brokers** | <img src="content/logo/badges/postgresql.svg" height="22" alt="PostgreSQL"/> <img src="content/logo/badges/mongodb.svg" height="22" alt="MongoDB"/> <img src="content/logo/badges/rabbitmq.svg" height="22" alt="RabbitMQ"/> |
+| **DevOps <sub>(basics)</sub>** | <img src="content/logo/badges/docker.svg" height="22" alt="Docker"/> <img src="content/logo/badges/kubernetes.svg" height="22" alt="Kubernetes"/> <img src="content/logo/badges/jenkins.svg" height="22" alt="Jenkins"/> <img src="content/logo/badges/terraform.svg" height="22" alt="Terraform"/> <img src="content/logo/badges/ansible.svg" height="22" alt="Ansible"/> |
+| **Cloud <sub>(basics)</sub>** | <img src="content/logo/badges/openstack.svg" height="22" alt="OpenStack Heat"/> <img src="content/logo/badges/yandexcloud.svg" height="22" alt="Yandex Cloud"/> <img src="content/logo/badges/firebase.svg" height="22" alt="Firebase"/> <img src="content/logo/badges/render.svg" height="22" alt="Render"/> |
+| **Mathematics** | <ul class="knowledge-math-list"><li>Statistical Learning</li><li>Optimization</li><li>Linear Algebra</li><li>Calculus</li><li>Probability &amp; Statistics</li><li>Graph Theory</li><li>Discrete Math</li><li>Quantum Computing</li></ul> |
 
 </div>
 

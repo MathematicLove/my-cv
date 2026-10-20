@@ -818,6 +818,11 @@ html[lang="ru"] .nav-skills-en {
   height: 129px;
 }
 
+/* Single shot that offsets a one-line title, so the card matches two-line-title neighbours */
+.project-panel__shots--xtall .project-panel__shot {
+  height: 153px;
+}
+
 /* Slightly taller stacked cell (opt-in, e.g. RU card with longer title) */
 .project-panel__shots--stack-lg .project-panel__shot {
   height: 80px;
@@ -851,6 +856,16 @@ html[lang="ru"] .nav-skills-en {
   height: auto;
   object-fit: contain;
   border-radius: 6px;
+}
+
+/* Collage shots: every preview is the same 330x223 frame as the Text-to-BPMN one;
+   the picture is shown whole on a white background (the charts are white) */
+.project-shot-preview.is-wide img {
+  width: min(330px, 86vw);
+  height: auto;
+  aspect-ratio: 330 / 223;
+  object-fit: contain;
+  background: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1635,4 +1650,26 @@ a:focus-visible,
 button:focus-visible {
   outline: 2px solid var(--link-color);
   outline-offset: 2px;
+}
+/* Collage: every shot keeps its own aspect ratio (--ar), so it fills its cell whole,
+   without cropping or zooming. A shot with --full takes a row on its own. */
+.project-panel__shots--collage {
+  gap: 4px;
+  /* --k scales the whole collage (centred) so the card is as tall as its row neighbours */
+  width: calc(100% * var(--k, 1));
+  margin-inline: auto;
+}
+.project-panel__shots--collage .project-panel__shot {
+  flex: var(--ar) 1 0;
+  min-width: 0;
+  height: auto;
+  aspect-ratio: var(--ar);
+}
+.project-panel__shots--collage .project-panel__shot--full {
+  flex: 0 0 100%;
+}
+
+/* Logo cards: the whole logo is visible on its own white background */
+.project-panel__shots--logo .project-panel__shot {
+  background: #fff;
 }

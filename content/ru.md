@@ -21,6 +21,10 @@
 <div class="project-panel__shots project-panel__shots--x1 project-panel__shots--tall"><a href="https://github.com/aofitasotr/bpmn-architect" class="project-panel__shot" aria-label="Text-to-BPMN - пример"><img src="content/projects/BPMN_ARCH/thumb/bpmn_example.jpg.webp" alt="Text-to-BPMN - пример"></a></div>
 </article>
 <article class="project-panel">
+<h4 class="project-panel__title"><a href="https://huggingface.co/ayzeksalimli/segformer-dw-b0" data-counter="project-segformer-dw-clicks">Улучшение SegFormer поканальной сверткой</a></h4>
+<div class="project-panel__shots project-panel__shots--collage" style="--k:0.949"><a href="https://huggingface.co/ayzeksalimli/segformer-dw-b0" class="project-panel__shot project-panel__shot--full" style="--ar:2.727" aria-label="SegFormer-DW - архитектура"><img src="content/projects/SEGFORMER_DW/thumb/arch.png.webp" alt="SegFormer-DW - архитектура"></a><a href="https://huggingface.co/ayzeksalimli/segformer-dw-b0" class="project-panel__shot" style="--ar:1.551" aria-label="SegFormer-DW - задержка"><img src="content/projects/SEGFORMER_DW/thumb/latency.png.webp" alt="SegFormer-DW - задержка"></a><a href="https://huggingface.co/ayzeksalimli/segformer-dw-b0" class="project-panel__shot" style="--ar:3.940" aria-label="SegFormer-DW - качество"><img src="content/projects/SEGFORMER_DW/thumb/quality.png.webp" alt="SegFormer-DW - качество"></a></div>
+</article>
+<article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/real-time-censorship" data-counter="project-real-time-censorship-clicks">API цензурирования видео в реальном времени (для онлайн-встреч)</a></h4>
 <div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/real-time-censorship" class="project-panel__shot" aria-label="API цензурирования видео в реальном времени - пример 1"><img src="content/projects/REAL_TIME_CENSORSHIP/thumb/example_1.png.webp" alt="API цензурирования видео в реальном времени - пример 1"></a><a href="https://github.com/MathematicLove/real-time-censorship" class="project-panel__shot" aria-label="API цензурирования видео в реальном времени - пример 2"><img src="content/projects/REAL_TIME_CENSORSHIP/thumb/example_2.png.webp" alt="API цензурирования видео в реальном времени - пример 2"></a></div>
 </article>
@@ -42,7 +46,7 @@
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/heart-disease" data-counter="project-heart-disease-clicks">Классификация сердечного заболевания</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/heart-disease" class="project-panel__shot" aria-label="Классификация сердечного заболевания - предсказания в пространстве PCA (Gradient Boosting)"><img src="content/projects/HEART_DISEASE/thumb/heart_disease_pca.png.webp" alt="Классификация сердечного заболевания - предсказания в пространстве PCA (Gradient Boosting)"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--tall"><a href="https://github.com/MathematicLove/heart-disease" class="project-panel__shot" aria-label="Классификация сердечного заболевания - предсказания в пространстве PCA (Gradient Boosting)"><img src="content/projects/HEART_DISEASE/thumb/heart_disease_pca.png.webp" alt="Классификация сердечного заболевания - предсказания в пространстве PCA (Gradient Boosting)"></a></div>
 </article>
 <article class="project-panel project-panel--plain">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/qt-mnist-recognizer" data-counter="project-qt-mnist-clicks">Распознование рукописных цифр с Qt интерфейсом</a></h4>
@@ -66,7 +70,7 @@
 </article>
 <article class="project-panel">
 <h4 class="project-panel__title"><a href="deleted-repo.html" data-counter="project-breast-cancer-clicks">Классификация рака груди</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Классификация рака груди"><img src="content/projects/BREAST_CANCER/thumb/breast_cancer.png.webp" alt="Классификация рака груди"></a></div>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--xtall"><a href="deleted-repo.html" class="project-panel__shot" aria-label="Классификация рака груди"><img src="content/projects/BREAST_CANCER/thumb/breast_cancer.png.webp" alt="Классификация рака груди"></a></div>
 </article>
 </div>
 </div>
@@ -118,10 +122,6 @@
 <div class="projects-category">
 <div class="projects-mosaic projects-mosaic--math projects-mosaic--grid3">
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" data-counter="project-mathlang-clicks">Презентации MathLang</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/MathLangPresentations/tree/main/Presentations" class="project-panel__shot" aria-label="Презентации MathLang"><img src="content/projects/MATHLANG_PRESENTATIONS/thumb/mathlang_presentations.png.webp" alt="Презентации MathLang"></a></div>
-</article>
-<article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" data-counter="project-demographic-clicks">Прогнозирование и сравнение демографических показателей России и Японии</a></h4>
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/demographic-regression-ru-jp" class="project-panel__shot" aria-label="Прогнозирование и сравнение демографических показателей России и Японии"><img src="content/projects/FORECASTING_AND_COMPARSION_OF_DEMOGRAPHIC/thumb/russia_japan.png.webp" alt="Прогнозирование и сравнение демографических показателей России и Японии"></a></div>
 </article>
@@ -130,8 +130,12 @@
 <div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/regression-gas-export-impact" class="project-panel__shot" aria-label="Регрессионный анализ последствий сокращения экспорта газа - гипотезы chi²"><img src="content/projects/REGRESSION_ANALYSIS/thumb/hypotheses_chi2_bars.png.webp" alt="Регрессионный анализ последствий сокращения экспорта газа - гипотезы chi²"></a></div>
 </article>
 <article class="project-panel">
-<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Сборник учебных проектов (бакалавриат)</a></h4>
-<div class="project-panel__shots project-panel__shots--x1"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" class="project-panel__shot" aria-label="Сборник учебных проектов (бакалавриат) - ИКНК СПбПУ"><img src="content/projects/SPBSTU/thumb/logo_iccs.png.webp" alt="Сборник учебных проектов (бакалавриат) - ИКНК СПбПУ"></a></div>
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" data-counter="project-educational-clicks">Работы за бакалавр (СПбПУ, 02.03.01_1)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit project-panel__shots--logo"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs" class="project-panel__shot" aria-label="Работы за бакалавр (СПбПУ, 02.03.01_1)"><img src="content/projects/SPBSTU/thumb/logo_iccs.png.webp" alt="Работы за бакалавр (СПбПУ, 02.03.01_1)"></a></div>
+</article>
+<article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs-magistracy" data-counter="project-educational-magistracy-clicks">Работы за магистратуру (СПбПУ, 02.04.01_1)</a></h4>
+<div class="project-panel__shots project-panel__shots--x1 project-panel__shots--fit project-panel__shots--logo"><a href="https://github.com/MathematicLove/spbstu-iccs-mcs-magistracy" class="project-panel__shot" aria-label="Работы за магистратуру (СПбПУ, 02.04.01_1)"><img src="content/projects/SPBSTU/thumb/logo_iccs.png.webp" alt="Работы за магистратуру (СПбПУ, 02.04.01_1)"></a></div>
 </article>
 </div>
 </div>
@@ -175,10 +179,10 @@
     <img src="certificates/thumb/spbstu-science-week.jpg.webp" alt="Certificate - SPbSTU Best Article" class="certificate-img">
   </a>
   <a href="certificates/salimli-diploma-segformer.jpg" target="_blank" class="certificate-link">
-    <img src="certificates/thumb/salimli-diploma-segformer-thumb.jpg.webp" alt="Диплом - 1 место, конференция «Молодой учёный» (декодер SegFormer)" class="certificate-img">
+    <img src="certificates/thumb/salimli-diploma-segformer-thumb.jpg.webp" alt="Диплом - 1 место, конференция «Молодой ученый» (декодер SegFormer)" class="certificate-img">
   </a>
   <a href="certificates/salimli-certificate-segformer.jpg" target="_blank" class="certificate-link">
-    <img src="certificates/thumb/salimli-certificate-segformer-cp.jpg.webp" alt="Сертификат - участие в конференции «Молодой учёный» (декодер SegFormer)" class="certificate-img">
+    <img src="certificates/thumb/salimli-certificate-segformer-cp.jpg.webp" alt="Сертификат - участие в конференции «Молодой ученый» (декодер SegFormer)" class="certificate-img">
   </a>
   <a href="certificates/salimli-diploma-cp-original.jpg" target="_blank" class="certificate-link">
     <img src="certificates/thumb/salimli-diploma-cp.jpg.webp" alt="Диплом - соревнования по программированию" class="certificate-img">
@@ -196,27 +200,18 @@
 
 <h3 class="knowledge-title">Навыки</h3>
 
-| Категории | Тип | Технологии / Библиотеки |
-| :--- | :--- | :--- |
-| **Языки программирования** | Мультипарадигменный | <img src="content/logo/cplusplus.svg" height="20" alt="C++"/> C++ <img src="content/logo/python.svg" height="20" alt="Python"/> Python |
-| | Объектно-ориентированный (преимущественно) | <img src="content/logo/java.svg" height="20" alt="Java"/> Java |
-| | Функциональный | <img src="content/logo/haskell.svg" height="20" alt="Haskell"/> Haskell |
-| **Data science, ML, Компьютерное зрение** | Работа с данными | <img src="content/logo/pandas.svg" height="22" alt="Pandas"/> |
-| | Визуализация данных | <img src="content/logo/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/seaborn.svg" height="22" alt="Seaborn"/> |
-| | Глубокое обучение (Фреймворки) | <img src="content/logo/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/tensorflow-svgrepo-com.svg" height="20" alt="TensorFlow"/> <img src="content/logo/ultralytics.svg" height="22" alt="Ultralytics"/> |
-| | Машинное обучение | <img src="content/logo/scikit-learn.svg" height="22" alt="Scikit-Learn"/> |
-| | Вычисления | <img src="content/logo/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/scipy.svg" height="20" alt="SciPy"/> <img src="content/logo/statsmodels.svg" height="20" alt="StatsModels"/>|
-| | Компьютерное зрение | <img src="content/logo/opencv.svg" height="22" alt="OpenCV"/> OpenCV |
-| **Квантовые вычисления** | - | <img src="content/logo/cirq.svg" height="22" alt="Cirq"/> |
-| **Фреймворки** | - | <img src="content/logo/fastapi.svg" height="20" alt="FastAPI"/> FastAPI <img src="content/logo/spring.svg" height="20" alt="Spring"/> Spring Boot |
-| **Базы данных (СУБД)** | NoSQL | <img src="content/logo/mongodb.svg" height="20" alt="MongoDB"/> MongoDB |
-| | SQL | <img src="content/logo/mysql.svg" height="20" alt="MySQL"/> MySQL <img src="content/logo/postgresql.svg" height="20" alt="PostgreSQL"/> PostgreSQL |
-| **Математика** | - | <ul class="knowledge-math-list"><li>Дискретная математика</li><li>Теория графов</li><li>Линейная алгебра</li><li>Математический анализ</li><li>Математическая статистика и теория вероятностей</li><li>Статистическое обучение</li><li>Методы оптимизации</li><li>Квантовые вычисления</li></ul> |
-| **Брокеры сообщений** | - | <img src="content/logo/rabbitmq.svg" height="20" alt="RabbitMQ"/> RabbitMQ |
-| **Контейнеризация и хостинг** | - | <img src="content/logo/docker.svg" height="20" alt="Docker"/> Docker <img src="content/logo/kubernetes.svg" height="20" alt="Kubernetes"/> Kubernetes <img src="content/logo/firebase.svg" height="20" alt="Firebase"/> Firebase <img src="content/logo/render.svg" height="20" alt="Render"/> Render |
-| **CI/CD & Cloud** | - | <img src="content/logo/jenkins.svg" height="20" alt="Jenkins"/> Jenkins <img src="content/logo/tf.svg" height="20" alt="Terraform"/> Terraform <img src="content/logo/ansible.svg" height="20" alt="Ansible"/> Ansible <img src="content/logo/heat.svg" height="22" alt="OpenStack Heat"/> OpenStack Heat <img src="content/logo/icon_duo_circ.svg" height="20" alt="YC"/> YC|
-| **Документация** | Документация и отчёты | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX <img src="content/logo/markdown.svg" height="20" alt="Markdown"/> Markdown <img src="content/logo/typst.svg" height="20" alt="Typst"/> Typst |
-| | Презентации | <img src="content/logo/latex.svg" height="20" alt="LaTeX"/> LaTeX (Beamer) |
+| Категории | Технологии / Библиотеки |
+| :--- | :--- |
+| **Языки** | <img src="content/logo/badges/python.svg" height="22" alt="Python"/> <img src="content/logo/badges/haskell.svg" height="22" alt="Haskell"/> |
+| **Data Science, ML и компьютерное зрение** | <img src="content/logo/badges/pytorch.svg" height="22" alt="PyTorch"/> <img src="content/logo/badges/tensorflow.svg" height="22" alt="TensorFlow"/> <img src="content/logo/badges/numpy.svg" height="22" alt="NumPy"/> <img src="content/logo/badges/pandas.svg" height="22" alt="Pandas"/> <img src="content/logo/badges/pyspark.svg" height="22" alt="PySpark"/> <img src="content/logo/badges/scikit-learn.svg" height="22" alt="Scikit-learn"/> <img src="content/logo/badges/yolo.svg" height="22" alt="YOLO"/> <img src="content/logo/badges/opencv.svg" height="22" alt="OpenCV"/> <img src="content/logo/badges/pillow.svg" height="22" alt="PIL"/> |
+| **MLOps** | <img src="content/logo/badges/mlflow.svg" height="22" alt="MLflow"/> <img src="content/logo/badges/huggingface.svg" height="22" alt="Hugging Face"/> <img src="content/logo/badges/zenml.svg" height="22" alt="ZenML"/> |
+| **Визуализация** | <img src="content/logo/badges/matplotlib.svg" height="22" alt="Matplotlib"/> <img src="content/logo/badges/plotly.svg" height="22" alt="Plotly"/> <img src="content/logo/badges/seaborn.svg" height="22" alt="Seaborn"/> |
+| **BI и аналитика** | <img src="content/logo/badges/tableau.svg" height="22" alt="Tableau"/> <img src="content/logo/badges/excel.svg" height="22" alt="Excel"/> |
+| **Статистика и научные расчеты** | <img src="content/logo/badges/scipy.svg" height="22" alt="SciPy"/> <img src="content/logo/badges/statsmodels.svg" height="22" alt="Statsmodels"/> <img src="content/logo/badges/cirq.svg" height="22" alt="Cirq"/> |
+| **СУБД и брокеры сообщений** | <img src="content/logo/badges/postgresql.svg" height="22" alt="PostgreSQL"/> <img src="content/logo/badges/mongodb.svg" height="22" alt="MongoDB"/> <img src="content/logo/badges/rabbitmq.svg" height="22" alt="RabbitMQ"/> |
+| **DevOps <sub>(основы)</sub>** | <img src="content/logo/badges/docker.svg" height="22" alt="Docker"/> <img src="content/logo/badges/kubernetes.svg" height="22" alt="Kubernetes"/> <img src="content/logo/badges/jenkins.svg" height="22" alt="Jenkins"/> <img src="content/logo/badges/terraform.svg" height="22" alt="Terraform"/> <img src="content/logo/badges/ansible.svg" height="22" alt="Ansible"/> |
+| **Cloud <sub>(основы)</sub>** | <img src="content/logo/badges/openstack.svg" height="22" alt="OpenStack Heat"/> <img src="content/logo/badges/yandexcloud.svg" height="22" alt="Yandex Cloud"/> <img src="content/logo/badges/firebase.svg" height="22" alt="Firebase"/> <img src="content/logo/badges/render.svg" height="22" alt="Render"/> |
+| **Математика** | <ul class="knowledge-math-list"><li>Статистическое обучение</li><li>Методы оптимизации</li><li>Линейная алгебра</li><li>Математический анализ</li><li>Теория вероятностей и математическая статистика</li><li>Теория графов</li><li>Дискретная математика</li><li>Квантовые вычисления</li></ul> |
 
 </div>
 

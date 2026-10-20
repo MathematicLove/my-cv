@@ -76,7 +76,7 @@
     }
   };
 
-  var CONTENT_VERSION = '61';
+  var CONTENT_VERSION = '77';
 
   function getContentPath() {
     var base = currentLang === 'ru' ? 'content/ru.md' : 'content/en.md';
@@ -275,6 +275,7 @@
 
       link.addEventListener('mouseenter', function (e) {
         activeLink = link;
+        preview.classList.toggle('is-wide', !!link.closest('.project-panel__shots--collage'));
         previewImg.src = img.currentSrc || img.src;
         previewImg.alt = img.alt || '';
         var show = function (ev) {
