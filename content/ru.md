@@ -80,6 +80,10 @@
 <div class="projects-category">
 <div class="projects-mosaic projects-mosaic--even">
 <article class="project-panel">
+<h4 class="project-panel__title"><a href="https://github.com/MathematicLove/mini-bi" data-counter="project-mini-bi-clicks">MiniBI: мини-BI-система для быстрого анализа данных (SQL, CSV и др.)</a></h4>
+<div class="project-panel__shots project-panel__shots--x2 project-panel__shots--top"><a href="https://github.com/MathematicLove/mini-bi" class="project-panel__shot" aria-label="MiniBI - пример 1"><img src="content/projects/MINI_BI/thumb/example_1.png.webp" alt="MiniBI - пример 1"></a><a href="https://github.com/MathematicLove/mini-bi" class="project-panel__shot" aria-label="MiniBI - пример 2"><img src="content/projects/MINI_BI/thumb/example_2.png.webp" alt="MiniBI - пример 2"></a></div>
+</article>
+<article class="project-panel">
 <h4 class="project-panel__title"><a href="https://github.com/MathematicLove/encrypt-it" data-counter="project-encrypt-it-clicks">Шифрование и дешифрование данных</a></h4>
 <div class="project-panel__shots project-panel__shots--x2"><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных - главная страница"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/thumb/home_page.png.webp" alt="Шифрование и дешифрование данных - главная страница"></a><a href="https://github.com/MathematicLove/encrypt-it" class="project-panel__shot" aria-label="Шифрование и дешифрование данных - страница шифрования"><img src="content/projects/DATA_ENCRYPTION_AND_DECRYPTION/thumb/encrypt_page.png.webp" alt="Шифрование и дешифрование данных - страница шифрования"></a></div>
 </article>

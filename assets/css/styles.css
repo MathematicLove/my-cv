@@ -772,6 +772,11 @@ html[lang="ru"] .nav-skills-en {
   height: 62px;
 }
 
+/* Fill the shot box from the top edge (tall screenshots: keep their header visible) */
+.project-panel__shots--top .project-panel__shot img {
+  object-position: center top;
+}
+
 /* Show full image (no cropping) inside the shot box; keeps card height aligned */
 .project-panel__shots--fit .project-panel__shot img {
   object-fit: contain;
