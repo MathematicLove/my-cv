@@ -169,7 +169,7 @@
 
 ## Articles
 
-- <a href="https://naukaip.ru/wp-content/uploads/2026/10/MK-2794.pdf" data-counter="article-segformer-clicks">Improving the SegFormer decoder for semantic segmentation by adding a depthwise convolution block (page 52)<sup>2</sup></a>
+- <a href="https://elibrary.ru/item.asp?id=93503200" data-counter="article-segformer-clicks">Improving the SegFormer decoder for semantic segmentation by adding a depthwise convolution block<sup>2</sup></a>
 - <a href="https://www.elibrary.ru/qfcwed" data-counter="article-tram-clicks">Construction of the Region of Interest based on segmentation<sup>1</sup></a>
 - <a href="https://www.elibrary.ru/item.asp?id=80243926" data-counter="article-offside-clicks">Computer vision for offside detection in football</a>
 
