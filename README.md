@@ -4,7 +4,7 @@
 
 ## Olso check my
 
-- ### [eLibrary profile](https://elibrary.ru/author_items.asp?authorid=1342618&pubrole=100&show_refs=1&pubcat=risc)
+- ### [eLibrary profile](https://www.elibrary.ru/author_items.asp?authorid=1342618)
 - ### [ORCID](https://orcid.org/0009-0005-9984-0740)
 - ### [HuggingFace](https://huggingface.co/ayzeksalimli)
 - ### Some news
