@@ -191,8 +191,8 @@
   <a href="certificates/salimli-diploma-cp-original.jpg" target="_blank" class="certificate-link">
     <img src="certificates/thumb/salimli-diploma-cp.jpg.webp" alt="Диплом - соревнования по программированию" class="certificate-img">
   </a>
-  <a href="certificates/certificate-inter-rotate.jpg" target="_blank" class="certificate-link">
-    <img src="certificates/thumb/certificate-inter-rotate" alt="Certificate - Certificate Hackaton" class="certificate-img">
+  <a href="certificates/certificate-inter-raoes.jpg" target="_blank" class="certificate-link">
+    <img src="certificates/thumb/certificate-inter-rotate.jpg.webp" alt="Certificate - Certificate Hackaton" class="certificate-img">
   </a>
   <a href="certificates/certificate-ijevsk.jpeg" target="_blank" class="certificate-link">
     <img src="certificates/thumb/certificate-ijevsk.jpeg.webp" alt="Сертификат - Ижевск" class="certificate-img">
